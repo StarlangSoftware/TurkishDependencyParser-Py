@@ -1,0 +1,27 @@
+from enum import Enum, auto
+
+
+class TurkishDependencyType(Enum):
+    VOCATIVE = auto()
+    SUBJECT = auto()
+    DATIVE_ADJUNCT = auto()
+    OBJECT = auto()
+    POSSESSOR = auto()
+    MODIFIER = auto()
+    S_MODIFIER = auto()
+    ABLATIVE_ADJUNCT = auto()
+    DETERMINER = auto()
+    SENTENCE = auto()
+    CLASSIFIER = auto()
+    LOCATIVE_ADJUNCT = auto()
+    COORDINATION = auto()
+    QUESTION_PARTICLE = auto()
+    INTENSIFIER = auto()
+    INSTRUMENTAL_ADJUNCT = auto()
+    RELATIVIZER = auto()
+    NEGATIVE_PARTICLE = auto()
+    ETOL = auto()
+    COLLOCATION = auto()
+    FOCUS_PARTICLE = auto()
+    EQU_ADJUNCT = auto()
+    APPOSITION = auto()
