@@ -1,3 +1,5 @@
+from xml.etree.ElementTree import Element
+
 from Corpus.Sentence import Sentence
 
 from DependencyParser.TurkishDependencyTreeBankWord import TurkishDependencyTreeBankWord
@@ -11,10 +13,10 @@ class TurkishDependencyTreeBankSentence(Sentence):
 
     PARAMETERS
     ----------
-    sentenceNode : list
+    sentenceNode : Element
         Xml parsed node containing information about a sentence.
     """
-    def __init__(self, sentenceNode: list):
+    def __init__(self, sentenceNode: Element):
         super().__init__()
         for wordNode in sentenceNode:
             word = TurkishDependencyTreeBankWord(wordNode)

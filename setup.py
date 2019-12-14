@@ -2,9 +2,9 @@ from setuptools import setup
 
 setup(
     name='NlpToolkit-DependencyParser',
-    version='1.0.0',
+    version='1.0.1',
     packages=['DependencyParser'],
-    url='',
+    url='https://github.com/olcaytaner/TurkishDependencyParser-Py',
     license='',
     author='olcaytaner',
     author_email='olcaytaner@isikun.edu.tr',
