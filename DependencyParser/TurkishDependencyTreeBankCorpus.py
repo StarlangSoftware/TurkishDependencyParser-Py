@@ -3,7 +3,6 @@ from __future__ import annotations
 import xml
 
 from Corpus.Corpus import Corpus
-from DataStructure.CounterHashMap import CounterHashMap
 
 from DependencyParser.TurkishDependencyTreeBankSentence import TurkishDependencyTreeBankSentence
 

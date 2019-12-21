@@ -74,7 +74,7 @@ class TurkishDependencyRelation(DependencyRelation):
     int
         toIG attribute
     """
-    def toIG(self)->int:
+    def toIG(self) -> int:
         return self.__toIG
 
     """
