@@ -7,7 +7,7 @@ class UniversalDependencyRelation(DependencyRelation):
     __universalDependencyType: UniversalDependencyType
 
     universalDependencyTypes = ["ACL", "ADVCL", "ADVMOD", "AMOD", "APPOS", "AUX", "AUXPASS", "CASE", "CC", "CCOMP",
-                                "CLF" "COMPOUND", "CONJ", "COP", "CSUBJ", "CSUBJPASS", "DEP", "DET", "DISCOURSE",
+                                "CLF", "COMPOUND", "CONJ", "COP", "CSUBJ", "CSUBJPASS", "DEP", "DET", "DISCOURSE",
                                 "DISLOCATED", "EXPL", "FIXED", "FLAT", "FOREIGN", "GOESWITH", "IOBJ", "LIST", "MARK",
                                 "NMOD", "NSUBJ", "NSUBJPASS", "NUMMOD", "OBJ", "OBL", "ORPHAN", "PARATAXIS", "PUNCT",
                                 "REPARANDUM", "ROOT", "VOCATIVE", "XCOMP"]
