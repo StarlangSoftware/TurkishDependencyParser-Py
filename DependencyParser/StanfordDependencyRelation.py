@@ -6,12 +6,12 @@ class StanfordDependencyRelation(DependencyRelation):
 
     __stanfordDependencyType: StanfordDependencyType
 
-    stanfordDependencyTypes = ["acomp", "advcl", "advmod", "agent", "amod", "appos", "aux", "auxpass", "cc", "ccomp",
-                               "conj", "cop", "csubj", "csubjpass", "dep", "det", "discourse", "dobj", "expl",
-                               "goeswith", "iobj", "mark", "mwe", "neg", "nn", "npadvmod", "nsubj", "nsubjpass", "num",
-                               "number", "parataxis", "pcomp", "pobj", "poss", "possessive", "preconj", "predet",
-                               "prep", "prepc", "prt", "punct", "quantmod", "rcmod", "ref", "root", "tmod", "vmod",
-                               "xcomp", "xsubj"]
+    stanfordDependencyTypes = ["ACOMP", "ADVCL", "ADVMOD", "AGENT", "AMOD", "APPOS", "AUX", "AUXPASS", "CC", "CCOMP",
+                               "CONJ", "COP", "CSUBJ", "CSUBJPASS", "DEP", "DET", "DISCOURSE", "DOBJ", "EXPL",
+                               "GOESWITH", "IOBJ", "MARK", "MWE", "NEG", "NN", "NPADVMOD", "NSUBJ", "NSUBJPASS", "NUM",
+                               "NUMBER", "PARATAXIS", "PCOMP", "POBJ", "PASS", "POSSESSIVE", "PRECONJ", "PREDET",
+                               "PREP", "PREPC", "PRT", "PUNCT", "QUANTMOD", "RCMOD", "REF", "ROOT", "TMOD", "VMOD",
+                               "XCOMP", "XSUBJ"]
 
     stanfordDependencyTags = [StanfordDependencyType.ACOMP, StanfordDependencyType.ADVCL,
                               StanfordDependencyType.ADVMOD, StanfordDependencyType.AGENT, StanfordDependencyType.AMOD,

@@ -6,24 +6,30 @@ class UniversalDependencyRelation(DependencyRelation):
 
     __universalDependencyType: UniversalDependencyType
 
-    universalDependencyTypes = ["acl", "advcl", "advmod", "amod", "appos", "aux", "case", "cc", "ccomp", "clf",
-                                "compound", "conj", "cop", "csubj", "dep", "det", "discourse", "dislocated", "expl",
-                                "fixed", "flat", "goeswith", "iobj", "list", "mark", "nmod", "nsubj", "nummod", "obj",
-                                "obl", "orphan", "parataxis", "punct", "reparandum", "root", "vocative", "xcomp"]
+    universalDependencyTypes = ["ACL", "ADVCL", "ADVMOD", "AMOD", "APPOS", "AUX", "AUXPASS", "CASE", "CC", "CCOMP",
+                                "CLF" "COMPOUND", "CONJ", "COP", "CSUBJ", "CSUBJPASS", "DEP", "DET", "DISCOURSE",
+                                "DISLOCATED", "EXPL", "FIXED", "FLAT", "FOREIGN", "GOESWITH", "IOBJ", "LIST", "MARK",
+                                "NMOD", "NSUBJ", "NSUBJPASS", "NUMMOD", "OBJ", "OBL", "ORPHAN", "PARATAXIS", "PUNCT",
+                                "REPARANDUM", "ROOT", "VOCATIVE", "XCOMP"]
 
     universalDependencyTags = [UniversalDependencyType.ACL, UniversalDependencyType.ADVCL,
                                UniversalDependencyType.ADVMOD, UniversalDependencyType.AMOD,
                                UniversalDependencyType.APPOS,
-                               UniversalDependencyType.AUX, UniversalDependencyType.CASE,
+                               UniversalDependencyType.AUX, UniversalDependencyType.AUXPASS,
+                               UniversalDependencyType.CASE,
                                UniversalDependencyType.CC, UniversalDependencyType.CCOMP, UniversalDependencyType.CLF,
                                UniversalDependencyType.COMPOUND, UniversalDependencyType.CONJ,
-                               UniversalDependencyType.COP, UniversalDependencyType.CSUBJ, UniversalDependencyType.DEP,
+                               UniversalDependencyType.COP, UniversalDependencyType.CSUBJ,
+                               UniversalDependencyType.CSUBJPASS,
+                               UniversalDependencyType.DEP,
                                UniversalDependencyType.DET, UniversalDependencyType.DISCOURSE,
                                UniversalDependencyType.DISLOCATED, UniversalDependencyType.EXPL,
                                UniversalDependencyType.FIXED, UniversalDependencyType.FLAT,
+                               UniversalDependencyType.FOREIGN,
                                UniversalDependencyType.GOESWITH, UniversalDependencyType.IOBJ,
                                UniversalDependencyType.LIST, UniversalDependencyType.MARK, UniversalDependencyType.NMOD,
-                               UniversalDependencyType.NSUBJ, UniversalDependencyType.NUMMOD,
+                               UniversalDependencyType.NSUBJ, UniversalDependencyType.NSUBJPASS,
+                               UniversalDependencyType.NUMMOD,
                                UniversalDependencyType.OBJ, UniversalDependencyType.OBL, UniversalDependencyType.ORPHAN,
                                UniversalDependencyType.PARATAXIS, UniversalDependencyType.PUNCT,
                                UniversalDependencyType.REPARANDUM, UniversalDependencyType.ROOT,
