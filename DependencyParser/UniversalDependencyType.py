@@ -31,6 +31,7 @@ class UniversalDependencyType(Enum):
     IOBJ = auto()
     LIST = auto()
     MARK = auto()
+    NEG = auto()
     NMOD = auto()
     NSUBJ = auto()
     NSUBJPASS = auto()

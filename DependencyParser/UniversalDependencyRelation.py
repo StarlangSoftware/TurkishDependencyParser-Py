@@ -9,8 +9,8 @@ class UniversalDependencyRelation(DependencyRelation):
     universalDependencyTypes = ["ACL", "ADVCL", "ADVMOD", "AMOD", "APPOS", "AUX", "AUXPASS", "CASE", "CC", "CCOMP",
                                 "CLF", "COMPOUND", "CONJ", "COP", "CSUBJ", "CSUBJPASS", "DEP", "DET", "DISCOURSE",
                                 "DISLOCATED", "EXPL", "FIXED", "FLAT", "FOREIGN", "GOESWITH", "IOBJ", "LIST", "MARK",
-                                "NMOD", "NSUBJ", "NSUBJPASS", "NUMMOD", "OBJ", "OBL", "ORPHAN", "PARATAXIS", "PUNCT",
-                                "REPARANDUM", "ROOT", "VOCATIVE", "XCOMP"]
+                                "NEG", "NMOD", "NSUBJ", "NSUBJPASS", "NUMMOD", "OBJ", "OBL", "ORPHAN", "PARATAXIS",
+                                "PUNCT", "REPARANDUM", "ROOT", "VOCATIVE", "XCOMP"]
 
     universalDependencyTags = [UniversalDependencyType.ACL, UniversalDependencyType.ADVCL,
                                UniversalDependencyType.ADVMOD, UniversalDependencyType.AMOD,
@@ -27,9 +27,9 @@ class UniversalDependencyRelation(DependencyRelation):
                                UniversalDependencyType.FIXED, UniversalDependencyType.FLAT,
                                UniversalDependencyType.FOREIGN,
                                UniversalDependencyType.GOESWITH, UniversalDependencyType.IOBJ,
-                               UniversalDependencyType.LIST, UniversalDependencyType.MARK, UniversalDependencyType.NMOD,
-                               UniversalDependencyType.NSUBJ, UniversalDependencyType.NSUBJPASS,
-                               UniversalDependencyType.NUMMOD,
+                               UniversalDependencyType.LIST, UniversalDependencyType.MARK, UniversalDependencyType.NEG,
+                               UniversalDependencyType.NMOD, UniversalDependencyType.NSUBJ,
+                               UniversalDependencyType.NSUBJPASS, UniversalDependencyType.NUMMOD,
                                UniversalDependencyType.OBJ, UniversalDependencyType.OBL, UniversalDependencyType.ORPHAN,
                                UniversalDependencyType.PARATAXIS, UniversalDependencyType.PUNCT,
                                UniversalDependencyType.REPARANDUM, UniversalDependencyType.ROOT,
