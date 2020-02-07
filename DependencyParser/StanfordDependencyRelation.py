@@ -50,6 +50,7 @@ class StanfordDependencyRelation(DependencyRelation):
     StanfordDependencyType
         Type of the dependency in StanfordDependencyType form
     """
+    @staticmethod
     def getDependencyTag(tag: str) -> StanfordDependencyType:
         for j in range(len(StanfordDependencyRelation.stanfordDependencyTags)):
             if tag == StanfordDependencyRelation.stanfordDependencyTypes[j]:

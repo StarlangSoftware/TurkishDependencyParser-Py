@@ -42,6 +42,7 @@ class TurkishDependencyRelation(DependencyRelation):
     TurkishDependencyType
         Type of the dependency in TurkishDependencyType form
     """
+    @staticmethod
     def getDependencyTag(tag: str) -> TurkishDependencyType:
         for j in range(len(TurkishDependencyRelation.turkishDependencyTypes)):
             if tag == TurkishDependencyRelation.turkishDependencyTypes[j]:

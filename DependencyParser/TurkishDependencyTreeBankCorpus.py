@@ -12,7 +12,7 @@ class TurkishDependencyTreeBankCorpus(Corpus):
     """
     Empty constructor for TurkishDependencyTreeBankCorpus. Initializes the sentences and wordList attributes.
     """
-    def __init__(self, fileName: str=None):
+    def __init__(self, fileName: str = None):
         super().__init__()
         if fileName is not None:
             root = xml.etree.ElementTree.parse(fileName).getroot()

@@ -49,6 +49,7 @@ class UniversalDependencyRelation(DependencyRelation):
     UniversalDependencyType
         Type of the dependency in UniversalDependencyType form
     """
+    @staticmethod
     def getDependencyTag(tag: str) -> UniversalDependencyType:
         for j in range(len(UniversalDependencyRelation.universalDependencyTags)):
             if tag == UniversalDependencyRelation.universalDependencyTypes[j]:
@@ -63,7 +64,7 @@ class UniversalDependencyRelation(DependencyRelation):
     toWord : int
         Index of the word in the sentence that dependency relation is related
     """
-    def __init__(self, toWord: int, dependencyType: str=None):
+    def __init__(self, toWord: int, dependencyType: str = None):
         super().__init__(toWord)
         if dependencyType is not None:
             self.__universalDependencyType = UniversalDependencyRelation.getDependencyTag(dependencyType)
