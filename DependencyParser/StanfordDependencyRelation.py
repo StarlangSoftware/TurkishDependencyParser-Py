@@ -36,39 +36,39 @@ class StanfordDependencyRelation(DependencyRelation):
                               StanfordDependencyType.TMOD, StanfordDependencyType.VMOD,
                               StanfordDependencyType.XCOMP, StanfordDependencyType.XSUBJ]
 
-    """
-    The getDependencyTag method takes an dependency tag as string and returns the {@link StanfordDependencyType}
-    form of it.
-
-    PARAMETERS
-    ----------
-    tag : str
-        Type of the dependency tag in string form
-        
-    RETURNS
-    -------
-    StanfordDependencyType
-        Type of the dependency in StanfordDependencyType form
-    """
     @staticmethod
     def getDependencyTag(tag: str) -> StanfordDependencyType:
+        """
+        The getDependencyTag method takes an dependency tag as string and returns the {@link StanfordDependencyType}
+        form of it.
+
+        PARAMETERS
+        ----------
+        tag : str
+            Type of the dependency tag in string form
+
+        RETURNS
+        -------
+        StanfordDependencyType
+            Type of the dependency in StanfordDependencyType form
+        """
         for j in range(len(StanfordDependencyRelation.stanfordDependencyTags)):
             if tag == StanfordDependencyRelation.stanfordDependencyTypes[j]:
                 return StanfordDependencyRelation.stanfordDependencyTypes[j]
         return None
 
-    """
-    Another constructor for StanfordDependencyRelation. Gets input toWord and dependencyType as arguments and
-    calls the super class's constructor and sets the dependency type.
-
-    PARAMETERS
-    ----------
-    toWord : int
-        Index of the word in the sentence that dependency relation is related
-    dependencyType : str
-        Type of the dependency relation in string form
-    """
     def __init__(self, toWord: int, dependencyType: str = None):
+        """
+        Another constructor for StanfordDependencyRelation. Gets input toWord and dependencyType as arguments and
+        calls the super class's constructor and sets the dependency type.
+
+        PARAMETERS
+        ----------
+        toWord : int
+            Index of the word in the sentence that dependency relation is related
+        dependencyType : str
+            Type of the dependency relation in string form
+        """
         super().__init__(toWord)
         if dependencyType is not None:
             self.__stanfordDependencyType = StanfordDependencyRelation.getDependencyTag(dependencyType)

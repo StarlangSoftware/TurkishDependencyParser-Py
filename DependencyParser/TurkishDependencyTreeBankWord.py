@@ -13,16 +13,16 @@ class TurkishDependencyTreeBankWord(Word):
     __originalParses: list
     __relation: TurkishDependencyRelation
 
-    """
-    Given the parsed xml node which contains information about a word and related attributes including the
-    dependencies, the method constructs a {@link TurkishDependencyTreeBankWord} from it.
-
-    PARAMETERS
-    -----------
-    wordNode : Element
-        Xml parsed node containing information about a word.
-    """
     def __init__(self, wordNode: Element):
+        """
+        Given the parsed xml node which contains information about a word and related attributes including the
+        dependencies, the method constructs a {@link TurkishDependencyTreeBankWord} from it.
+
+        PARAMETERS
+        -----------
+        wordNode : Element
+            Xml parsed node containing information about a word.
+        """
         toWord = 0
         toIG = 0
         self.__originalParses = []
@@ -47,20 +47,20 @@ class TurkishDependencyTreeBankWord(Word):
                 IG = wordNode.attrib["ORG_ID" + str(i)]
                 self.__originalParses.append(MorphologicalParse(self.splitIntoInflectionalGroups(IG)))
 
-    """
-    Given the morphological parse of a word, this method splits it into inflectional groups.
-
-    PARAMETERS
-    ----------
-    IG : str
-        Morphological parse of the word in string form.
-        
-    RETURNS
-    -------
-    list
-        A list of inflectional groups stored as strings.
-    """
     def splitIntoInflectionalGroups(self, IG: str) -> list:
+        """
+        Given the morphological parse of a word, this method splits it into inflectional groups.
+
+        PARAMETERS
+        ----------
+        IG : str
+            Morphological parse of the word in string form.
+
+        RETURNS
+        -------
+        list
+            A list of inflectional groups stored as strings.
+        """
         inflectionalGroups = []
         IG = IG.replace("(+Punc", "@").replace(")+Punc", "$")
         IGs = re.compile("[\\[()\\]]").split(IG)
@@ -70,55 +70,54 @@ class TurkishDependencyTreeBankWord(Word):
                 inflectionalGroups.append(part)
         return inflectionalGroups
 
-    """
-    Accessor for the parse attribute
-    
-    RETURNS
-    -------
-    MorphologicalPArse
-        Parse attribute
-    """
     def getParse(self) -> MorphologicalParse:
+        """
+        Accessor for the parse attribute
+
+        RETURNS
+        -------
+        MorphologicalPArse
+            Parse attribute
+        """
         return self.__parse
 
-    """
-    Accessor for a specific parse.
-    
-    PARAMETERS
-    ----------
-    index : int
-        Index of the word.
-        
-    RETURNS
-    -------
-    MorphologicalParse
-        Parse of the index'th word
-    """
     def getOriginalParse(self, index: int) -> MorphologicalParse:
+        """
+        Accessor for a specific parse.
+
+        PARAMETERS
+        ----------
+        index : int
+            Index of the word.
+
+        RETURNS
+        -------
+        MorphologicalParse
+            Parse of the index'th word
+        """
         if index < len(self.__originalParses):
             return self.__originalParses[index]
         else:
             return None
 
-    """
-    Number of words in this item.
-
-    RETURNS
-    -------
-    int
-        Number of words in this item.
-    """
-
     def size(self) -> int:
+        """
+        Number of words in this item.
+
+        RETURNS
+        -------
+        int
+            Number of words in this item.
+        """
         return len(self.__originalParses)
 
-    """
-    Accessor for the relation attribute.
-
-    RETURNS
-    -------
-    TurkishDependencyRelation
-        relation attribute.
-    """
     def getRelation(self) -> TurkishDependencyRelation:
+        """
+        Accessor for the relation attribute.
+
+        RETURNS
+        -------
+        TurkishDependencyRelation
+            relation attribute.
+        """
         return self.__relation

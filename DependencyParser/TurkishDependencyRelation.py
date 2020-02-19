@@ -28,65 +28,65 @@ class TurkishDependencyRelation(DependencyRelation):
                              TurkishDependencyType.FOCUS_PARTICLE, TurkishDependencyType.EQU_ADJUNCT,
                              TurkishDependencyType.APPOSITION]
 
-    """
-    The getDependencyTag method takes an dependency tag as string and returns the {@link TurkishDependencyType}
-    form of it.
-
-    PARAMETERS
-    ----------
-    tag : str 
-        Type of the dependency tag in string form
-        
-    RETURNS
-    -------
-    TurkishDependencyType
-        Type of the dependency in TurkishDependencyType form
-    """
     @staticmethod
     def getDependencyTag(tag: str) -> TurkishDependencyType:
+        """
+        The getDependencyTag method takes an dependency tag as string and returns the TurkishDependencyType
+        form of it.
+
+        PARAMETERS
+        ----------
+        tag : str
+            Type of the dependency tag in string form
+
+        RETURNS
+        -------
+        TurkishDependencyType
+            Type of the dependency in TurkishDependencyType form
+        """
         for j in range(len(TurkishDependencyRelation.turkishDependencyTypes)):
             if tag == TurkishDependencyRelation.turkishDependencyTypes[j]:
                 return TurkishDependencyRelation.turkishDependencyTags[j]
         return None
 
-    """
-    Another constructor for TurkishDependencyRelation. Gets input toWord, toIG, and dependencyType as arguments and
-    calls the super class's constructor and sets the IG and dependency type.
-
-    PARAMETERS
-    ----------
-    toWord : int
-        Index of the word in the sentence that dependency relation is related
-    toIG : int
-        Index of the inflectional group the dependency relation is related
-    dependencyType : str
-        Type of the dependency relation in string form
-    """
     def __init__(self, toWord: int, toIG: int, dependencyType: str):
+        """
+        Another constructor for TurkishDependencyRelation. Gets input toWord, toIG, and dependencyType as arguments and
+        calls the super class's constructor and sets the IG and dependency type.
+
+        PARAMETERS
+        ----------
+        toWord : int
+            Index of the word in the sentence that dependency relation is related
+        toIG : int
+            Index of the inflectional group the dependency relation is related
+        dependencyType : str
+            Type of the dependency relation in string form
+        """
         super().__init__(toWord)
         self.__toIG = toIG
         self.__turkishDependencyType = TurkishDependencyRelation.getDependencyTag(dependencyType)
 
-    """
-    Accessor for the toIG attribute
-    
-    RETURNS
-    -------
-    int
-        toIG attribute
-    """
     def toIG(self) -> int:
+        """
+        Accessor for the toIG attribute
+
+        RETURNS
+        -------
+        int
+            toIG attribute
+        """
         return self.__toIG
 
-    """
-    Accessor for the turkishDependencyType attribute
-    
-    RETURNS
-    -------
-    TurkishDependencyType
-        turkishDependencyType attribute
-    """
     def getTurkishDependencyType(self) -> TurkishDependencyType:
+        """
+        Accessor for the turkishDependencyType attribute
+
+        RETURNS
+        -------
+        TurkishDependencyType
+            turkishDependencyType attribute
+        """
         return self.__turkishDependencyType
 
     def __str__(self) -> str:

@@ -35,36 +35,36 @@ class UniversalDependencyRelation(DependencyRelation):
                                UniversalDependencyType.REPARANDUM, UniversalDependencyType.ROOT,
                                UniversalDependencyType.VOCATIVE, UniversalDependencyType.XCOMP]
 
-    """
-    The getDependencyTag method takes an dependency tag as string and returns the {@link UniversalDependencyType}
-    form of it.
-
-    PARAMETERS
-    ----------
-    tag : str
-        Type of the dependency tag in string form
-        
-    RETURNS
-    -------
-    UniversalDependencyType
-        Type of the dependency in UniversalDependencyType form
-    """
     @staticmethod
     def getDependencyTag(tag: str) -> UniversalDependencyType:
+        """
+        The getDependencyTag method takes an dependency tag as string and returns the UniversalDependencyType
+        form of it.
+
+        PARAMETERS
+        ----------
+        tag : str
+            Type of the dependency tag in string form
+
+        RETURNS
+        -------
+        UniversalDependencyType
+            Type of the dependency in UniversalDependencyType form
+        """
         for j in range(len(UniversalDependencyRelation.universalDependencyTags)):
             if tag == UniversalDependencyRelation.universalDependencyTypes[j]:
                 return UniversalDependencyRelation.universalDependencyTags[j]
         return None
 
-    """
-    Overriden Universal Dependency Relation constructor. Gets toWord as input and calls it super class's constructor
-
-    PARAMETERS
-    ----------
-    toWord : int
-        Index of the word in the sentence that dependency relation is related
-    """
     def __init__(self, toWord: int, dependencyType: str = None):
+        """
+        Overriden Universal Dependency Relation constructor. Gets toWord as input and calls it super class's constructor
+
+        PARAMETERS
+        ----------
+        toWord : int
+            Index of the word in the sentence that dependency relation is related
+        """
         super().__init__(toWord)
         if dependencyType is not None:
             self.__universalDependencyType = UniversalDependencyRelation.getDependencyTag(dependencyType)

@@ -2,24 +2,24 @@ class DependencyRelation:
 
     toWord: int
 
-    """
-    Constructor for a DependencyRelation. Takes toWord as a parameter and sets the corresponding attribute.
-
-    PARAMETERS
-    ----------
-    toWord : int
-        Index of the word in the sentence that dependency relation is related
-    """
     def __init__(self, toWord: int):
+        """
+        Constructor for a DependencyRelation. Takes toWord as a parameter and sets the corresponding attribute.
+
+        PARAMETERS
+        ----------
+        toWord : int
+            Index of the word in the sentence that dependency relation is related
+        """
         self.toWord = toWord
 
-    """
-    Accessor for toWord attribute
-
-    RETURNS
-    -------
-    int
-        toWord attribute value
-    """
     def to(self) -> int:
+        """
+        Accessor for toWord attribute
+
+        RETURNS
+        -------
+        int
+            toWord attribute value
+        """
         return self.toWord
