@@ -4,7 +4,7 @@ This tool is used for Dependency Parsing of Turkish sentences: it breaks down se
 
 For Developers
 ============
-You can also see either [Java](https://github.com/olcaytaner/TurkishDependencyParser), [C++](https://github.com/olcaytaner/TurkishDependencyParser-CPP), or [C#](https://github.com/olcaytaner/TurkishDependencyParser-CS) repository.
+You can also see either [Java](https://github.com/starlangsoftware/TurkishDependencyParser), [C++](https://github.com/starlangsoftware/TurkishDependencyParser-CPP), or [C#](https://github.com/starlangsoftware/TurkishDependencyParser-CS) repository.
 
 ## Requirements
 
@@ -32,7 +32,7 @@ Use Git for cloning the code to your local or below line for Ubuntu:
 
 A directory called DataStructure will be created. Or you can use below link for exploring the code:
 
-	git clone https://github.com/olcaytaner/TurkishDependencyParser-Py.git
+	git clone https://github.com/starlangsoftware/TurkishDependencyParser-Py.git
 
 ## Open project with Pycharm IDE
 
@@ -43,10 +43,3 @@ Steps for opening the cloned project:
 * Choose `TurkishDependencyParser-CPP` file
 * Select open as project option
 * Couple of seconds, dependencies with Maven will be downloaded. 
-
-
-## Compile
-
-**From IDE**
-
-After being done with the downloading and Maven indexing, select **Build Project** option from **Build** menu. After compilation process, user can run TurkishDependencyParser-CPP.
