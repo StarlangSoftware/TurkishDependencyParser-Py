@@ -28,7 +28,9 @@ class TurkishDependencyTreeBankWord(Word):
         self.__originalParses = []
         self.name = wordNode.text
         IG = wordNode.attrib["IG"]
+        IG = IG[:IG.index("+")] + "+" + IG[IG.index("+") + 1:].upper()
         self.__parse = MorphologicalParse(self.splitIntoInflectionalGroups(IG))
+        self.__relation = None
         relationName = wordNode.attrib["REL"]
         if relationName != "[,( )]":
             relationParts = re.compile("[\\[()\\],]").split(relationName)
@@ -45,6 +47,7 @@ class TurkishDependencyTreeBankWord(Word):
         for i in range(1, 10):
             if ("ORG_ID" + str(i)) in wordNode.attrib:
                 IG = wordNode.attrib["ORG_ID" + str(i)]
+                IG = IG[:IG.index("+")] + "+" + IG[IG.index("+") + 1:].upper()
                 self.__originalParses.append(MorphologicalParse(self.splitIntoInflectionalGroups(IG)))
 
     def splitIntoInflectionalGroups(self, IG: str) -> list:
