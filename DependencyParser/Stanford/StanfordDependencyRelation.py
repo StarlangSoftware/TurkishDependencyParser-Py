@@ -1,5 +1,5 @@
 from DependencyParser.DependencyRelation import DependencyRelation
-from DependencyParser.StanfordDependencyType import StanfordDependencyType
+from DependencyParser.Stanford.StanfordDependencyType import StanfordDependencyType
 
 
 class StanfordDependencyRelation(DependencyRelation):

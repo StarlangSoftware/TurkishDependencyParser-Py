@@ -2,7 +2,7 @@ from xml.etree.ElementTree import Element
 
 from Corpus.Sentence import Sentence
 
-from DependencyParser.TurkishDependencyTreeBankWord import TurkishDependencyTreeBankWord
+from DependencyParser.Turkish.TurkishDependencyTreeBankWord import TurkishDependencyTreeBankWord
 
 
 class TurkishDependencyTreeBankSentence(Sentence):

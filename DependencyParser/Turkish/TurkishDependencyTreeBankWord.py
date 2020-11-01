@@ -4,7 +4,7 @@ from xml.etree.ElementTree import Element
 from Dictionary.Word import Word
 from MorphologicalAnalysis.MorphologicalParse import MorphologicalParse
 
-from DependencyParser.TurkishDependencyRelation import TurkishDependencyRelation
+from DependencyParser.Turkish.TurkishDependencyRelation import TurkishDependencyRelation
 
 
 class TurkishDependencyTreeBankWord(Word):

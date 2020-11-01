@@ -4,7 +4,7 @@ import xml
 
 from Corpus.Corpus import Corpus
 
-from DependencyParser.TurkishDependencyTreeBankSentence import TurkishDependencyTreeBankSentence
+from DependencyParser.Turkish.TurkishDependencyTreeBankSentence import TurkishDependencyTreeBankSentence
 
 
 class TurkishDependencyTreeBankCorpus(Corpus):

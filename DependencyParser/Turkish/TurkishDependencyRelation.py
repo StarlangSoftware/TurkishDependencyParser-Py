@@ -1,5 +1,5 @@
 from DependencyParser.DependencyRelation import DependencyRelation
-from DependencyParser.TurkishDependencyType import TurkishDependencyType
+from DependencyParser.Turkish.TurkishDependencyType import TurkishDependencyType
 
 
 class TurkishDependencyRelation(DependencyRelation):
