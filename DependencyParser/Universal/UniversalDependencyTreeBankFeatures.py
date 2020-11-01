@@ -1,6 +1,6 @@
 class UniversalDependencyTreeBankFeatures:
 
-    featureList: map
+    featureList: dict
 
     def __init__(self, features: str):
         self.featureList = {}
