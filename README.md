@@ -36,6 +36,6 @@ Steps for opening the cloned project:
 
 * Start IDE
 * Select **File | Open** from main menu
-* Choose `TurkishDependencyParser-CPP` file
+* Choose `TurkishDependencyParser-Py` file
 * Select open as project option
 * Couple of seconds, dependencies with Maven will be downloaded. 
