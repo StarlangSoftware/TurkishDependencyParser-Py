@@ -53,8 +53,8 @@ class StanfordDependencyRelation(DependencyRelation):
             Type of the dependency in StanfordDependencyType form
         """
         for j in range(len(StanfordDependencyRelation.stanfordDependencyTags)):
-            if tag == StanfordDependencyRelation.stanfordDependencyTypes[j]:
-                return StanfordDependencyRelation.stanfordDependencyTypes[j]
+            if tag.upper() == StanfordDependencyRelation.stanfordDependencyTypes[j]:
+                return StanfordDependencyRelation.stanfordDependencyTags[j]
         return None
 
     def __init__(self, toWord: int, dependencyType: str = None):

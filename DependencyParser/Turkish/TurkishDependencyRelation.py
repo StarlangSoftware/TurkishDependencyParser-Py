@@ -45,7 +45,7 @@ class TurkishDependencyRelation(DependencyRelation):
             Type of the dependency in TurkishDependencyType form
         """
         for j in range(len(TurkishDependencyRelation.turkishDependencyTypes)):
-            if tag == TurkishDependencyRelation.turkishDependencyTypes[j]:
+            if tag.upper() == TurkishDependencyRelation.turkishDependencyTypes[j]:
                 return TurkishDependencyRelation.turkishDependencyTags[j]
         return None
 

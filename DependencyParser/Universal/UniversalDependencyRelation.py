@@ -86,14 +86,14 @@ class UniversalDependencyRelation(DependencyRelation):
             Type of the dependency in UniversalDependencyType form
         """
         for j in range(len(UniversalDependencyRelation.universalDependencyTags)):
-            if tag == UniversalDependencyRelation.universalDependencyTypes[j]:
+            if tag.upper() == UniversalDependencyRelation.universalDependencyTypes[j]:
                 return UniversalDependencyRelation.universalDependencyTags[j]
         return None
 
     @staticmethod
     def getDependencyPosType(tag: str) -> UniversalDependencyPosType:
         for j in range(len(UniversalDependencyRelation.universalDependencyPosTypes)):
-            if tag == UniversalDependencyRelation.universalDependencyPosTypes[j]:
+            if tag.upper() == UniversalDependencyRelation.universalDependencyPosTypes[j]:
                 return UniversalDependencyRelation.universalDependencyPosTags[j]
         return None
 
