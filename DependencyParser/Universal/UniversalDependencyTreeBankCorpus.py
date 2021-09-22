@@ -45,8 +45,6 @@ class UniversalDependencyTreeBankCorpus(Corpus):
                         if items[6] != "_":
                             to = int(items[6])
                             dependencyType = items[7].upper()
-                            if ":" in dependencyType:
-                                dependencyType = dependencyType[0: dependencyType.index(":") - 1]
                             relation = UniversalDependencyRelation(to, dependencyType)
                         else:
                             relation = None

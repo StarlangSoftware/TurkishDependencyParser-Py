@@ -4,7 +4,6 @@ from DependencyParser.Universal.UniversalDependencyType import UniversalDependen
 
 
 class UniversalDependencyRelation(DependencyRelation):
-
     __universalDependencyType: UniversalDependencyType
 
     universalDependencyTypes = ["ACL", "ADVCL",
@@ -29,7 +28,17 @@ class UniversalDependencyRelation(DependencyRelation):
                                 "PARATAXIS", "PUNCT",
                                 "REPARANDUM", "ROOT",
                                 "VOCATIVE",
-                                "XCOMP"]
+                                "XCOMP", "ACL:RELCL",
+                                "AUX:PASS", "CC:PRECONJ",
+                                "COMPOUND:PRT", "DET:PREDET",
+                                "FLAT:FOREIGN", "NSUBJ:PASS",
+                                "CSUBJ:PASS", "NMOD:NPMOD",
+                                "NMOD:POSS", "NMOD:TMOD",
+                                "ADVMOD:EMPH", "AUX:Q",
+                                "COMPOUND:LVC", "COMPOUND:REDUP",
+                                "CSUBJ:COP", "NMOD:COMP",
+                                "NMOD:PART", "NSUBJ:COP",
+                                "OBL:AGENT", "OBL:TMOD"]
 
     universalDependencyTags = [UniversalDependencyType.ACL, UniversalDependencyType.ADVCL,
                                UniversalDependencyType.ADVMOD, UniversalDependencyType.AMOD,
@@ -53,7 +62,18 @@ class UniversalDependencyRelation(DependencyRelation):
                                UniversalDependencyType.PARATAXIS, UniversalDependencyType.PUNCT,
                                UniversalDependencyType.REPARANDUM, UniversalDependencyType.ROOT,
                                UniversalDependencyType.VOCATIVE,
-                               UniversalDependencyType.XCOMP]
+                               UniversalDependencyType.XCOMP, UniversalDependencyType.ACL_RELCL,
+                               UniversalDependencyType.AUX_PASS,
+                               UniversalDependencyType.CC_PRECONJ, UniversalDependencyType.COMPOUND_PRT,
+                               UniversalDependencyType.DET_PREDET, UniversalDependencyType.FLAT_FOREIGN,
+                               UniversalDependencyType.NSUBJ_PASS, UniversalDependencyType.CSUBJ_PASS,
+                               UniversalDependencyType.NMOD_NPMOD, UniversalDependencyType.NMOD_POSS,
+                               UniversalDependencyType.NMOD_TMOD, UniversalDependencyType.ADVMOD_EMPH,
+                               UniversalDependencyType.AUX_Q, UniversalDependencyType.COMPOUND_LVC,
+                               UniversalDependencyType.COMPOUND_REDUP, UniversalDependencyType.CSUBJ_COP,
+                               UniversalDependencyType.NMOD_COMP, UniversalDependencyType.NMOD_PART,
+                               UniversalDependencyType.NSUBJ_COP, UniversalDependencyType.OBL_AGENT,
+                               UniversalDependencyType.OBL_TMOD]
 
     universalDependencyPosTypes = ["ADJ", "ADV", "INTJ", "NOUN", "PROPN", "VERB", "ADP", "AUX", "CCONJ",
                                    "DET", "NUM", "PART", "PRON", "SCONJ", "PUNCT", "SYM", "X"]
