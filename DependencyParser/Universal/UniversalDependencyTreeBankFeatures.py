@@ -17,6 +17,9 @@ class UniversalDependencyTreeBankFeatures:
     def getFeatureValue(self, feature: str) -> str:
         return self.featureList[feature]
 
+    def featureExists(self, feature: str) -> bool:
+        return feature in self.featureList
+
     def __str__(self) -> str:
         if len(self.featureList) == 0:
             return "_"

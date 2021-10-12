@@ -47,6 +47,9 @@ class UniversalDependencyTreeBankWord(Word):
     def getFeatureValue(self, featureName: str) -> str:
         return self.features.getFeatureValue(featureName)
 
+    def featureExists(self, featureName: str) -> bool:
+        return self.features.featureExists(featureName)
+
     def getRelation(self) -> UniversalDependencyRelation:
         return self.relation
 
