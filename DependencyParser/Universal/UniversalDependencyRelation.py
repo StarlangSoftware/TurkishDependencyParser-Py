@@ -1,4 +1,7 @@
+from __future__ import annotations
+
 from DependencyParser.DependencyRelation import DependencyRelation
+from DependencyParser.ParserEvaluationScore import ParserEvaluationScore
 from DependencyParser.Universal.UniversalDependencyPosType import UniversalDependencyPosType
 from DependencyParser.Universal.UniversalDependencyType import UniversalDependencyType
 
@@ -129,6 +132,18 @@ class UniversalDependencyRelation(DependencyRelation):
         super().__init__(toWord)
         if dependencyType is not None:
             self.__universalDependencyType = UniversalDependencyRelation.getDependencyTag(dependencyType)
+
+    def compareRelations(self, relation: UniversalDependencyRelation) -> ParserEvaluationScore:
+        LS = 0.0
+        LAS = 0.0
+        UAS = 0.0
+        if self.__str__() == relation.__str__():
+            LS = 1.0
+            if self.toWord == relation.to():
+                LAS = 1.0
+        if self.toWord == relation.to():
+            UAS = 1.0
+        return ParserEvaluationScore(LAS, UAS, LS, 1)
 
     def __str__(self) -> str:
         return self.__universalDependencyType.name

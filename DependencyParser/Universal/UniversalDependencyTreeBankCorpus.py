@@ -1,5 +1,8 @@
+from __future__ import annotations
+
 from Corpus.Corpus import Corpus
 from DataStructure.CounterHashMap import CounterHashMap
+from DependencyParser.ParserEvaluationScore import ParserEvaluationScore
 
 from DependencyParser.Universal.UniversalDependencyRelation import UniversalDependencyRelation
 from DependencyParser.Universal.UniversalDependencyTreeBankFeatures import UniversalDependencyTreeBankFeatures
@@ -53,3 +56,9 @@ class UniversalDependencyTreeBankCorpus(Corpus):
                         word = UniversalDependencyTreeBankWord(int(id), surfaceForm, lemma, upos, xpos, features,
                                                                relation, deps, misc)
                         sentence.addWord(word)
+
+    def compareParses(self, corpus: UniversalDependencyTreeBankCorpus) -> ParserEvaluationScore:
+        score = ParserEvaluationScore()
+        for i in range(len(self.sentences)):
+            score.add(self.sentences[i].compareParses(corpus.getSentence(i)))
+        return score
