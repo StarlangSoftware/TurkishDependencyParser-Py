@@ -7,7 +7,7 @@ class ParserEvaluationScore:
     LS: float
     wordCount: int
 
-    def __init__(self, LAS: float = 0.0, UAS: float = 0.0, LS : float = 0.0, wordCount = 0):
+    def __init__(self, LAS: float = 0.0, UAS: float = 0.0, LS : float = 0.0, wordCount : int = 0):
         self.LAS = LAS
         self.UAS = UAS
         self.LS = LS
