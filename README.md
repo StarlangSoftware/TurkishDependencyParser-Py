@@ -11,7 +11,7 @@ The developments in the dependency treebanking made it clear that Turkish langua
 
 For Developers
 ============
-You can also see either [Cython](https://github.com/starlangsoftware/TurkishDependencyParser-Cy), [Java](https://github.com/starlangsoftware/TurkishDependencyParser), [C++](https://github.com/starlangsoftware/TurkishDependencyParser-CPP), [Swift](https://github.com/starlangsoftware/TurkishDependencyParser-Swift), or [C#](https://github.com/starlangsoftware/TurkishDependencyParser-CS) repository.
+You can also see either [Cython](https://github.com/starlangsoftware/TurkishDependencyParser-Cy), [Java](https://github.com/starlangsoftware/TurkishDependencyParser), [C++](https://github.com/starlangsoftware/TurkishDependencyParser-CPP), [Swift](https://github.com/starlangsoftware/TurkishDependencyParser-Swift), [Js](https://github.com/starlangsoftware/TurkishDependencyParser-Js), or [C#](https://github.com/starlangsoftware/TurkishDependencyParser-CS) repository.
 
 ## Requirements
 
