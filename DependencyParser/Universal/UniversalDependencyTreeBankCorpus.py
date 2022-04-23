@@ -15,6 +15,7 @@ class UniversalDependencyTreeBankCorpus(Corpus):
         sentence = ""
         file = open(fileName, "r")
         lines = file.readlines()
+        file.close()
         for line in lines:
             line = line.strip()
             if len(line) == 0:
