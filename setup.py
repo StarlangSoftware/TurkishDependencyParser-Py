@@ -6,7 +6,7 @@ long_description = (this_directory / "README.md").read_text(encoding="utf-8")
 
 setup(
     name='NlpToolkit-DependencyParser',
-    version='1.0.21',
+    version='1.0.22',
     packages=['DependencyParser', 'DependencyParser.Turkish', 'DependencyParser.Universal', 'DependencyParser.Stanford'],
     url='https://github.com/StarlangSoftware/TurkishDependencyParser-Py',
     license='',
