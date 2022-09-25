@@ -16,8 +16,8 @@ class TurkishDependencyTreeBankCorpus(Corpus):
         super().__init__()
         if fileName is not None:
             root = xml.etree.ElementTree.parse(fileName).getroot()
-            for sentenceNode in root:
-                sentence = TurkishDependencyTreeBankSentence(sentenceNode)
+            for sentence_node in root:
+                sentence = TurkishDependencyTreeBankSentence(sentence_node)
                 self.sentences.append(sentence)
 
     def emptyCorpus(self) -> TurkishDependencyTreeBankCorpus:

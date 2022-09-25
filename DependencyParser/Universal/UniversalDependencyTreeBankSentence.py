@@ -28,22 +28,22 @@ class UniversalDependencyTreeBankSentence(Sentence):
                     else:
                         id = items[0]
                         if re.fullmatch("\\d+", id):
-                            surfaceForm = items[1]
+                            surface_form = items[1]
                             lemma = items[2]
-                            upos = UniversalDependencyRelation.getDependencyPosType(items[3])
-                            if upos is None:
+                            u_pos = UniversalDependencyRelation.getDependencyPosType(items[3])
+                            if u_pos is None:
                                 print("Line does not contain universal pos ->" + line)
-                            xpos = items[4]
+                            x_pos = items[4]
                             features = UniversalDependencyTreeBankFeatures(items[5])
                             if items[6] != "_":
                                 to = int(items[6])
-                                dependencyType = items[7].upper()
-                                relation = UniversalDependencyRelation(to, dependencyType)
+                                dependency_type = items[7].upper()
+                                relation = UniversalDependencyRelation(to, dependency_type)
                             else:
                                 relation = None
                             deps = items[8]
                             misc = items[9]
-                            word = UniversalDependencyTreeBankWord(int(id), surfaceForm, lemma, upos, xpos, features,
+                            word = UniversalDependencyTreeBankWord(int(id), surface_form, lemma, u_pos, x_pos, features,
                                                                relation, deps, misc)
                             self.addWord(word)
 

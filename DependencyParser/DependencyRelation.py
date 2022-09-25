@@ -1,6 +1,6 @@
 class DependencyRelation:
 
-    toWord: int
+    to_word: int
 
     def __init__(self, toWord: int):
         """
@@ -11,7 +11,7 @@ class DependencyRelation:
         toWord : int
             Index of the word in the sentence that dependency relation is related
         """
-        self.toWord = toWord
+        self.to_word = toWord
 
     def to(self) -> int:
         """
@@ -22,4 +22,4 @@ class DependencyRelation:
         int
             toWord attribute value
         """
-        return self.toWord
+        return self.to_word

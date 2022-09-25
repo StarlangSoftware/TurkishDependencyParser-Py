@@ -9,21 +9,28 @@ class UniversalDependencyTreeBankWord(Word):
 
     id: int
     lemma: str
-    upos: UniversalDependencyPosType
-    xpos: str
+    u_pos: UniversalDependencyPosType
+    x_pos: str
     features: UniversalDependencyTreeBankFeatures
     relation: UniversalDependencyRelation
     deps: str
     misc: str
 
-    def __init__(self, id: int, name: str, lemma: str, upos: UniversalDependencyPosType, xpos: str,
-                 features: UniversalDependencyTreeBankFeatures, relation: UniversalDependencyRelation, deps: str,
+    def __init__(self,
+                 id: int,
+                 name: str,
+                 lemma: str,
+                 upos: UniversalDependencyPosType,
+                 xpos: str,
+                 features: UniversalDependencyTreeBankFeatures,
+                 relation: UniversalDependencyRelation,
+                 deps: str,
                  misc: str):
         super().__init__(name)
         self.id = id
         self.lemma = lemma
-        self.upos = upos
-        self.xpos = xpos
+        self.u_pos = upos
+        self.x_pos = xpos
         self.deps = deps
         self.features = features
         self.relation = relation
@@ -36,10 +43,10 @@ class UniversalDependencyTreeBankWord(Word):
         return self.lemma
 
     def getUpos(self) -> UniversalDependencyPosType:
-        return self.upos
+        return self.u_pos
 
     def getXPos(self) -> str:
-        return self.xpos
+        return self.x_pos
 
     def getFeatures(self) -> UniversalDependencyTreeBankFeatures:
         return self.features
@@ -60,6 +67,6 @@ class UniversalDependencyTreeBankWord(Word):
         return self.misc
 
     def __str__(self) -> str:
-        return self.id.__str__() + "\t" + self.name + "\t" + self.lemma + "\t" + self.upos.__str__() + "\t" + \
-               self.xpos + "\t" + self.features.__str__() + "\t" + self.relation.to().__str__() + "\t" + \
+        return self.id.__str__() + "\t" + self.name + "\t" + self.lemma + "\t" + self.u_pos.__str__() + "\t" + \
+               self.x_pos + "\t" + self.features.__str__() + "\t" + self.relation.to().__str__() + "\t" + \
                self.relation.__str__().lower() + "\t" + self.deps + "\t" + self.misc
