@@ -11,7 +11,7 @@ class UniversalDependencyTreeBankSentence(Sentence):
 
     comments: list
 
-    def __init__(self, sentence: str = None):
+    def __init__(self, language: str, sentence: str = None):
         super().__init__()
         self.comments = []
         if sentence is not None:
@@ -34,7 +34,7 @@ class UniversalDependencyTreeBankSentence(Sentence):
                             if u_pos is None:
                                 print("Line does not contain universal pos ->" + line)
                             x_pos = items[4]
-                            features = UniversalDependencyTreeBankFeatures(items[5])
+                            features = UniversalDependencyTreeBankFeatures(language, items[5])
                             if items[6] != "_":
                                 to = int(items[6])
                                 dependency_type = items[7].upper()

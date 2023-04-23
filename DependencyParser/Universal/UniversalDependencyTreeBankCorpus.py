@@ -8,10 +8,16 @@ from DependencyParser.Universal.UniversalDependencyTreeBankSentence import Unive
 
 class UniversalDependencyTreeBankCorpus(Corpus):
 
+    language: str
+
     def __init__(self, fileName: str):
         self.sentences = []
         self.paragraphs = []
         self.wordList = CounterHashMap()
+        if '/' in fileName:
+            self.language = fileName[fileName.index('/') + 1:fileName.index('_')]
+        else:
+            self.language = fileName[0:fileName.index('_')]
         sentence = ""
         file = open(fileName, "r")
         lines = file.readlines()
@@ -19,7 +25,7 @@ class UniversalDependencyTreeBankCorpus(Corpus):
         for line in lines:
             line = line.strip()
             if len(line) == 0:
-                self.addSentence(UniversalDependencyTreeBankSentence(sentence))
+                self.addSentence(UniversalDependencyTreeBankSentence(self.language, sentence))
                 sentence = ""
             else:
                 sentence = sentence + line + "\n"
