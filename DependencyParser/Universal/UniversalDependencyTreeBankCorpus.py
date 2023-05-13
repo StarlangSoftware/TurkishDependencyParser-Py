@@ -10,7 +10,7 @@ class UniversalDependencyTreeBankCorpus(Corpus):
 
     language: str
 
-    def __init__(self, fileName: str):
+    def constructor1(self, fileName: str):
         self.sentences = []
         self.paragraphs = []
         self.wordList = CounterHashMap()
@@ -29,6 +29,10 @@ class UniversalDependencyTreeBankCorpus(Corpus):
                 sentence = ""
             else:
                 sentence = sentence + line + "\n"
+
+    def __init__(self, fileName: str = None):
+        if fileName is not None:
+            self.constructor1(fileName)
 
     def compareParses(self, corpus: UniversalDependencyTreeBankCorpus) -> ParserEvaluationScore:
         score = ParserEvaluationScore()

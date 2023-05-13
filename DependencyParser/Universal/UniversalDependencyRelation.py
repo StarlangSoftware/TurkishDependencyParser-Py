@@ -124,8 +124,16 @@ class UniversalDependencyRelation(DependencyRelation):
                 return UniversalDependencyRelation.universal_dependency_pos_tags[j]
         return None
 
+    def constructor1(self,
+                     dependencyType: str):
+        self.__universal_dependency_type = UniversalDependencyRelation.getDependencyTag(dependencyType)
+
+    def constructor2(self):
+        self.to_word = -1
+        self.__universal_dependency_type = UniversalDependencyType.DEP
+
     def __init__(self,
-                 toWord: int,
+                 toWord: int = None,
                  dependencyType: str = None):
         """
         Overriden Universal Dependency Relation constructor. Gets toWord as input and calls it super class's constructor
@@ -135,9 +143,12 @@ class UniversalDependencyRelation(DependencyRelation):
         toWord : int
             Index of the word in the sentence that dependency relation is related
         """
-        super().__init__(toWord)
-        if dependencyType is not None:
-            self.__universal_dependency_type = UniversalDependencyRelation.getDependencyTag(dependencyType)
+        if toWord is None:
+            self.constructor2()
+        else:
+            super().__init__(toWord)
+            if dependencyType is not None:
+                self.constructor1(dependencyType)
 
     def compareRelations(self, relation: UniversalDependencyRelation) -> ParserEvaluationScore:
         LS = 0.0

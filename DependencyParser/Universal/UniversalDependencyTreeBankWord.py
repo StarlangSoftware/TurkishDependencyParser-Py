@@ -16,9 +16,8 @@ class UniversalDependencyTreeBankWord(Word):
     deps: str
     misc: str
 
-    def __init__(self,
+    def constructor1(self,
                  id: int,
-                 name: str,
                  lemma: str,
                  upos: UniversalDependencyPosType,
                  xpos: str,
@@ -26,7 +25,6 @@ class UniversalDependencyTreeBankWord(Word):
                  relation: UniversalDependencyRelation,
                  deps: str,
                  misc: str):
-        super().__init__(name)
         self.id = id
         self.lemma = lemma
         self.u_pos = upos
@@ -35,6 +33,40 @@ class UniversalDependencyTreeBankWord(Word):
         self.features = features
         self.relation = relation
         self.misc = misc
+
+    def constructor2(self):
+        self.id = 0
+        self.lemma = ""
+        self.u_pos = UniversalDependencyPosType.X
+        self.x_pos = ""
+        self.features = None
+        self.deps = ""
+        self.misc = ""
+        self.relation = UniversalDependencyRelation()
+
+    def __init__(self,
+                 id: int = None,
+                 name: str = None,
+                 lemma: str = None,
+                 upos: UniversalDependencyPosType = None,
+                 xpos: str = None,
+                 features: UniversalDependencyTreeBankFeatures = None,
+                 relation: UniversalDependencyRelation = None,
+                 deps: str = None,
+                 misc: str = None):
+        if id is not None:
+            super().__init__(name)
+            self.constructor1(id,
+                              lemma,
+                              upos,
+                              xpos,
+                              features,
+                              relation,
+                              deps,
+                              misc)
+        else:
+            super().__init__("root")
+            self.constructor2()
 
     def getId(self) -> int:
         return self.id
@@ -59,6 +91,9 @@ class UniversalDependencyTreeBankWord(Word):
 
     def getRelation(self) -> UniversalDependencyRelation:
         return self.relation
+
+    def setRelation(self, relation: UniversalDependencyRelation):
+        self.relation = relation
 
     def getDeps(self) -> str:
         return self.deps
