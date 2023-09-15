@@ -42,7 +42,8 @@ class UniversalDependencyRelation(DependencyRelation):
                                   "CSUBJ:COP", "NMOD:COMP",
                                   "NMOD:PART", "NSUBJ:COP",
                                   "OBL:AGENT", "OBL:TMOD",
-                                  "OBL:NPMOD"]
+                                  "OBL:NPMOD", "NSUBJ:OUTER",
+                                  "CSUBJ:OUTER", "ADVCL:RELCL"]
 
     universal_dependency_tags = [UniversalDependencyType.ACL, UniversalDependencyType.ADVCL,
                                  UniversalDependencyType.ADVMOD, UniversalDependencyType.AMOD,
@@ -80,7 +81,9 @@ class UniversalDependencyRelation(DependencyRelation):
                                  UniversalDependencyType.COMPOUND_REDUP, UniversalDependencyType.CSUBJ_COP,
                                  UniversalDependencyType.NMOD_COMP, UniversalDependencyType.NMOD_PART,
                                  UniversalDependencyType.NSUBJ_COP, UniversalDependencyType.OBL_AGENT,
-                                 UniversalDependencyType.OBL_TMOD, UniversalDependencyType.OBL_NPMOD]
+                                 UniversalDependencyType.OBL_TMOD, UniversalDependencyType.OBL_NPMOD,
+                                 UniversalDependencyType.NSUBJ_OUTER, UniversalDependencyType.CSUBJ_OUTER,
+                                 UniversalDependencyType.ADVCL_RELCL]
 
     universal_dependency_pos_types = ["ADJ", "ADV", "INTJ", "NOUN", "PROPN", "VERB", "ADP", "AUX", "CCONJ",
                                       "DET", "NUM", "PART", "PRON", "SCONJ", "PUNCT", "SYM", "X"]

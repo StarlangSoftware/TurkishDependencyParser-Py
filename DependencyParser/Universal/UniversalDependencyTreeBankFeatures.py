@@ -10,7 +10,7 @@ class UniversalDependencyTreeBankFeatures:
             "Abbr", "Typo", "Gender", "Animacy", "NounClass",
             "Number", "Case", "Definite", "Degree", "VerbForm",
             "Mood", "Tense", "Aspect", "Voice", "Evident",
-            "Polarity", "Person", "Polite", "Clusivity"]
+            "Polarity", "Person", "Polite", "Clusivity", "NumForm"]
 
     universal_feature_values = [["Art", "Dem", "Emp", "Exc", "Ind", "Int", "Neg", "Prs", "Rcp", "Rel", "Tot"],
                                 ["Card", "Dist", "Frac", "Mult", "Ord", "Range", "Sets"],
@@ -39,7 +39,8 @@ class UniversalDependencyTreeBankFeatures:
                                 ["Neg", "Pos"],
                                 ["0", "1", "2", "3", "4"],
                                 ["Elev", "Form", "Humb", "Infm"],
-                                ["Ex", "In"]]
+                                ["Ex", "In"],
+                                ["Word", "Digit", "Roman"]]
 
     turkish_feature_values = [["Art", "Dem", "Ind", "Int", "Neg", "Prs", "Rcp", "Rel", "Tot"],
                               ["Card", "Dist", "Ord"],
@@ -68,16 +69,17 @@ class UniversalDependencyTreeBankFeatures:
                               ["Neg", "Pos"],
                               ["1", "2", "3"],
                               [],
+                              [],
                               []]
 
     english_feature_values = [["Art", "Dem", "Emp", "Ind", "Int", "Neg", "Prs", "Rcp", "Rel", "Tot"],
                               ["Card", "Frac", "Mult", "Ord"],
                               ["Yes"],
-                              [],
-                              [],
+                              ["Yes"],
+                              ["Yes"],
 
-                              [],
-                              [],
+                              ["Yes"],
+                              ["Yes"],
                               ["Fem", "Masc", "Neut"],
                               [],
                               [],
@@ -94,10 +96,11 @@ class UniversalDependencyTreeBankFeatures:
                               ["Pass"],
                               [],
 
-                              [],
+                              ["Neg"],
                               ["1", "2", "3"],
                               [],
-                              []]
+                              [],
+                              ["Word", "Digit", "Roman"]]
 
     @staticmethod
     def featureIndex(featureName: str) -> int:

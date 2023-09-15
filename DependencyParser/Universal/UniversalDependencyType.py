@@ -64,3 +64,6 @@ class UniversalDependencyType(Enum):
     OBL_AGENT = auto()
     OBL_TMOD = auto()
     OBL_NPMOD = auto()
+    NSUBJ_OUTER = auto()
+    CSUBJ_OUTER = auto()
+    ADVCL_RELCL = auto()

@@ -36,5 +36,25 @@ class TurkishDependencyTreeBankCorpusTest(unittest.TestCase):
         self.assertEqual(1000, corpus.sentenceCount())
         self.assertEqual(16882, self.wordCount(corpus))
 
+    def test_DependencyCorpus6(self):
+        corpus = UniversalDependencyTreeBankCorpus("../en_partut-ud-test.conllu")
+        self.assertEqual(153, corpus.sentenceCount())
+        self.assertEqual(3408, self.wordCount(corpus))
+
+    def test_DependencyCorpus7(self):
+        corpus = UniversalDependencyTreeBankCorpus("../en_ewt-ud-test.conllu")
+        self.assertEqual(2077, corpus.sentenceCount())
+        self.assertEqual(25094, self.wordCount(corpus))
+
+    def test_DependencyCorpus8(self):
+        corpus = UniversalDependencyTreeBankCorpus("../en_lines-ud-test.conllu")
+        self.assertEqual(1035, corpus.sentenceCount())
+        self.assertEqual(17675, self.wordCount(corpus))
+
+    def test_DependencyCorpus9(self):
+        corpus = UniversalDependencyTreeBankCorpus("../en_gum-ud-test.conllu")
+        self.assertEqual(1096, corpus.sentenceCount())
+        self.assertEqual(19905, self.wordCount(corpus))
+
     if __name__ == '__main__':
         unittest.main()
