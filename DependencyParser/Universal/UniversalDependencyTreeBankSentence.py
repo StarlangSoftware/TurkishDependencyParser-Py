@@ -12,6 +12,13 @@ class UniversalDependencyTreeBankSentence(Sentence):
     comments: list
 
     def __init__(self, language: str, sentence: str = None):
+        """
+        Constructor for the UniversalDependencyTreeBankSentence.  Get a line as input and splits the line wrt tab
+        character. The number of items should be 10. The items are id, surfaceForm, lemma, upos, xpos, feature list,
+        head word index, dependency type, external dependencies and miscellaneous things for one word.
+        :param language: Language name. Currently, 'en' and 'tr' languages are supported.
+        :param sentence: Sentence string to be processed.
+        """
         super().__init__()
         self.comments = []
         if sentence is not None:
@@ -48,9 +55,17 @@ class UniversalDependencyTreeBankSentence(Sentence):
                             self.addWord(word)
 
     def addComment(self, comment: str):
+        """
+        Adds a comment string to comments array list.
+        :param comment: Comment to be added.
+        """
         self.comments.append(comment)
 
     def __str__(self) -> str:
+        """
+        Overridden toString method. Concatenates the strings of words to get the string of a sentence.
+        :return: Concatenation of the strings of thw strings of words.
+        """
         result = ""
         for comment in self.comments:
             result += comment + "\n"
@@ -59,6 +74,12 @@ class UniversalDependencyTreeBankSentence(Sentence):
         return result
 
     def compareParses(self, sentence: UniversalDependencyTreeBankSentence) -> ParserEvaluationScore:
+        """
+        Compares the sentence with the given sentence and returns a parser evaluation score for this comparison. The result
+        is calculated by summing up the parser evaluation scores of word by word dpendency relation comparisons.
+        :param sentence: Universal dependency sentence to be compared.
+        :return: A parser evaluation score object.
+        """
         score = ParserEvaluationScore()
         for i in range(len(self.words)):
             relation1 = self.words[i].getRelation()

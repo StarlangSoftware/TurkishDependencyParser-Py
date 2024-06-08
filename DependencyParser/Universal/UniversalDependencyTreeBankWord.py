@@ -25,6 +25,17 @@ class UniversalDependencyTreeBankWord(Word):
                  relation: UniversalDependencyRelation,
                  deps: str,
                  misc: str):
+        """
+        Constructor of the universal dependency word. Sets the attributes.
+        :param id: Id of the word
+        :param lemma: Lemma of the word
+        :param upos: Universal part of speech tag.
+        :param xpos: Extra part of speech tag
+        :param features: Feature list of the word
+        :param relation: Universal dependency relation of the word
+        :param deps: External dependencies for the word
+        :param misc: Miscellaneous information for the word.
+        """
         self.id = id
         self.lemma = lemma
         self.u_pos = upos
@@ -35,6 +46,9 @@ class UniversalDependencyTreeBankWord(Word):
         self.misc = misc
 
     def constructor2(self):
+        """
+        Default constructor for the universal dependency word. Sets the attributes to default values.
+        """
         self.id = 0
         self.lemma = ""
         self.u_pos = UniversalDependencyPosType.X
@@ -69,36 +83,82 @@ class UniversalDependencyTreeBankWord(Word):
             self.constructor2()
 
     def getId(self) -> int:
+        """
+        Accessor for the id attribute.
+        :return: Id attribute
+        """
         return self.id
 
     def getLemma(self) -> str:
+        """
+        Accessor for the lemma attribute.
+        :return: Lemma attribute
+        """
         return self.lemma
 
     def getUpos(self) -> UniversalDependencyPosType:
+        """
+        Accessor for the upos attribute.
+        :return: Upos attribute
+        """
         return self.u_pos
 
     def getXPos(self) -> str:
+        """
+        Accessor for the xpos attribute.
+        :return: Xpos attribute
+        """
         return self.x_pos
 
     def getFeatures(self) -> UniversalDependencyTreeBankFeatures:
+        """
+        Accessor for the features attribute.
+        :return: Features attribute
+        """
         return self.features
 
     def getFeatureValue(self, featureName: str) -> str:
+        """
+        Gets the value of a given feature.
+        :param featureName: Name of the feature
+        :return: Value of the feature
+        """
         return self.features.getFeatureValue(featureName)
 
     def featureExists(self, featureName: str) -> bool:
+        """
+        Checks if the given feature exists.
+        :param featureName: Name of the feature
+        :return: True if the given feature exists, False otherwise
+        """
         return self.features.featureExists(featureName)
 
     def getRelation(self) -> UniversalDependencyRelation:
+        """
+        Accessor for the relation attribute.
+        :return: Relation attribute
+        """
         return self.relation
 
     def setRelation(self, relation: UniversalDependencyRelation):
+        """
+        Mytator for the relation attribute.
+        :param relation: New relation attribute
+        """
         self.relation = relation
 
     def getDeps(self) -> str:
+        """
+        Accessor for the deps attribute.
+        :return: Deps attribute
+        """
         return self.deps
 
     def getMisc(self) -> str:
+        """
+        Accessor for the misc attribute.
+        :return: Misc attribute
+        """
         return self.misc
 
     def __str__(self) -> str:
