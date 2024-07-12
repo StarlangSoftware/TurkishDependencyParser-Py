@@ -5,11 +5,11 @@
 3	Baltimore	baltimore	PROPN	_	Case=Nom|Number=Sing	1	conj	_	_
 4	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	nmod	_	_
 5	on	on	NUM	_	NumType=Card	6	nummod	_	_
-6	Ağustos'ta	ağustos	PROPN	_	Case=Loc|Number=Sing	7	obl	_	_
+6	Ağustos'ta	ağustos	PROPN	_	Case=Loc|Number=Sing	7	obl:tmod	_	_
 7	kalkıp	kalk	ADV	_	_	12	advcl	_	_
 8	on	on	NUM	_	NumType=Card	10	nummod	_	_
 9	iki	iki	NUM	_	NumType=Card	8	compound	_	_
-10	Ağustos'ta	ağustos	PROPN	_	Case=Loc|Number=Sing	12	obl	_	_
+10	Ağustos'ta	ağustos	PROPN	_	Case=Loc|Number=Sing	12	obl:tmod	_	_
 11	geri	geri	ADV	_	_	12	advmod	_	_
 12	dönen	dön	ADJ	_	_	14	acl	_	_
 13	ucuz	ucuz	ADJ	_	_	14	amod	_	_
@@ -22,9 +22,9 @@
 2	Seattle'ye	seattle	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	giden	git	ADJ	_	_	9	acl	_	_
 4	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-5	3'ten	3	NOUN	_	Case=Abl|Number=Sing|Person=3	7	nmod	_	_
+5	3'ten	3	NOUN	_	Case=Abl|Number=Sing|Person=3	7	nmod:tmod	_	_
 6	önce	önce	ADP	_	_	5	case	_	_
-7	varışlı	varışlı	ADJ	_	_	9	amod	_	_
+7	varışlı	var	ADJ	_	_	9	amod	_	_
 8	bir	bir	DET	_	Definite=Ind|PronType=Art	9	det	_	_
 9	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	10	obj	_	_
 10	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -34,11 +34,11 @@
 1	Kansas'tan	kansas	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Chicago'ya	chicago	PROPN	_	Case=Dat|Number=Sing	11	nmod	_	_
 3	önümüzdeki	ön	ADJ	_	_	4	amod	_	_
-4	Çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
+4	Çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 5	kalkan	kalk	ADJ	_	_	11	acl	_	_
 6	ve	ve	CCONJ	_	_	9	cc	_	_
 7	ertesi	ertesi	ADJ	_	_	8	amod	_	_
-8	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	9	obl	_	_
+8	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	9	obl:tmod	_	_
 9	dönen	dön	ADJ	_	_	5	conj	_	_
 10	bir	bir	DET	_	Definite=Ind|PronType=Art	11	det	_	_
 11	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	12	obj	_	_
@@ -57,9 +57,9 @@
 3	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	yarından	yarın	NOUN	_	Case=Abl|Number=Sing|Person=3	5	nmod	_	_
 5	sonraki	sonraki	ADJ	_	_	6	amod	_	_
-6	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
+6	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod:tmod	_	_
 7	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
-8	5'ten	5	NOUN	_	Case=Abl|Number=Sing|Person=3	10	obl	_	_
+8	5'ten	5	NOUN	_	Case=Abl|Number=Sing|Person=3	10	obl:tmod	_	_
 9	sonra	sonra	ADP	_	_	8	case	_	_
 10	yola	yol	NOUN	_	Case=Dat|Number=Sing|Person=3	12	acl	_	_
 11	çıkan	çık	ADJ	_	_	10	compound	_	_
@@ -72,7 +72,7 @@
 2	Montreal'a	montreal	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 3	cuma	cuma	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	erken	erken	ADV	_	_	5	advmod	_	_
-5	varışlı	varışlı	ADJ	_	_	7	amod	_	_
+5	varışlı	var	ADJ	_	_	7	amod	_	_
 6	bir	bir	DET	_	Definite=Ind|PronType=Art	7	det	_	_
 7	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	8	obj	_	_
 8	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -86,14 +86,14 @@
 5	çıkışlı	çık	ADJ	_	_	6	amod	_	_
 6	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 7	var	var	ADJ	_	_	0	root	_	_
-8	mı	mi	AUX	_	PronType=Int	7	aux	_	_
+8	mı	mi	AUX	_	PronType=Int	7	aux:q	_	_
 
 # sent_id = 0008.test
 # text = Cuma sabahı Philadelphia'daki kara ulaşımını göster
 1	Cuma	cuma	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	sabahı	sabah	NOUN	_	Case=Acc|Number=Sing|Person=3	5	nmod	_	_
+2	sabahı	sabah	NOUN	_	Case=Acc|Number=Sing|Person=3	5	nmod:tmod	_	_
 3	Philadelphia'daki	philadelphia	PROPN	_	_	5	amod	_	_
-4	kara	kara	ADJ	_	_	5	nmod	_	_
+4	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 5	ulaşımını	ulaşım	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
 6	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -127,9 +127,9 @@
 2	City'den	city	PROPN	_	Case=Abl|Number=Sing	1	flat	_	_
 3	Burbank'a	burbank	PROPN	_	Case=Dat|Number=Sing	14	nmod	_	_
 4	22	22	NUM	_	NumType=Card	5	nummod	_	_
-5	Mayıs	mayıs	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
+5	Mayıs	mayıs	PROPN	_	Case=Nom|Number=Sing	7	nmod:tmod	_	_
 6	Cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
-7	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	nmod	_	_
+7	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	nmod:tmod	_	_
 8	aktarmasız	aktarmasız	ADJ	_	_	14	amod	_	_
 9	America	america	PROPN	_	Case=Nom|Number=Sing	14	nmod	_	_
 10	West	west	PROPN	_	Case=Nom|Number=Sing	9	flat	_	_
@@ -152,23 +152,23 @@
 # text = S yemek kodunun açılımı nedir
 1	S	S	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	yemek	yemek	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	kodunun	kod	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
+3	kodunun	kod	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:poss	_	_
 4	açılımı	açılım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
 5	nedir	ne	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0015.test
 # text = Sabah 8.42'de inersem Memphis Havalimanından şehir merkezine kara ulaşımı var mı
 1	Sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	8.42'de	8.42	NOUN	_	Case=Loc|Number=Sing|Person=3	3	obl	_	_
+2	8.42'de	8.42	NOUN	_	Case=Loc|Number=Sing|Person=3	3	obl:tmod	_	_
 3	inersem	in	VERB	_	Aspect=Hab|Mood=CndGen|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	advcl	_	_
 4	Memphis	memphis	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 5	Havalimanından	havaliman	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	flat	_	_
 6	şehir	şehir	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 7	merkezine	merkez	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	compound	_	_
-8	kara	kara	ADJ	_	_	9	nmod	_	_
+8	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 9	ulaşımı	ulaşım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nsubj	_	_
 10	var	var	ADJ	_	_	0	root	_	_
-11	mı	mi	AUX	_	PronType=Int	10	aux	_	_
+11	mı	mi	AUX	_	PronType=Int	10	aux:q	_	_
 
 # sent_id = 0016.test
 # text = Dfw ve Oakland arası hangi uçuşlar Oakland'a sabah 11:33 ve akşam 4:30 arası iniyor
@@ -180,7 +180,7 @@
 6	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	14	nsubj	_	_
 7	Oakland'a	oakland	PROPN	_	Case=Dat|Number=Sing	14	obl	_	_
 8	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
-9	11:33	1133	NUM	_	NumType=Card	13	nmod	_	_
+9	11:33	1133	NUM	_	NumType=Card	13	nmod:tmod	_	_
 10	ve	ve	CCONJ	_	_	12	cc	_	_
 11	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
 12	4:30	430	NUM	_	NumType=Card	9	conj	_	_
@@ -206,7 +206,7 @@
 3	ne	ne	ADJ	_	_	7	amod	_	_
 4	tür	tür	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	7	det	_	_
-6	kara	kara	ADJ	_	_	7	nmod	_	_
+6	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 7	ulaşımı	ulaşım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
 8	var	var	ADJ	_	_	0	root	_	_
 
@@ -215,7 +215,7 @@
 1	Dallas'tan	dallas	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
 3	yedi	yedi	NUM	_	NumType=Card	4	nummod	_	_
-4	Temmuz'da	temmuz	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
+4	Temmuz'da	temmuz	PROPN	_	Case=Loc|Number=Sing	5	obl:tmod	_	_
 5	varan	var	ADJ	_	_	11	acl	_	_
 6	ekonomi	ekonomi	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 7	sınıfında	sınıf	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
@@ -231,9 +231,9 @@
 2	San	san	PROPN	_	Case=Nom|Number=Sing	11	nmod	_	_
 3	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	cuma	cuma	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:tmod	_	_
 6	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
-7	6	6	NUM	_	NumType=Card	10	nummod	_	_
+7	6	6	NUM	_	NumType=Card	10	nmod:tmod	_	_
 8	-	-	PUNCT	_	_	7	punct	_	_
 9	8	8	NUM	_	NumType=Card	10	nummod	_	_
 10	arasındaki	ara	ADJ	_	_	11	amod	_	_
@@ -250,17 +250,17 @@
 6	hangileri	hangi	PRON	_	PronType=Int	10	csubj	_	_
 7	San	san	PROPN	_	Case=Nom|Number=Sing	10	obl	_	_
 8	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	7	flat	_	_
-9	950'de	950	NOUN	_	Case=Loc|Number=Sing|Person=3	10	obl	_	_
+9	950'de	950	NOUN	_	Case=Loc|Number=Sing|Person=3	10	obl:tmod	_	_
 10	geliyor	gel	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
 
 # sent_id = 0022.test
 # text = Önümüzdeki çarşamba akşam varıp ertesi gün geri dönerek Kansas City'den Chicago'ya uçmak istiyorum
 1	Önümüzdeki	ön	ADJ	_	_	2	amod	_	_
-2	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	12	obl	_	_
-3	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obl	_	_
+2	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
+3	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obl:tmod	_	_
 4	varıp	var	ADV	_	_	8	advcl	_	_
 5	ertesi	ertesi	ADJ	_	_	6	amod	_	_
-6	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	8	obl	_	_
+6	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	8	obl:tmod	_	_
 7	geri	geri	ADV	_	_	8	advmod	_	_
 8	dönerek	dön	ADV	_	_	12	advmod	_	_
 9	Kansas	kansas	PROPN	_	Case=Nom|Number=Sing	11	nmod	_	_
@@ -280,7 +280,7 @@
 7	olan	ol	ADJ	_	_	9	acl	_	_
 8	en	en	ADV	_	Degree=Sup	9	advmod	_	_
 9	erken	erken	ADJ	_	_	10	amod	_	_
-10	saatte	saat	NOUN	_	Case=Loc|Number=Sing|Person=3	14	nmod	_	_
+10	saatte	saat	NOUN	_	Case=Loc|Number=Sing|Person=3	14	nmod:tmod	_	_
 11	twa'dan	twa'dan	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nmod	_	_
 12	bir	bir	DET	_	Definite=Ind|PronType=Art	14	det	_	_
 13	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nmod	_	_
@@ -290,21 +290,21 @@
 # sent_id = 0024.test
 # text = 19 Mayıs çarşamba San Jose'den Nashville'ye gece uçuşu var mı
 1	19	19	NUM	_	NumType=Card	2	nummod	_	_
-2	Mayıs	mayıs	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
-3	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	9	obl	_	_
+2	Mayıs	mayıs	PROPN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
+3	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	8	nmod:tmod	_	_
 4	San	san	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 5	Jose'den	jose	PROPN	_	Case=Abl|Number=Sing	4	flat	_	_
-6	Nashville'ye	nashville	PROPN	_	Case=Dat|Number=Sing	9	obl	_	_
+6	Nashville'ye	nashville	PROPN	_	Case=Dat|Number=Sing	8	obl	_	_
 7	gece	gece	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 8	uçuşu	uç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	_
 9	var	var	ADJ	_	_	0	root	_	_
-10	mı	mi	AUX	_	PronType=Int	9	aux	_	_
+10	mı	mi	AUX	_	PronType=Int	9	aux:q	_	_
 
 # sent_id = 0025.test
 # text = Önümüzdeki cumartesi akşamı iki arkadaşım için Los Angeles'e uçuş ayarlamak istiyorum biri Kansas'tan diğeri de Las Vegas'tan geliyor
 1	Önümüzdeki	ön	ADJ	_	_	3	amod	_	_
 2	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	akşamı	akşam	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
+3	akşamı	akşam	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:tmod	_	_
 4	iki	iki	NUM	_	NumType=Card	5	nummod	_	_
 5	arkadaşım	arkadaş	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	9	nmod	_	_
 6	için	için	ADP	_	_	5	case	_	_
@@ -362,20 +362,20 @@
 # sent_id = 0030.test
 # text = önümüzdeki pazartesi Atlanta'dan Charlotte Kuzey Carolina'ya uçuşunuz var mı
 1	önümüzdeki	ön	ADJ	_	_	2	amod	_	_
-2	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	8	obl	_	_
+2	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	7	nmod:tmod	_	_
 3	Atlanta'dan	atlanta	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Charlotte	charlotte	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
 5	Kuzey	kuzey	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
 6	Carolina'ya	carolina	PROPN	_	Case=Dat|Number=Sing	5	flat	_	_
 7	uçuşunuz	uç	VERB	_	Mood=Gen|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Conv	8	nsubj	_	_
 8	var	var	ADJ	_	_	0	root	_	_
-9	mı	mi	AUX	_	PronType=Int	8	aux	_	_
+9	mı	mi	AUX	_	PronType=Int	8	aux:q	_	_
 
 # sent_id = 0031.test
 # text = 6 Nisan günü Tampa Florida'dan Charlotte Kuzey Carolina'ya sabah erken bir uçuş rezervasyonu yapmak istiyorum
 1	6	6	NUM	_	NumType=Card	2	nummod	_	_
-2	Nisan	nisan	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
-3	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nmod	_	_
+2	Nisan	nisan	PROPN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
+3	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nmod:tmod	_	_
 4	Tampa	tampa	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 5	Florida'dan	florida'dan	NOUN	_	Case=Nom|Number=Sing|Person=3	4	flat	_	_
 6	Charlotte	charlotte	PROPN	_	Case=Nom|Number=Sing	13	nmod	_	_
@@ -395,10 +395,10 @@
 2	Philadelphia'dan	philadelphia	PROPN	_	Case=Abl|Number=Sing	3	nmod	_	_
 3	Pittsburgh'a	pittsburgh	PROPN	_	Case=Dat|Number=Sing	10	nmod	_	_
 4	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-5	430	430	NUM	_	NumType=Card	8	nummod	_	_
+5	430	430	NUM	_	NumType=Card	9	obl:tmod	_	_
 6	ile	ile	CCONJ	_	_	7	cc	_	_
 7	530	530	NUM	_	NumType=Card	5	conj	_	_
-8	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
+8	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	case	_	_
 9	kalkan	kalk	ADJ	_	_	10	acl	_	_
 10	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	11	obj	_	_
 11	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -425,7 +425,7 @@
 2	Long	long	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
 3	Beach'a	beach	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	26	26	NUM	_	NumType=Card	5	nummod	_	_
-5	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	7	nmod	_	_
+5	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	7	nmod:tmod	_	_
 6	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 7	numaraları	numara	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 
@@ -439,9 +439,9 @@
 6	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 7	numarası	numara	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
 8	279	279	NUM	_	NumType=Card	0	root	_	_
-9	mu	mi	AUX	_	PronType=Int	8	aux	_	_
+9	mu	mi	AUX	_	PronType=Int	8	aux:q	_	_
 10	137338	137338	NUM	_	NumType=Card	8	conj	_	_
-11	mi	mi	AUX	_	PronType=Int	10	aux	_	_
+11	mi	mi	AUX	_	PronType=Int	10	aux:q	_	_
 
 # sent_id = 0037.test
 # text = Atlanta'da araba kiralama fiyatı ne kadar
@@ -462,8 +462,8 @@
 6	listeleyin	listele	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0039.test
-# text = ap58 kısıtlaması ne anlama geliyor
-1	ap58	ap58	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+# text = Ap58 kısıtlaması ne anlama geliyor
+1	Ap58	Ap58	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	kısıtlaması	kısıtlama	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nsubj	_	_
 3	ne	ne	ADJ	_	_	4	obj	_	_
 4	anlama	anlam	NOUN	_	Case=Dat|Number=Sing|Person=3	0	root	_	_
@@ -475,11 +475,11 @@
 2	Washington'dan	washington	PROPN	_	Case=Abl|Number=Sing	1	flat	_	_
 3	Oakland'a	oakland	PROPN	_	Case=Dat|Number=Sing	12	nmod	_	_
 4	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-5	445	445	NUM	_	NumType=Card	8	nummod	_	_
+5	445	445	NUM	_	NumType=Card	8	nmod:tmod	_	_
 6	ve	ve	CCONJ	_	_	7	cc	_	_
 7	515	515	NUM	_	NumType=Card	5	conj	_	_
-8	saatleri	saat	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
-9	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
+8	saatleri	saat	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl:tmod	_	_
+9	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	case	_	_
 10	varan	var	ADJ	_	_	12	acl	_	_
 11	aktarmasız	aktarmasız	ADJ	_	_	12	amod	_	_
 12	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	13	obj	_	_
@@ -488,9 +488,9 @@
 # sent_id = 0041.test
 # text = akşam 8'den akşam 9'a kadar Denver'e gelen tüm günlük uçuşları listele
 1	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	8'den	8	NOUN	_	Case=Abl|Number=Sing|Person=3	4	nmod	_	_
+2	8'den	8	NOUN	_	Case=Abl|Number=Sing|Person=3	4	nmod:tmod	_	_
 3	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	9'a	9	NOUN	_	Case=Dat|Number=Sing|Person=3	10	nmod	_	_
+4	9'a	9	NOUN	_	Case=Dat|Number=Sing|Person=3	10	nmod:tmod	_	_
 5	kadar	kadar	ADP	_	_	4	case	_	_
 6	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	7	obl	_	_
 7	gelen	gel	ADJ	_	_	10	acl	_	_
@@ -522,7 +522,7 @@
 # text = bwi Washington'da mı
 1	bwi	bwi	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	Washington'da	washington	PROPN	_	Case=Loc|Number=Sing	0	root	_	_
-3	mı	mi	AUX	_	PronType=Int	2	aux	_	_
+3	mı	mi	AUX	_	PronType=Int	2	aux:q	_	_
 
 # sent_id = 0045.test
 # text = Amerikan Havayollarının hizmet verdiği şehirler nelerdir
@@ -549,12 +549,12 @@
 # sent_id = 0047.test
 # text = bana öğleden sonra 12 ile 4 arası Pittsburgh'a tüm US-Air uçuşlarını göster
 1	bana	ben	PRON	_	PronType=Prs	12	obl	_	_
-2	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	7	nmod	_	_
+2	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	4	nmod:tmod	_	_
 3	sonra	sonra	ADP	_	_	2	case	_	_
-4	12	12	NUM	_	NumType=Card	7	nummod	_	_
+4	12	12	NUM	_	NumType=Card	11	nmod:tmod	_	_
 5	ile	ile	CCONJ	_	_	6	cc	_	_
 6	4	4	NUM	_	NumType=Card	4	conj	_	_
-7	arası	ara	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	_
+7	arası	ara	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	case	_	_
 8	Pittsburgh'a	pittsburgh	PROPN	_	Case=Dat|Number=Sing	11	nmod	_	_
 9	tüm	tüm	DET	_	PronType=Art	11	det	_	_
 10	US-Air	US-air	PROPN	_	Case=Nom|Number=Sing	11	nmod	_	_
@@ -565,7 +565,7 @@
 # text = Philadelphia'da limuzin servisinin maliyeti nedir
 1	Philadelphia'da	philadelphia	PROPN	_	Case=Loc|Number=Sing	4	nmod	_	_
 2	limuzin	limuzin	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	servisinin	servis	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
+3	servisinin	servis	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:poss	_	_
 4	maliyeti	maliyet	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
 5	nedir	ne	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -574,7 +574,7 @@
 1	Pittsburgh	pittsburgh	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	içinde	içinde	ADV	_	_	5	nmod	_	_
 3	limuzin	limuzin	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	servisinin	servis	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
+4	servisinin	servis	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:poss	_	_
 5	fiyatı	fiyat	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nsubj	_	_
 6	ne	ne	ADV	_	PronType=Int	0	root	_	_
 7	kadar	kadar	ADP	_	_	6	compound	_	_
@@ -716,7 +716,7 @@
 2	New	new	PROPN	_	Case=Nom|Number=Sing	7	obl	_	_
 3	York	york	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
 4	City'e	city	PROPN	_	Case=Dat|Number=Sing	3	flat	_	_
-5	kara	kara	ADJ	_	_	6	nmod	_	_
+5	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	ulaşımı	ulaşım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
 7	var	var	ADJ	_	_	0	root	_	_
 8	mı	mi	AUX	_	PronType=Int	7	aux	_	_
@@ -796,7 +796,7 @@
 2	kalkan	kalk	ADJ	_	_	10	acl	_	_
 3	ve	ve	CCONJ	_	_	7	cc	_	_
 4	dört	dört	NUM	_	NumType=Card	5	nummod	_	_
-5	Temmuz'da	temmuz	PROPN	_	Case=Loc|Number=Sing	7	obl	_	_
+5	Temmuz'da	temmuz	PROPN	_	Case=Loc|Number=Sing	7	obl:tmod	_	_
 6	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	7	obl	_	_
 7	varan	var	ADJ	_	_	2	conj	_	_
 8	en	en	ADV	_	Degree=Sup	9	advmod	_	_
@@ -820,7 +820,7 @@
 
 # sent_id = 0071.test
 # text = yarın için Boston'dan Stapleton havalimanına ilk uçuş nedir
-1	yarın	yarın	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+1	yarın	yarın	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod:tmod	_	_
 2	için	için	ADP	_	_	1	case	_	_
 3	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Stapleton	stapleton	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
@@ -868,7 +868,7 @@
 4	Amerikan	amerikan	ADJ	_	_	5	nmod	_	_
 5	saatiyle	saat	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
 6	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
-7	7.18'den	7.18	NOUN	_	Case=Abl|Number=Sing|Person=3	9	obl	_	_
+7	7.18'den	7.18	NOUN	_	Case=Abl|Number=Sing|Person=3	9	obl:tmod	_	_
 8	sonra	sonra	ADP	_	_	7	case	_	_
 9	kalkıyor	kalk	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -902,8 +902,8 @@
 1	Baltimore'den	baltimore	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Philadelphia'ya	philadelphia	PROPN	_	Case=Dat|Number=Sing	8	nmod	_	_
 3	1000	1000	NUM	_	NumType=Card	4	nummod	_	_
-4	doların	dolar	NOUN	_	Case=Gen|Number=Sing|Person=3	5	nmod	_	_
-5	altında	alt	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
+4	doların	dolar	NOUN	_	Case=Gen|Number=Sing|Person=3	8	nmod	_	_
+5	altında	alt	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	case	_	_
 6	gidiş	git	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 7	dönüş	dön	NOUN	_	Case=Nom|Number=Sing|Person=3	6	compound	_	_
 8	ücretleri	ücret	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
@@ -951,11 +951,11 @@
 5	nedir	ne	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0084.test
-# text = İndianapolis'ten Orlando'ya 1288'den daha düşük gidiş dönüş ücretleri olan uçuşları göster
-1	İndianapolis'ten	indianapolis	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
+# text = Indianapolis'ten Orlando'ya 1288'den daha düşük gidiş dönüş ücretleri olan uçuşları göster
+1	Indianapolis'ten	ındianapolis	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Orlando'ya	orlando	PROPN	_	Case=Dat|Number=Sing	10	nmod	_	_
 3	1288'den	1288	NOUN	_	Case=Abl|Number=Sing|Person=3	5	nmod	_	_
-4	daha	daha	ADV	_	Degree=Cmp	5	advmod	_	_
+4	daha	daha	ADV	_	Degree=Cmp	3	case	_	_
 5	düşük	düşük	ADJ	_	_	8	amod	_	_
 6	gidiş	git	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 7	dönüş	dön	NOUN	_	Case=Nom|Number=Sing|Person=3	6	compound	_	_
@@ -1034,7 +1034,7 @@
 8	Angeles'te	angeles	PROPN	_	Case=Loc|Number=Sing	7	flat	_	_
 9	duraklama	duraklama	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 10	yapabilir	yap	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	compound	_	_
-11	misin	mi	AUX	_	PronType=Int	9	aux	_	_
+11	misin	mi	AUX	_	PronType=Int	9	aux:q	_	_
 
 # sent_id = 0091.test
 # text = Oakland ve Boston arasında Dallas kalesinde mola yeri olan bir uçuş var mı
@@ -1050,7 +1050,7 @@
 10	bir	bir	DET	_	Definite=Ind|PronType=Art	11	det	_	_
 11	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nsubj	_	_
 12	var	var	ADJ	_	_	0	root	_	_
-13	mı	mi	AUX	_	PronType=Int	12	aux	_	_
+13	mı	mi	AUX	_	PronType=Int	12	aux:q	_	_
 
 # sent_id = 0092.test
 # text = bana San Francisco'dan Boston'a öğleden önce kalkan tüm direkt uçuşları göster
@@ -1058,7 +1058,7 @@
 2	San	san	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 3	Francisco'dan	francisco	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	Boston'a	boston	PROPN	_	Case=Dat|Number=Sing	10	nmod	_	_
-5	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	7	obl	_	_
+5	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	7	obl:tmod	_	_
 6	önce	önce	ADP	_	_	5	case	_	_
 7	kalkan	kalk	ADJ	_	_	10	acl	_	_
 8	tüm	tüm	DET	_	PronType=Art	10	det	_	_
@@ -1072,11 +1072,11 @@
 2	Pittsburgh'a	pittsburgh	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 3	sabahın	sabah	NOUN	_	Case=Gen|Number=Sing|Person=3	5	nmod	_	_
 4	erken	erken	ADJ	_	_	5	amod	_	_
-5	saatlerinde	saat	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+5	saatlerinde	saat	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:tmod	_	_
 6	direkt	direkt	ADV	_	_	7	amod	_	_
 7	uçuşunuz	uç	VERB	_	Mood=Gen|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Conv	8	nsubj	_	_
 8	var	var	ADJ	_	_	0	root	_	_
-9	mı	mi	AUX	_	PronType=Int	8	aux	_	_
+9	mı	mi	AUX	_	PronType=Int	8	aux:q	_	_
 
 # sent_id = 0094.test
 # text = Boston'dan San Francisco'ya hangi United uçuşları bağlantı kuruyor
@@ -1114,9 +1114,9 @@
 1	Philadelphia'dan	philadelphia	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	9	nmod	_	_
 3	Perşembe	perşembe	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
-4	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
+4	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:tmod	_	_
 5	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	8'den	8	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl	_	_
+6	8'den	8	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl:tmod	_	_
 7	önce	önce	ADP	_	_	6	case	_	_
 8	kalkan	kalk	ADJ	_	_	9	acl	_	_
 9	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
@@ -1138,7 +1138,7 @@
 # sent_id = 0099.test
 # text = cumartesi sabahı erken saatlerde Chicago'dan kalkan kıtasal uçuşları göster
 1	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
+2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:tmod	_	_
 3	erken	erken	ADJ	_	_	4	amod	_	_
 4	saatlerde	saat	NOUN	_	Case=Loc|Number=Plur|Person=3	8	nmod	_	_
 5	Chicago'dan	chicago	PROPN	_	Case=Abl|Number=Sing	6	obl	_	_
@@ -1150,7 +1150,7 @@
 # sent_id = 0100.test
 # text = pazartesi sabahı erken saatlerde hangi uçuşlar Kansas şehrinden Atlanta'ya kalkıyor
 1	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
+2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:tmod	_	_
 3	erken	erken	ADJ	_	_	4	amod	_	_
 4	saatlerde	saat	NOUN	_	Case=Loc|Number=Plur|Person=3	10	obl	_	_
 5	hangi	hangi	ADJ	_	_	6	amod	_	_
@@ -1166,16 +1166,16 @@
 2	Minneapolis'e	minneapolis	PROPN	_	Case=Dat|Number=Sing	17	nmod	_	_
 3	on	on	NUM	_	NumType=Card	5	nummod	_	_
 4	dört	dört	NUM	_	NumType=Card	3	compound	_	_
-5	Haziran	haziran	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
-6	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
+5	Haziran	haziran	PROPN	_	Case=Nom|Number=Sing	9	nmod:tmod	_	_
+6	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	9	nmod:tmod	_	_
 7	sabahın	sabah	NOUN	_	Case=Gen|Number=Sing|Person=3	9	nmod	_	_
 8	erken	erken	ADJ	_	_	9	amod	_	_
-9	saatlerinde	saat	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	16	obl	_	_
+9	saatlerinde	saat	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	16	obl:tmod	_	_
 10	veya	veya	CCONJ	_	_	15	cc	_	_
 11	on	on	NUM	_	NumType=Card	13	nummod	_	_
 12	üç	üç	NUM	_	NumType=Card	11	compound	_	_
-13	Haziran	haziran	PROPN	_	Case=Nom|Number=Sing	14	nmod	_	_
-14	pazar	pazar	NOUN	_	Case=Nom|Number=Sing|Person=3	15	nmod	_	_
+13	Haziran	haziran	PROPN	_	Case=Nom|Number=Sing	15	nmod:poss	_	_
+14	pazar	pazar	NOUN	_	Case=Nom|Number=Sing|Person=3	15	nmod:tmod	_	_
 15	akşamı	akşam	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	conj	_	_
 16	olan	ol	ADJ	_	_	17	acl	_	_
 17	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	18	obj	_	_
@@ -1239,7 +1239,7 @@
 1	bana	ben	PRON	_	PronType=Prs	12	obl	_	_
 2	on	on	NUM	_	NumType=Card	4	nummod	_	_
 3	beş	beş	NUM	_	NumType=Card	2	compound	_	_
-4	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	8	obl	_	_
+4	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	11	nmod:tmod	_	_
 5	Denver	denver	PROPN	_	Case=Nom|Number=Sing	8	obl	_	_
 6	veya	veya	CCONJ	_	_	7	cc	_	_
 7	Dallas'tan	dallas	PROPN	_	Case=Abl|Number=Sing	5	conj	_	_
@@ -1252,7 +1252,7 @@
 # sent_id = 0108.test
 # text = Bir Temmuz'da Pittsburgh'tan Baltimore'ye gelen uçuşları listeleyin
 1	Bir	bir	NUM	_	NumType=Card	2	nummod	_	_
-2	Temmuz'da	temmuz	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
+2	Temmuz'da	temmuz	PROPN	_	Case=Loc|Number=Sing	6	nmod:tmod	_	_
 3	Pittsburgh'tan	pittsburgh	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
 5	gelen	gel	ADJ	_	_	6	acl	_	_
@@ -1264,7 +1264,7 @@
 1	bana	ben	PRON	_	PronType=Prs	8	obl	_	_
 2	on	on	NUM	_	NumType=Card	4	nummod	_	_
 3	dört	dört	NUM	_	NumType=Card	2	compound	_	_
-4	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	6	obl	_	_
+4	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	7	nmod:tmod	_	_
 5	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
 6	varan	var	ADJ	_	_	7	acl	_	_
 7	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
@@ -1276,7 +1276,7 @@
 2	başlayarak	başla	ADV	_	_	7	advmod	_	_
 3	on	on	NUM	_	NumType=Card	5	nummod	_	_
 4	dört	dört	NUM	_	NumType=Card	3	compound	_	_
-5	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	7	obl	_	_
+5	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	10	nmod:tmod	_	_
 6	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	7	obl	_	_
 7	varan	var	ADJ	_	_	10	acl	_	_
 8	en	en	ADV	_	Degree=Sup	9	advmod	_	_
@@ -1298,7 +1298,7 @@
 
 # sent_id = 0112.test
 # text = Twa'nin business class'ta kaç uçuşu var
-1	Twa'nin	twa	PROPN	_	Case=Gen|Number=Sing	5	nmod	_	_
+1	Twa'nin	twa	PROPN	_	Case=Gen|Number=Sing	5	nmod:poss	_	_
 2	business	business	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 3	class'ta	class'ta	NOUN	_	Case=Nom|Number=Sing|Person=3	2	compound	_	_
 4	kaç	kaç	ADJ	_	NumType=Card	5	amod	_	_
@@ -1307,7 +1307,7 @@
 
 # sent_id = 0113.test
 # text = Delta'nın bugün kaç tane birinci sınıf uçuşu var
-1	Delta'nın	delta	PROPN	_	Case=Gen|Number=Sing	7	nmod	_	_
+1	Delta'nın	delta	PROPN	_	Case=Gen|Number=Sing	7	nmod:poss	_	_
 2	bugün	bugün	ADV	_	_	8	advmod	_	_
 3	kaç	kaç	ADJ	_	NumType=Card	7	amod	_	_
 4	tane	tane	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound	_	_
@@ -1318,7 +1318,7 @@
 
 # sent_id = 0114.test
 # text = TWA'nin business class ile kaç uçuşu var
-1	TWA'nin	twa	PROPN	_	Case=Gen|Number=Sing	6	nmod	_	_
+1	TWA'nin	twa	PROPN	_	Case=Gen|Number=Sing	6	nmod:poss	_	_
 2	business	business	NOUN	_	Case=Nom|Number=Sing|Person=3	6	amod	_	_
 3	class	class	NOUN	_	Case=Nom|Number=Sing|Person=3	2	compound	_	_
 4	ile	ile	ADP	_	_	2	case	_	_
@@ -1328,7 +1328,7 @@
 
 # sent_id = 0115.test
 # text = United'in bugün tüm şehirlerden kalkan kaç tane birinci sınıf uçuşu var
-1	United'in	united	PROPN	_	Case=Gen|Number=Sing	10	nmod	_	_
+1	United'in	united	PROPN	_	Case=Gen|Number=Sing	10	nmod:poss	_	_
 2	bugün	bugün	ADV	_	_	10	nmod	_	_
 3	tüm	tüm	DET	_	PronType=Art	4	det	_	_
 4	şehirlerden	şehir	NOUN	_	Case=Abl|Number=Plur|Person=3	5	obl	_	_
@@ -1363,7 +1363,7 @@
 6	sabahki	sabahki	ADJ	_	_	9	amod	_	_
 7	en	en	ADV	_	Degree=Sup	8	advmod	_	_
 8	erken	erken	ADJ	_	_	9	amod	_	_
-9	uçuşunuzun	uç	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	10	nmod	_	_
+9	uçuşunuzun	uç	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	10	nmod:poss	_	_
 10	saatini	saat	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obj	_	_
 11	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -1371,7 +1371,7 @@
 # text = Continental pazar günleri Philadelphia'dan Denver'e kaçta uçuyor
 1	Continental	Continental	PROPN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 2	pazar	pazar	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	günleri	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
+3	günleri	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl:tmod	_	_
 4	Philadelphia'dan	philadelphia	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 5	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	7	obl	_	_
 6	kaçta	kaçta	ADV	_	_	7	advmod	_	_
@@ -1380,7 +1380,7 @@
 # sent_id = 0119.test
 # text = çarşamba günü San Francisco'dan Boston'a uçuş tarifesi rica ediyorum
 1	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:tmod	_	_
 3	San	san	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	Francisco'dan	francisco	PROPN	_	Case=Abl|Number=Sing	3	flat	_	_
 5	Boston'a	boston	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
@@ -1403,21 +1403,21 @@
 3	limuzin	limuzin	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	servisi	servis	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
 5	var	var	ADJ	_	_	0	root	_	_
-6	mı	mi	AUX	_	PronType=Int	5	aux	_	_
+6	mı	mi	AUX	_	PronType=Int	5	aux:q	_	_
 
 # sent_id = 0122.test
 # text = çarşamba günleri Long Beach California'dan Columbus Ohio'ya uçuşların listesini alabilir miyim
 1	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	günleri	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
+2	günleri	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod:tmod	_	_
 3	Long	long	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 4	Beach	beach	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
 5	California'dan	california	PROPN	_	Case=Abl|Number=Sing	4	flat	_	_
 6	Columbus	columbus	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
 7	Ohio'ya	ohio	PROPN	_	Case=Dat|Number=Sing	6	flat	_	_
-8	uçuşların	uç	NOUN	_	Case=Gen|Number=Plur|Person=3	9	nmod	_	_
+8	uçuşların	uç	NOUN	_	Case=Gen|Number=Plur|Person=3	9	nmod:poss	_	_
 9	listesini	liste	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
 10	alabilir	al	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	miyim	mi	AUX	_	PronType=Int	10	aux	_	_
+11	miyim	mi	AUX	_	PronType=Int	10	aux:q	_	_
 
 # sent_id = 0123.test
 # text = Nashville Tennessee'den Seattle'ye bir bilete ihtiyacım var
@@ -1450,7 +1450,7 @@
 2	California'dan	california	PROPN	_	Case=Abl|Number=Sing	1	flat	_	_
 3	Philadelphia'ya	philadelphia	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 4	salı	salı	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
+5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl:tmod	_	_
 6	olan	ol	ADJ	_	_	7	acl	_	_
 7	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
 8	listeleyin	listele	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1468,14 +1468,14 @@
 8	sahip	sahip	NOUN	_	Case=Nom|Number=Sing|Person=3	10	ccomp	_	_
 9	olduğunu	ol	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	compound	_	_
 10	söyleyebilir	söyle	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	misin	mi	AUX	_	PronType=Int	10	aux	_	_
+11	misin	mi	AUX	_	PronType=Int	10	aux:q	_	_
 
 # sent_id = 0127.test
 # text = Dallas'tan Baltimore'ye üç Ağustos'ta uygun olan uçuşlardan hangisinin en ucuz
 1	Dallas'tan	dallas	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 3	üç	üç	NUM	_	NumType=Card	4	nummod	_	_
-4	Ağustos'ta	ağustos	PROPN	_	Case=Loc|Number=Sing	5	nmod	_	_
+4	Ağustos'ta	ağustos	PROPN	_	Case=Loc|Number=Sing	7	nmod:tmod	_	_
 5	uygun	uygun	ADJ	_	_	6	amod	_	_
 6	olan	ol	ADJ	_	_	7	acl	_	_
 7	uçuşlardan	uç	NOUN	_	Case=Abl|Number=Plur|Person=3	8	nmod	_	_
@@ -1519,7 +1519,7 @@
 9	sınıf	sınıf	NOUN	_	Case=Nom|Number=Sing|Person=3	8	compound	_	_
 10	gidiş	git	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
 11	dönüş	dön	NOUN	_	Case=Nom|Number=Sing|Person=3	10	compound	_	_
-12	biletinin	bilet	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nmod	_	_
+12	biletinin	bilet	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nmod:poss	_	_
 13	fiyatı	fiyat	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	nsubj	_	_
 14	nedir	ne	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -1531,19 +1531,19 @@
 4	istediğim	iste	ADJ	_	_	5	acl	_	_
 5	şey	şey	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 6	yirmi	yirmi	NUM	_	NumType=Card	7	nummod	_	_
-7	Nisan'da	nisan	PROPN	_	Case=Loc|Number=Sing	18	obl	_	_
+7	Nisan'da	nisan	PROPN	_	Case=Loc|Number=Sing	17	nmod:tmod	_	_
 8	Washington'dan	washington	PROPN	_	Case=Abl|Number=Sing	9	nmod	_	_
 9	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	17	nmod	_	_
 10	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
 11	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
-12	5	5	NUM	_	NumType=Card	13	nummod	_	_
+12	5	5	NUM	_	NumType=Card	17	nmod:tmod	_	_
 13	civarı	civar	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	nmod	_	_
 14	en	en	ADV	_	Degree=Sup	15	advmod	_	_
 15	az	az	ADJ	_	_	16	advmod	_	_
 16	pahalı	pahalı	ADJ	_	_	17	amod	_	_
 17	uçuşunuz	uç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	18	nsubj	_	_
 18	var	var	ADJ	_	_	5	ccomp	_	_
-19	mı	mi	AUX	_	PronType=Int	18	aux	_	_
+19	mı	mi	AUX	_	PronType=Int	18	aux:q	_	_
 
 # sent_id = 0132.test
 # text = Milwaukee Havaalanı ile Milwaukee şehir merkezi arasında hangi kara taşımacılığı mevcuttur
@@ -1555,7 +1555,7 @@
 6	merkezi	merkez	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	compound	_	_
 7	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obl	_	_
 8	hangi	hangi	ADJ	_	_	10	amod	_	_
-9	kara	kara	ADJ	_	_	10	nmod	_	_
+9	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
 10	taşımacılığı	taşımacılık	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
 11	mevcuttur	mevcut	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -1581,7 +1581,7 @@
 5	York	york	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
 6	City'e	city	PROPN	_	Case=Dat|Number=Sing	5	flat	_	_
 7	hangi	hangi	ADJ	_	_	9	amod	_	_
-8	kara	kara	ADJ	_	_	9	nmod	_	_
+8	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 9	taşımacılığı	taşımacılık	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nsubj	_	_
 10	mevcuttur	mevcut	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -1595,7 +1595,7 @@
 6	şehir	şehir	NOUN	_	Case=Nom|Number=Sing|Person=3	11	obl	_	_
 7	merkezine	merkez	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	compound	_	_
 8	hangi	hangi	ADJ	_	_	10	amod	_	_
-9	kara	kara	ADJ	_	_	10	nmod	_	_
+9	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
 10	taşımacılığı	taşımacılık	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
 11	mevcuttur	mevcut	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -1608,7 +1608,7 @@
 5	şehir	şehir	NOUN	_	Case=Nom|Number=Sing|Person=3	3	conj	_	_
 6	merkezi	merkez	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	compound	_	_
 7	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
-8	kara	kara	ADJ	_	_	9	nmod	_	_
+8	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 9	ulaşımı	ulaşım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 10	lütfen	lütfen	ADV	_	_	9	discourse	_	_
 
@@ -1616,7 +1616,7 @@
 # text = San Francisco kara taşımacılığı
 1	San	san	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 2	Francisco	francisco	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
-3	kara	kara	ADJ	_	_	4	nmod	_	_
+3	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	taşımacılığı	taşımacılık	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 
 # sent_id = 0138.test
@@ -1624,7 +1624,7 @@
 1	bana	ben	PRON	_	PronType=Prs	6	obl	_	_
 2	San	san	PROPN	_	Case=Nom|Number=Sing	5	amod	_	_
 3	Francisco'daki	francisco	PROPN	_	_	2	flat	_	_
-4	kara	kara	ADJ	_	_	5	nmod	_	_
+4	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 5	taşımacılığını	taşımacılık	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
 6	anlat	anlat	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -1645,7 +1645,7 @@
 2	ve	ve	CCONJ	_	_	3	cc	_	_
 3	Phoenix	phoenix	PROPN	_	Case=Nom|Number=Sing	1	conj	_	_
 4	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
-5	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
+5	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod:tmod	_	_
 6	veya	veya	CCONJ	_	_	7	cc	_	_
 7	pazar	pazar	NOUN	_	Case=Nom|Number=Sing|Person=3	5	conj	_	_
 8	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
@@ -1670,9 +1670,9 @@
 1	Cleveland'dan	cleveland	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Indianapolis'e	ındianapolis	PROPN	_	Case=Dat|Number=Sing	12	nmod	_	_
 3	12	12	NUM	_	NumType=Card	4	nummod	_	_
-4	Mayıs	mayıs	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
+4	Mayıs	mayıs	PROPN	_	Case=Nom|Number=Sing	6	nmod:tmod	_	_
 5	Çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
-6	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	nmod	_	_
+6	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	nmod:tmod	_	_
 7	TWA	TWA	PROPN	_	Case=Nom|Number=Sing	12	nmod	_	_
 8	Delta	delta	PROPN	_	Case=Nom|Number=Sing	7	conj	_	_
 9	veya	veya	CCONJ	_	_	10	cc	_	_
@@ -1770,7 +1770,7 @@
 # text = Continental'daki cumartesi günü kalkan ve yemek servisi yapan Chicago'dan Seattle'ye tüm uçuşları listeleyin
 1	Continental'daki	continental	PROPN	_	_	12	amod	_	_
 2	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
+3	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl:tmod	_	_
 4	kalkan	kalk	ADJ	_	_	12	acl	_	_
 5	ve	ve	CCONJ	_	_	8	cc	_	_
 6	yemek	yemek	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
@@ -1800,12 +1800,12 @@
 14	ne	ne	ADJ	_	_	15	obj	_	_
 15	olduğunu	ol	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	ccomp	_	_
 16	söyleyebilir	söyle	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
-17	misin	mi	AUX	_	PronType=Int	16	aux	_	_
+17	misin	mi	AUX	_	PronType=Int	16	aux:q	_	_
 
 # sent_id = 0153.test
 # text = cumartesi sabahı Chicago'dan Minneapolis'e yemekli uçuşları ver
 1	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
+2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:tmod	_	_
 3	Chicago'dan	chicago	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Minneapolis'e	minneapolis	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
 5	yemekli	yemekli	ADJ	_	_	6	amod	_	_
@@ -1879,10 +1879,10 @@
 # sent_id = 0160.test
 # text = önümüzdeki hafta Boston'dan Philadelphia'ya öğleden sonra varan tüm uçuşları ver
 1	önümüzdeki	ön	ADJ	_	_	2	amod	_	_
-2	hafta	hafta	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
+2	hafta	hafta	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod:tmod	_	_
 3	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Philadelphia'ya	philadelphia	PROPN	_	Case=Dat|Number=Sing	9	nmod	_	_
-5	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	7	obl	_	_
+5	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	7	obl:tmod	_	_
 6	sonra	sonra	ADP	_	_	5	case	_	_
 7	varan	var	ADJ	_	_	9	acl	_	_
 8	tüm	tüm	DET	_	PronType=Art	9	det	_	_
@@ -1893,7 +1893,7 @@
 # text = bana çarşamba sabahı Pittsburgh'tan Atlanta'ya kahvaltı servisi yapan uçuşları göster lütfen
 1	bana	ben	PRON	_	PronType=Prs	10	obl	_	_
 2	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
-3	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
+3	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:tmod	_	_
 4	Pittsburgh'tan	pittsburgh	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 5	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	9	nmod	_	_
 6	kahvaltı	kahvaltı	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
@@ -1917,7 +1917,7 @@
 # sent_id = 0163.test
 # text = perşembe sabahı hangi uçuşlar St. Paul'dan St. Louis'e varıyor
 1	perşembe	perşembe	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
+2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:tmod	_	_
 3	hangi	hangi	ADJ	_	_	4	amod	_	_
 4	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
 5	St.	St.	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
@@ -1932,8 +1932,8 @@
 2	St.	St.	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 3	Paul'a	paul	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-5	6	6	NUM	_	NumType=Card	6	nummod	_	_
-6	civarında	civar	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
+5	6	6	NUM	_	NumType=Card	7	obl:tmod	_	_
+6	civarında	civar	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	case	_	_
 7	varan	var	ADJ	_	_	9	acl	_	_
 8	bir	bir	DET	_	Definite=Ind|PronType=Art	9	det	_	_
 9	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	10	obj	_	_
@@ -1945,7 +1945,7 @@
 1	Dallas'tan	dallas	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Houston'a	houston'a	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 3	pazar	pazar	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	6	obl	_	_
+4	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	6	obl:tmod	_	_
 5	sonra	sonra	ADP	_	_	4	case	_	_
 6	gelen	gel	ADJ	_	_	7	acl	_	_
 7	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
@@ -1957,7 +1957,7 @@
 2	Washington	washington	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
 3	havaalanından	havaalan	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	flat	_	_
 4	Oakland'a	oakland	PROPN	_	Case=Dat|Number=Sing	9	nmod	_	_
-5	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	7	obl	_	_
+5	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	7	obl:tmod	_	_
 6	sonra	sonra	ADP	_	_	5	case	_	_
 7	kalkan	kalk	ADJ	_	_	9	acl	_	_
 8	aktarmasız	aktarmasız	ADJ	_	_	9	amod	_	_
@@ -1967,10 +1967,10 @@
 # sent_id = 0167.test
 # text = Perşembe günü Pittsburgh'tan ayrılıp sabah Baltimore'ye varan uçuş bilgilerine ihtiyacım var
 1	Perşembe	perşembe	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl:tmod	_	_
 3	Pittsburgh'tan	pittsburgh	PROPN	_	Case=Abl|Number=Sing	4	obl	_	_
 4	ayrılıp	ayrıl	ADV	_	_	7	advcl	_	_
-5	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obl	_	_
+5	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obl:tmod	_	_
 6	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	7	obl	_	_
 7	varan	var	ADJ	_	_	9	nmod	_	_
 8	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
@@ -1983,7 +1983,7 @@
 1	San	san	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	Francisco'dan	francisco	PROPN	_	Case=Abl|Number=Sing	1	flat	_	_
 3	Boston'a	boston	PROPN	_	Case=Dat|Number=Sing	8	nmod	_	_
-4	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	6	obl	_	_
+4	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	6	obl:tmod	_	_
 5	sonra	sonra	ADP	_	_	4	case	_	_
 6	varan	var	ADJ	_	_	8	acl	_	_
 7	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
@@ -2001,7 +2001,7 @@
 8	hedef	hedef	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 9	şehri	şehir	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obl	_	_
 10	ile	ile	ADP	_	_	9	case	_	_
-11	başlatmak	başlat	NOUN	_	Case=Nom|Number=Sing|Person=3	12	xcomp	_	_
+11	başlatmak	başla	NOUN	_	Case=Nom|Number=Sing|Person=3	12	xcomp	_	_
 12	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0170.test
@@ -2009,15 +2009,15 @@
 1	bana	ben	PRON	_	PronType=Prs	14	obl	_	_
 2	yirmi	yirmi	NUM	_	NumType=Card	4	nmod	_	_
 3	iki	iki	NUM	_	NumType=Card	2	compound	_	_
-4	Temmuz'da	temmuz	PROPN	_	Case=Loc|Number=Sing	6	nmod	_	_
+4	Temmuz'da	temmuz	PROPN	_	Case=Loc|Number=Sing	6	nmod:tmod	_	_
 5	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	9	obl	_	_
+6	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	12	obl:tmod	_	_
 7	sonra	sonra	ADP	_	_	6	case	_	_
 8	DC'den	dc	PROPN	_	Case=Abl|Number=Sing	9	obl	_	_
 9	ayrılıp	ayrıl	ADV	_	_	11	advcl	_	_
 10	Dallas'a	dallas	PROPN	_	Case=Dat|Number=Sing	11	obl	_	_
 11	giden	git	ADJ	_	_	12	acl	_	_
-12	uçuşların	uç	NOUN	_	Case=Gen|Number=Plur|Person=3	13	nmod	_	_
+12	uçuşların	uç	NOUN	_	Case=Gen|Number=Plur|Person=3	13	nmod:poss	_	_
 13	listesini	liste	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	obj	_	_
 14	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -2046,7 +2046,7 @@
 5	ilgili	ilgili	ADJ	_	_	6	amod	_	_
 6	bilgi	bilgi	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obj	_	_
 7	verir	ver	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	misiniz	mi	AUX	_	PronType=Int	7	aux	_	_
+8	misiniz	mi	AUX	_	PronType=Int	7	aux:q	_	_
 9	Washington	washington	PROPN	_	Case=Nom|Number=Sing	11	nmod	_	_
 10	DC'den	dc	PROPN	_	Case=Abl|Number=Sing	9	flat	_	_
 11	Philadelphia'ya	philadelphia	PROPN	_	Case=Dat|Number=Sing	17	nmod	_	_
@@ -2085,7 +2085,7 @@
 4	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	lütfen	lütfen	ADV	_	_	9	discourse	_	_
 6	bana	ben	PRON	_	PronType=Prs	9	obl	_	_
-7	uçuşların	uç	NOUN	_	Case=Gen|Number=Plur|Person=3	8	nmod	_	_
+7	uçuşların	uç	NOUN	_	Case=Gen|Number=Plur|Person=3	8	nmod:poss	_	_
 8	saatlerini	saat	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3	9	obj	_	_
 9	söyleyin	söyle	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 
@@ -2102,7 +2102,7 @@
 9	seferi	sefer	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
 10	Philadelphia'da	philadelphia	PROPN	_	Case=Loc|Number=Sing	11	obl	_	_
 11	durur	dur	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	mu	mi	AUX	_	PronType=Int	11	aux	_	_
+12	mu	mi	AUX	_	PronType=Int	11	aux:q	_	_
 
 # sent_id = 0178.test
 # text = Boston dan Denver'e UA 281 sefer sayılı uçak ne tür bir uçak
@@ -2112,7 +2112,7 @@
 4	UA	UA	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 5	281	281	NUM	_	NumType=Card	7	nummod	_	_
 6	sefer	sefer	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
-7	sayılı	sayılı	ADJ	_	_	8	amod	_	_
+7	sayılı	sayı	ADJ	_	_	8	amod	_	_
 8	uçak	uçak	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nsubj	_	_
 9	ne	ne	ADJ	_	_	12	advmod	_	_
 10	tür	tür	NOUN	_	Case=Nom|Number=Sing|Person=3	9	compound	_	_
@@ -2129,7 +2129,7 @@
 6	Los	los	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 7	Angeles	angeles	PROPN	_	Case=Nom|Number=Sing	6	flat	_	_
 8	19	19	NUM	_	NumType=Card	9	nummod	_	_
-9	uçuşunun	uç	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod	_	_
+9	uçuşunun	uç	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod:poss	_	_
 10	fiyatı	fiyat	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
 11	nedir	ne	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -2153,7 +2153,7 @@
 3	Denver	denver	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	uçuşu	uç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
 5	UA	UA	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
-6	281'in	281	NOUN	_	Case=Gen|Number=Sing|Person=3	7	nmod	_	_
+6	281'in	281	NOUN	_	Case=Gen|Number=Sing|Person=3	7	nmod:poss	_	_
 7	fiyatı	fiyat	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
 8	ne	ne	ADV	_	PronType=Int	0	root	_	_
 9	kadar	kadar	ADP	_	_	8	compound	_	_
@@ -2165,12 +2165,12 @@
 3	DL	dl	NOUN	_	Case=Acc|Number=Sing|Person=3	4	nmod	_	_
 4	1083	1083	NUM	_	NumType=Card	6	nummod	_	_
 5	sefer	sefer	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	sayılı	sayılı	ADJ	_	_	7	amod	_	_
+6	sayılı	sayı	ADJ	_	_	7	amod	_	_
 7	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 8	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
-9	günleri	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
+9	günleri	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl:tmod	_	_
 10	uçuyor	uç	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	mu	mi	AUX	_	PronType=Int	10	aux	_	_
+11	mu	mi	AUX	_	PronType=Int	10	aux:q	_	_
 
 # sent_id = 0183.test
 # text = DL 98 hangi havayolu
@@ -2191,7 +2191,7 @@
 8	gidiyor	git	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	ve	ve	CCONJ	_	_	14	cc	_	_
 10	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	11	nmod	_	_
-11	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	14	obl	_	_
+11	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	14	obl:tmod	_	_
 12	sonra	sonra	ADP	_	_	11	case	_	_
 13	Dallas'ta	dallas	PROPN	_	Case=Loc|Number=Sing	14	obl	_	_
 14	duruyor	dur	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	conj	_	_
@@ -2207,7 +2207,7 @@
 # text = saat sabah 10'dan önce Denver'den San Francisco'ya tekrarlayan kalkışta ne tür bir uçak kullanılıyor
 1	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	10'dan	10	NOUN	_	Case=Abl|Number=Sing|Person=3	9	nmod	_	_
+3	10'dan	10	NOUN	_	Case=Abl|Number=Sing|Person=3	9	nmod:tmod	_	_
 4	önce	önce	ADP	_	_	3	case	_	_
 5	Denver'den	denver	PROPN	_	Case=Abl|Number=Sing	6	nmod	_	_
 6	San	san	PROPN	_	Case=Nom|Number=Sing	8	acl	_	_
@@ -2232,10 +2232,10 @@
 
 # sent_id = 0188.test
 # text = hafta içi saat 9'da Boston'dan Washington DC'ye ne tür uçak kalkıyor
-1	hafta	hafta	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+1	hafta	hafta	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod:tmod	_	_
 2	içi	iç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	compound	_	_
 3	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	9'da	9	NOUN	_	Case=Loc|Number=Sing|Person=3	11	obl	_	_
+4	9'da	9	NOUN	_	Case=Loc|Number=Sing|Person=3	11	obl:tmod	_	_
 5	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	6	nmod	_	_
 6	Washington	washington	PROPN	_	Case=Nom|Number=Sing	11	obl	_	_
 7	DC'ye	dc	PROPN	_	Case=Dat|Number=Sing	6	flat	_	_
@@ -2246,7 +2246,7 @@
 
 # sent_id = 0189.test
 # text = öğleden önce Cleveland'dan Dallas'a ne tür uçaklar uçuyor
-1	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl	_	_
+1	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl:tmod	_	_
 2	önce	önce	ADP	_	_	1	case	_	_
 3	Cleveland'dan	cleveland	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Dallas'a	dallas	PROPN	_	Case=Dat|Number=Sing	8	obl	_	_
@@ -2272,7 +2272,7 @@
 4	ile	ile	CCONJ	_	_	5	cc	_	_
 5	şehir	şehir	NOUN	_	Case=Nom|Number=Sing|Person=3	3	conj	_	_
 6	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
-7	kara	kara	ADJ	_	_	8	nmod	_	_
+7	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 8	taşımacılığı	taşımacılık	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	_
 9	nedir	ne	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -2288,8 +2288,8 @@
 8	Guardia'dan	guardia	PROPN	_	Case=Abl|Number=Sing	7	flat	_	_
 9	ayrılıp	ayrıl	ADV	_	_	13	advcl	_	_
 10	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
-11	10	10	NUM	_	NumType=Card	12	nummod	_	_
-12	civarında	civar	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	obl	_	_
+11	10	10	NUM	_	NumType=Card	13	obl:tmod	_	_
+12	civarında	civar	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	case	_	_
 13	varıyor	var	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0193.test
@@ -2300,20 +2300,20 @@
 4	şehir	şehir	NOUN	_	Case=Nom|Number=Sing|Person=3	9	obl	_	_
 5	merkezine	merkez	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	compound	_	_
 6	hangi	hangi	ADJ	_	_	8	amod	_	_
-7	kara	kara	ADJ	_	_	8	nmod	_	_
+7	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 8	ulaşımı	ulaşım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	_
 9	mevcut	mevcut	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 
 # sent_id = 0194.test
 # text = Cumartesi günü Charlotte Havaalanı'ndan öğlen saat 1 civarında kalkan hava uçuşlarını listeleyin
 1	Cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod:tmod	_	_
 3	Charlotte	charlotte	PROPN	_	Case=Nom|Number=Sing	11	nmod	_	_
 4	Havaalanı'ndan	havaalan	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	flat	_	_
 5	öğlen	öğlen	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 6	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
-7	1	1	NUM	_	NumType=Card	8	nummod	_	_
-8	civarında	civar	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
+7	1	1	NUM	_	NumType=Card	9	obl:tmod	_	_
+8	civarında	civar	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	case	_	_
 9	kalkan	kalk	ADJ	_	_	11	acl	_	_
 10	hava	hava	NOUN	_	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
 11	uçuşlarını	uç	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	12	obj	_	_
@@ -2326,11 +2326,11 @@
 3	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	şehir	şehir	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 5	merkezine	merkez	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	flat	_	_
-6	kara	kara	ADJ	_	_	7	nmod	_	_
+6	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 7	ulaşım	ulaşım	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 8	düzenlemelerinden	düzenleme	NOUN	_	Case=Abl|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
 9	bahseder	bahset	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	misin	mi	AUX	_	PronType=Int	9	aux	_	_
+10	misin	mi	AUX	_	PronType=Int	9	aux:q	_	_
 
 # sent_id = 0196.test
 # text = lütfen General Mitchell uluslararası havalimanına kalkan ve inen uçuşları listeleyin
@@ -2348,12 +2348,12 @@
 # sent_id = 0197.test
 # text = yarın sabah mümkün olan en erken saatte Cleveland'dan Indianapolis'e uçmak istiyorum
 1	yarın	yarın	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	10	obl	_	_
+2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	10	obl:tmod	_	_
 3	mümkün	mümkün	ADJ	_	_	5	advmod	_	_
 4	olan	ol	ADJ	_	_	3	fixed	_	_
 5	en	en	ADV	_	Degree=Sup	6	advmod	_	_
 6	erken	erken	ADJ	_	_	7	ccomp	_	_
-7	saatte	saat	NOUN	_	Case=Loc|Number=Sing|Person=3	10	obl	_	_
+7	saatte	saat	NOUN	_	Case=Loc|Number=Sing|Person=3	10	obl:tmod	_	_
 8	Cleveland'dan	cleveland	PROPN	_	Case=Abl|Number=Sing	9	nmod	_	_
 9	Indianapolis'e	ındianapolis	PROPN	_	Case=Dat|Number=Sing	10	obl	_	_
 10	uçmak	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	11	xcomp	_	_
@@ -2362,7 +2362,7 @@
 # sent_id = 0198.test
 # text = bu öğleden sonra Logan'dan Atlanta'ya uçağa ihtiyacım var
 1	bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
-2	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	6	nmod	_	_
+2	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	6	nmod:tmod	_	_
 3	sonra	sonra	ADP	_	_	2	case	_	_
 4	Logan'dan	logan	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 5	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
@@ -2373,7 +2373,7 @@
 # sent_id = 0199.test
 # text = bana yarın amerikan havayolları ile Milwaukee'den Tacoma'ya en son uçuşu ver
 1	bana	ben	PRON	_	PronType=Prs	11	obl	_	_
-2	yarın	yarın	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
+2	yarın	yarın	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nmod:tmod	_	_
 3	amerikan	amerikan	ADJ	_	_	10	nmod	_	_
 4	havayolları	havayol	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	flat	_	_
 5	ile	ile	ADP	_	_	3	case	_	_
@@ -2387,7 +2387,7 @@
 # sent_id = 0200.test
 # text = yarın sabah Columbus'tan Nashville'ye uçmak istiyorum
 1	yarın	yarın	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obl	_	_
+2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obl:tmod	_	_
 3	Columbus'tan	columbus	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Nashville'ye	nashville	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
 5	uçmak	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	6	xcomp	_	_
@@ -2397,7 +2397,7 @@
 # text = ve yarın akşam Denver'den Boston'a son uçuş nedir
 1	ve	ve	CCONJ	_	_	8	discourse	_	_
 2	yarın	yarın	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+3	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod:tmod	_	_
 4	Denver'den	denver	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 5	Boston'a	boston	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 6	son	son	ADJ	_	_	7	amod	_	_
@@ -2416,7 +2416,7 @@
 # sent_id = 0203.test
 # text = yarın öğleden sonra Indianapolis'ten San Diego'ya Continental üzerinden uçuşları göster
 1	yarın	yarın	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	9	nmod	_	_
+2	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	9	nmod:tmod	_	_
 3	sonra	sonra	ADP	_	_	2	case	_	_
 4	Indianapolis'ten	ındianapolis	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 5	San	san	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
@@ -2428,7 +2428,7 @@
 
 # sent_id = 0204.test
 # text = northwest'in Dulles'ten ayrılan kaç uçuşu var
-1	northwest'in	northwest'in	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+1	northwest'in	northwest'in	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
 2	Dulles'ten	dulles	PROPN	_	Case=Abl|Number=Sing	3	obl	_	_
 3	ayrılan	ayır	ADJ	_	_	5	acl	_	_
 4	kaç	kaç	ADJ	_	NumType=Card	5	amod	_	_
@@ -2443,7 +2443,7 @@
 4	Las	Las	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 5	Vegas'a	vegas	PROPN	_	Case=Dat|Number=Sing	4	flat	_	_
 6	pazar	pazar	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
-7	günleri	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
+7	günleri	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:tmod	_	_
 8	aktarmasız	aktarmasız	ADJ	_	_	9	amod	_	_
 9	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	0	root	_	_
 
@@ -2454,7 +2454,7 @@
 3	Angeles'ten	angeles	PROPN	_	Case=Abl|Number=Sing	2	flat	_	_
 4	Pittsburgh'a	pittsburgh	PROPN	_	Case=Dat|Number=Sing	9	nmod	_	_
 5	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
-6	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
+6	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl:tmod	_	_
 7	Pittsburgh'a	pittsburgh	PROPN	_	Case=Dat|Number=Sing	8	obl	_	_
 8	varan	var	ADJ	_	_	9	acl	_	_
 9	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
@@ -2466,9 +2466,9 @@
 2	Philadelphia'dan	philadelphia	PROPN	_	Case=Abl|Number=Sing	3	nmod	_	_
 3	Dallas'a	dallas	PROPN	_	Case=Dat|Number=Sing	11	nmod	_	_
 4	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:tmod	_	_
 6	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
-7	3'ten	3	NOUN	_	Case=Abl|Number=Sing|Person=3	9	obl	_	_
+7	3'ten	3	NOUN	_	Case=Abl|Number=Sing|Person=3	9	obl:tmod	_	_
 8	önce	önce	ADP	_	_	7	case	_	_
 9	varan	var	ADJ	_	_	11	acl	_	_
 10	tüm	tüm	DET	_	PronType=Art	11	det	_	_
@@ -2478,10 +2478,10 @@
 # sent_id = 0208.test
 # text = Perşembe günü akşam saat 5'ten sonra Pittsburgh'tan ayrılan ve Los Angeles'e varan uçuşlar
 1	Perşembe	perşembe	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:tmod	_	_
 3	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 4	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-5	5'ten	5	NOUN	_	Case=Abl|Number=Sing|Person=3	13	nmod	_	_
+5	5'ten	5	NOUN	_	Case=Abl|Number=Sing|Person=3	13	nmod:tmod	_	_
 6	sonra	sonra	ADP	_	_	5	case	_	_
 7	Pittsburgh'tan	pittsburgh	PROPN	_	Case=Abl|Number=Sing	8	obl	_	_
 8	ayrılan	ayır	ADJ	_	_	13	acl	_	_
@@ -2494,7 +2494,7 @@
 # sent_id = 0209.test
 # text = Cuma günü St. Louis'ten Charlotte'ye en erken inen uçuş nedir
 1	Cuma	cuma	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:tmod	_	_
 3	St.	St.	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	Louis'ten	louis	PROPN	_	Case=Abl|Number=Sing	3	flat	_	_
 5	Charlotte'ye	charlotte	PROPN	_	Case=Dat|Number=Sing	9	nmod	_	_
@@ -2507,11 +2507,11 @@
 # sent_id = 0210.test
 # text = önümüzdeki hafta çarşamba akşam saat 6'dan sonra Boston'dan Pittsburgh'a hangi uçuşların var
 1	önümüzdeki	ön	ADJ	_	_	2	amod	_	_
-2	hafta	hafta	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+2	hafta	hafta	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod:tmod	_	_
 3	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 4	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 5	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	12	obl	_	_
+6	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	12	obl:tmod	_	_
 7	sonra	sonra	ADP	_	_	6	case	_	_
 8	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	9	nmod	_	_
 9	Pittsburgh'a	pittsburgh	PROPN	_	Case=Dat|Number=Sing	12	obl	_	_
@@ -2523,7 +2523,7 @@
 # text = önümüzdeki perşembe günü St. Petersburg'dan Miami'ye bir uçuş rica ediyorum
 1	önümüzdeki	ön	ADJ	_	_	3	amod	_	_
 2	perşembe	perşembe	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
+3	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod:tmod	_	_
 4	St.	St.	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 5	Petersburg'dan	petersburg	PROPN	_	Case=Abl|Number=Sing	4	flat	_	_
 6	Miami'ye	miami	PROPN	_	Case=Dat|Number=Sing	8	nmod	_	_
@@ -2535,7 +2535,7 @@
 # sent_id = 0212.test
 # text = önümüzdeki çarşamba Kansas şehrinden Chicago'ya gitmek istiyorum
 1	önümüzdeki	ön	ADJ	_	_	2	amod	_	_
-2	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	6	obl	_	_
+2	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
 3	Kansas	kansas	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	şehrinden	şehir	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
 5	Chicago'ya	chicago	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
@@ -2545,7 +2545,7 @@
 # sent_id = 0213.test
 # text = önümüzdeki perşembe Boston'dan Philadelphia'ya uçmak istiyorum
 1	önümüzdeki	ön	ADJ	_	_	2	amod	_	_
-2	perşembe	perşembe	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obl	_	_
+2	perşembe	perşembe	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obl:tmod	_	_
 3	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Philadelphia'ya	philadelphia	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
 5	uçmak	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	6	xcomp	_	_
@@ -2555,7 +2555,7 @@
 # text = bana önümüzdeki pazartesi Atlanta'dan Charlotte'ye olan uçuşları anlat
 1	bana	ben	PRON	_	PronType=Prs	8	obl	_	_
 2	önümüzdeki	ön	ADJ	_	_	3	amod	_	_
-3	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
+3	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	7	nmod:tmod	_	_
 4	Atlanta'dan	atlanta	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 5	Charlotte'ye	charlotte	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
 6	olan	ol	ADJ	_	_	7	acl	_	_
@@ -2565,9 +2565,9 @@
 # sent_id = 0215.test
 # text = önümüzdeki çarşamba saat 8'den sonra Pittsburgh'tan Baltimore'ye hangi uçuşlar kalkıyor
 1	önümüzdeki	ön	ADJ	_	_	2	amod	_	_
-2	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
+2	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	4	nmod:tmod	_	_
 3	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	8'den	8	NOUN	_	Case=Abl|Number=Sing|Person=3	9	nmod	_	_
+4	8'den	8	NOUN	_	Case=Abl|Number=Sing|Person=3	9	nmod:tmod	_	_
 5	sonra	sonra	ADP	_	_	4	case	_	_
 6	Pittsburgh'tan	pittsburgh	PROPN	_	Case=Abl|Number=Sing	7	nmod	_	_
 7	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	9	nmod	_	_
@@ -2579,26 +2579,26 @@
 # text = bana önümüzdeki çarşamba Cleveland'dan Miami'ye gidiş dönüş uçuşların fiyatlarını ver
 1	bana	ben	PRON	_	PronType=Prs	10	obl	_	_
 2	önümüzdeki	ön	ADJ	_	_	3	amod	_	_
-3	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
+3	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	8	nmod:tmod	_	_
 4	Cleveland'dan	cleveland	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 5	Miami'ye	miami	PROPN	_	Case=Dat|Number=Sing	8	nmod	_	_
 6	gidiş	git	NOUN	_	Case=Nom|Number=Sing|Person=3	8	amod	_	_
 7	dönüş	dön	NOUN	_	Case=Nom|Number=Sing|Person=3	6	compound	_	_
-8	uçuşların	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=2	9	nmod	_	_
+8	uçuşların	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=2	9	nmod:poss	_	_
 9	fiyatlarını	fiyat	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
 10	ver	ver	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0217.test
 # text = önümüzdeki salı Chicago'dan ayrılıp Detroit'e akşam saat 6 civarı varmak istiyorum
 1	önümüzdeki	ön	ADJ	_	_	2	amod	_	_
-2	salı	salı	NOUN	_	Case=Nom|Number=Sing|Person=3	10	obl	_	_
+2	salı	salı	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod:tmod	_	_
 3	Chicago'dan	chicago	PROPN	_	Case=Abl|Number=Sing	4	obl	_	_
 4	ayrılıp	ayrıl	ADV	_	_	10	advcl	_	_
 5	Detroit'e	detroit	PROPN	_	Case=Dat|Number=Sing	10	obl	_	_
 6	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 7	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
-8	6	6	NUM	_	NumType=Card	9	nummod	_	_
-9	civarı	civar	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod	_	_
+8	6	6	NUM	_	NumType=Card	10	obl:tmod	_	_
+9	civarı	civar	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	case	_	_
 10	varmak	var	NOUN	_	Case=Nom|Number=Sing|Person=3	11	xcomp	_	_
 11	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -2618,7 +2618,7 @@
 3	Washington	washington	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
 4	Dc'ye	dc	PROPN	_	Case=Dat|Number=Sing	3	flat	_	_
 5	perşembe	perşembe	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
+6	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl:tmod	_	_
 7	kalkan	kalk	ADJ	_	_	8	acl	_	_
 8	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
 9	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2627,7 +2627,7 @@
 # text = bana çarşamba günü Denver'den dc'ye uçuşları göster
 1	bana	ben	PRON	_	PronType=Prs	7	obl	_	_
 2	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
-3	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
+3	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:tmod	_	_
 4	Denver'den	denver	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 5	dc'ye	dc'ye	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	obj	_	_
@@ -2653,7 +2653,7 @@
 5	Dc	dc	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
 6	arasındaki	ara	ADJ	_	_	8	amod	_	_
 7	tüm	tüm	DET	_	PronType=Art	8	det	_	_
-8	uçuşların	uç	NOUN	_	Case=Gen|Number=Plur|Person=3	9	nmod	_	_
+8	uçuşların	uç	NOUN	_	Case=Gen|Number=Plur|Person=3	9	nmod:poss	_	_
 9	fiyatlarını	fiyat	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
 10	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -2663,7 +2663,7 @@
 2	Washington	washington	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 3	Dc'ye	dc	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
-5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
+5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl:tmod	_	_
 6	giden	git	ADJ	_	_	9	acl	_	_
 7	en	en	ADV	_	Degree=Sup	8	advmod	_	_
 8	son	son	ADJ	_	_	9	amod	_	_
@@ -2675,7 +2675,7 @@
 1	Toronto'dan	toronto	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Washington	washington	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 3	Dc'ye	dc	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
-4	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+4	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod:tmod	_	_
 5	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	uçuşlarını	uç	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	obj	_	_
 7	listele	listele	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2702,23 +2702,23 @@
 9	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0227.test
-# text = Aralık ayının yirmi yedisi ve yirmi sekizi için İndianapolis ile Orlando Florida arasında gidiş dönüş uçuşların bir listesini istiyorum
+# text = Aralık ayının yirmi yedisi ve yirmi sekizi için Indianapolis ile Orlando Florida arasında gidiş dönüş uçuşların bir listesini istiyorum
 1	Aralık	aralık	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	ayının	ay	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod	_	_
-3	yirmi	yirmi	NUM	_	NumType=Card	18	nmod	_	_
+2	ayının	ay	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod:poss	_	_
+3	yirmi	yirmi	NUM	_	NumType=Card	16	nmod:tmod	_	_
 4	yedisi	yedi	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	compound	_	_
 5	ve	ve	CCONJ	_	_	6	cc	_	_
 6	yirmi	yirmi	NUM	_	NumType=Card	3	conj	_	_
 7	sekizi	sekiz	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	compound	_	_
 8	için	için	ADP	_	_	3	case	_	_
-9	İndianapolis	indianapolis	NOUN	_	Case=Nom|Number=Sing|Person=3	13	nmod	_	_
+9	Indianapolis	ındianapolis	PROPN	_	Case=Nom|Number=Sing	13	nmod	_	_
 10	ile	ile	CCONJ	_	_	11	cc	_	_
 11	Orlando	orlando	PROPN	_	Case=Nom|Number=Sing	9	conj	_	_
 12	Florida	florida	PROPN	_	Case=Nom|Number=Sing	11	flat	_	_
 13	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	nmod	_	_
 14	gidiş	git	NOUN	_	Case=Nom|Number=Sing|Person=3	16	amod	_	_
 15	dönüş	dön	NOUN	_	Case=Nom|Number=Sing|Person=3	14	compound	_	_
-16	uçuşların	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=2	18	nmod	_	_
+16	uçuşların	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=2	18	nmod:poss	_	_
 17	bir	bir	DET	_	Definite=Ind|PronType=Art	18	det	_	_
 18	listesini	liste	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	19	obj	_	_
 19	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2731,11 +2731,11 @@
 4	Beach	beach	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
 5	California	california	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
 6	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
-7	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
-8	uçuşlarının	uç	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
+7	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod:tmod	_	_
+8	uçuşlarının	uç	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:poss	_	_
 9	listesini	liste	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
 10	alabilir	al	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	miyim	mi	AUX	_	PronType=Int	10	aux	_	_
+11	miyim	mi	AUX	_	PronType=Int	10	aux:q	_	_
 12	lütfen	lütfen	ADV	_	_	10	discourse	_	_
 
 # sent_id = 0229.test
@@ -2744,7 +2744,7 @@
 2	Oakland	oakland	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
 3	California'ya	california	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
-5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
+5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl:tmod	_	_
 6	olan	ol	ADJ	_	_	8	acl	_	_
 7	tüm	tüm	DET	_	PronType=Art	8	det	_	_
 8	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
@@ -2757,7 +2757,7 @@
 2	havayolları	havayol	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	1	flat	_	_
 3	ile	ile	ADP	_	_	1	case	_	_
 4	salı	salı	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	_
+5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod:tmod	_	_
 6	Philadelphia'dan	philadelphia	PROPN	_	Case=Abl|Number=Sing	7	nmod	_	_
 7	San	san	PROPN	_	Case=Nom|Number=Sing	11	nmod	_	_
 8	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	7	flat	_	_
@@ -2782,11 +2782,11 @@
 13	nedir	ne	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0232.test
-# text = yirmi beş Aralık'ta İndianapolis ile Orlando arasında en ucuz gidiş dönüş yolculuk ücreti
+# text = yirmi beş Aralık'ta Indianapolis ile Orlando arasında en ucuz gidiş dönüş yolculuk ücreti
 1	yirmi	yirmi	NUM	_	NumType=Card	3	nummod	_	_
 2	beş	beş	NUM	_	NumType=Card	1	compound	_	_
-3	Aralık'ta	aralık	PROPN	_	Case=Loc|Number=Sing	13	nmod	_	_
-4	İndianapolis	indianapolis	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+3	Aralık'ta	aralık	PROPN	_	Case=Loc|Number=Sing	13	nmod:tmod	_	_
+4	Indianapolis	ındianapolis	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
 5	ile	ile	CCONJ	_	_	6	cc	_	_
 6	Orlando	orlando	PROPN	_	Case=Nom|Number=Sing	4	conj	_	_
 7	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nmod	_	_
@@ -2801,9 +2801,9 @@
 # text = yirmi yedi Ağustos sabahı 650'de çıkarak Dallas'tan Denver'e uçmak istiyorum
 1	yirmi	yirmi	NUM	_	NumType=Card	3	nummod	_	_
 2	yedi	yedi	NUM	_	NumType=Card	1	compound	_	_
-3	Ağustos	ağustos	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
-5	650'de	650	NOUN	_	Case=Loc|Number=Sing|Person=3	6	obl	_	_
+3	Ağustos	ağustos	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod:tmod	_	_
+4	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:tmod	_	_
+5	650'de	650	NOUN	_	Case=Loc|Number=Sing|Person=3	6	obl:tmod	_	_
 6	çıkarak	çık	ADV	_	_	9	advmod	_	_
 7	Dallas'tan	dallas	PROPN	_	Case=Abl|Number=Sing	8	nmod	_	_
 8	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	9	obl	_	_
@@ -2811,15 +2811,15 @@
 10	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0234.test
-# text = bana yirmi yedi ve yirmi sekiz Aralık'ta İndianapolis - Orlando uçuşlarını ver
+# text = bana yirmi yedi ve yirmi sekiz Aralık'ta Indianapolis - Orlando uçuşlarını ver
 1	bana	ben	PRON	_	PronType=Prs	12	obl	_	_
 2	yirmi	yirmi	NUM	_	NumType=Card	7	nummod	_	_
 3	yedi	yedi	NUM	_	NumType=Card	2	compound	_	_
 4	ve	ve	CCONJ	_	_	5	cc	_	_
 5	yirmi	yirmi	NUM	_	NumType=Card	2	conj	_	_
 6	sekiz	sekiz	NUM	_	NumType=Card	5	compound	_	_
-7	Aralık'ta	aralık	PROPN	_	Case=Loc|Number=Sing	11	nmod	_	_
-8	İndianapolis	indianapolis	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
+7	Aralık'ta	aralık	PROPN	_	Case=Loc|Number=Sing	11	nmod:tmod	_	_
+8	Indianapolis	ındianapolis	PROPN	_	Case=Nom|Number=Sing	10	nmod	_	_
 9	-	-	PUNCT	_	_	8	punct	_	_
 10	Orlando	orlando	PROPN	_	Case=Nom|Number=Sing	11	nmod	_	_
 11	uçuşlarını	uç	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	12	obj	_	_
@@ -2829,7 +2829,7 @@
 # text = yirmi altı Mayıs'ta Tampa'dan Seattle'ye giden bir uçak bileti rezerve etmek istiyorum yolda Milwaukee'de durmak istiyorum
 1	yirmi	yirmi	NUM	_	NumType=Card	3	nummod	_	_
 2	altı	altı	NUM	_	NumType=Card	1	compound	_	_
-3	Mayıs'ta	mayıs	PROPN	_	Case=Loc|Number=Sing	9	nmod	_	_
+3	Mayıs'ta	mayıs	PROPN	_	Case=Loc|Number=Sing	9	nmod:tmod	_	_
 4	Tampa'dan	tampa	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 5	Seattle'ye	seattle	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
 6	giden	git	ADJ	_	_	8	acl	_	_
@@ -2848,9 +2848,9 @@
 # text = yirmi bir Ağustos çarşamba günü San Francisco'dan Boston'a en ucuz tek yön ücret nedir
 1	yirmi	yirmi	NUM	_	NumType=Card	3	nummod	_	_
 2	bir	bir	DET	_	Definite=Ind|PronType=Art	1	compound	_	_
-3	Ağustos	ağustos	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+3	Ağustos	ağustos	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod:tmod	_	_
 4	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
-5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nmod	_	_
+5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nmod:tmod	_	_
 6	San	san	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
 7	Francisco'dan	francisco	PROPN	_	Case=Abl|Number=Sing	6	flat	_	_
 8	Boston'a	boston	PROPN	_	Case=Dat|Number=Sing	13	nmod	_	_
@@ -2865,8 +2865,8 @@
 # text = yirmi ikinci Nisan sabahı Tacoma'dan San Jose'ye hangi uçuşlar var
 1	yirmi	yirmi	NUM	_	NumType=Card	3	nummod	_	_
 2	ikinci	ikinci	ADJ	_	_	1	compound	_	_
-3	Nisan	nisan	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
-4	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
+3	Nisan	nisan	PROPN	_	Case=Nom|Number=Sing	4	nmod:tmod	_	_
+4	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:tmod	_	_
 5	Tacoma'dan	tacoma	PROPN	_	Case=Abl|Number=Sing	6	nmod	_	_
 6	San	san	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 7	Jose'ye	jose	PROPN	_	Case=Dat|Number=Sing	6	flat	_	_
@@ -2875,12 +2875,12 @@
 10	var	var	ADJ	_	_	0	root	_	_
 
 # sent_id = 0238.test
-# text = Aralık ayının yirmi yedisinde İndianapolis ve Orlando arasındaki tüm gidiş dönüş uçuşlarını listeleyin
+# text = Aralık ayının yirmi yedisinde Indianapolis ve Orlando arasındaki tüm gidiş dönüş uçuşlarını listeleyin
 1	Aralık	aralık	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	ayının	ay	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod	_	_
-3	yirmi	yirmi	NUM	_	NumType=Card	12	nmod	_	_
+2	ayının	ay	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod:poss	_	_
+3	yirmi	yirmi	NUM	_	NumType=Card	12	nmod:tmod	_	_
 4	yedisinde	yedi	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	compound	_	_
-5	İndianapolis	indianapolis	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
+5	Indianapolis	ındianapolis	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
 6	ve	ve	CCONJ	_	_	7	cc	_	_
 7	Orlando	orlando	PROPN	_	Case=Nom|Number=Sing	5	conj	_	_
 8	arasındaki	ara	ADJ	_	_	12	amod	_	_
@@ -2972,19 +2972,19 @@
 6	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obj	_	_
 7	bul	bul	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	11	csubj	_	_
-9	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	11	obl	_	_
+9	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	11	obl:tmod	_	_
 10	sonra	sonra	ADP	_	_	9	case	_	_
 11	kalkmalı	kalk	VERB	_	Mood=Nec|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
 12	ve	ve	CCONJ	_	_	16	cc	_	_
 13	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nmod	_	_
-14	5'e	5	NOUN	_	Case=Dat|Number=Sing|Person=3	15	nmod	_	_
-15	yakın	yakın	ADJ	_	_	16	advmod	_	_
+14	5'e	5	NOUN	_	Case=Dat|Number=Sing|Person=3	15	nmod:tmod	_	_
+15	yakın	yakın	ADJ	_	_	16	obl:tmod	_	_
 16	varmalı	varma	ADJ	_	_	11	conj	_	_
 17	aynı	aynı	ADJ	_	_	21	ccomp	_	_
 18	zamanda	zaman	NOUN	_	Case=Loc|Number=Sing|Person=3	17	compound	_	_
 19	da	da	CCONJ	_	_	17	cc	_	_
 20	kesintisiz	kesintisiz	ADJ	_	_	21	amod	_	_
-21	olmalı	ol	VERB	_	Mood=Nec|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	conj	_	_
+21	olmalı	ol	VERB	_	Mood=Nec|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	conj	_	_
 
 # sent_id = 0249.test
 # text = amerikan havayolları ile Miami'den Chicago'ya akşam 5 civarında varan bir uçuşa ihtiyacım var
@@ -2994,8 +2994,8 @@
 4	Miami'den	miami	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 5	Chicago'ya	chicago	PROPN	_	Case=Dat|Number=Sing	11	nmod	_	_
 6	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
-7	5	5	NUM	_	NumType=Card	8	nummod	_	_
-8	civarında	civar	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
+7	5	5	NUM	_	NumType=Card	9	obl:tmod	_	_
+8	civarında	civar	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	case	_	_
 9	varan	var	ADJ	_	_	11	acl	_	_
 10	bir	bir	DET	_	Definite=Ind|PronType=Art	11	det	_	_
 11	uçuşa	uç	NOUN	_	Case=Dat|Number=Sing|Person=3	12	obl	_	_
@@ -3008,10 +3008,10 @@
 2	şehrinden	şehir	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod	_	_
 3	Cleveland'a	cleveland	PROPN	_	Case=Dat|Number=Sing	11	nmod	_	_
 4	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
-5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	_
+5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod:tmod	_	_
 6	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 7	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
-8	5'ten	5	NOUN	_	Case=Abl|Number=Sing|Person=3	10	obl	_	_
+8	5'ten	5	NOUN	_	Case=Abl|Number=Sing|Person=3	10	obl:tmod	_	_
 9	önce	önce	ADP	_	_	8	case	_	_
 10	varan	var	ADJ	_	_	11	acl	_	_
 11	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	0	root	_	_
@@ -3021,13 +3021,13 @@
 1	hangi	hangi	ADJ	_	_	2	amod	_	_
 2	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
 3	cuma	cuma	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
+4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl:tmod	_	_
 5	Baltimore'den	baltimore	PROPN	_	Case=Abl|Number=Sing	6	obl	_	_
 6	kalkar	kalk	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	ve	ve	CCONJ	_	_	13	cc	_	_
 8	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
 9	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
-10	8'de	8	NOUN	_	Case=Loc|Number=Sing|Person=3	13	obl	_	_
+10	8'de	8	NOUN	_	Case=Loc|Number=Sing|Person=3	13	obl:tmod	_	_
 11	San	san	PROPN	_	Case=Nom|Number=Sing	13	obl	_	_
 12	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	11	flat	_	_
 13	varır	var	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	_
@@ -3037,8 +3037,8 @@
 1	Atlanta'dan	atlanta	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	9	nmod	_	_
 3	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	7	7	NUM	_	NumType=Card	5	nummod	_	_
-5	civarı	civar	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
+4	7	7	NUM	_	NumType=Card	6	obl:tmod	_	_
+5	civarı	civar	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	case	_	_
 6	varan	var	ADJ	_	_	9	acl	_	_
 7	aktarmasız	aktarmasız	ADJ	_	_	9	amod	_	_
 8	bir	bir	DET	_	Definite=Ind|PronType=Art	9	det	_	_
@@ -3056,13 +3056,13 @@
 7	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	12	nsubj	_	_
 8	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
 9	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
-10	5'ten	5	NOUN	_	Case=Abl|Number=Sing|Person=3	12	obl	_	_
+10	5'ten	5	NOUN	_	Case=Abl|Number=Sing|Person=3	12	obl:tmod	_	_
 11	sonra	sonra	ADP	_	_	10	case	_	_
 12	varıyor	var	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0254.test
 # text = 10'da inecek olan Pittsburgh'tan Baltimore'ye tüm uçuşlar
-1	10'da	10	NOUN	_	Case=Loc|Number=Sing|Person=3	2	obl	_	_
+1	10'da	10	NOUN	_	Case=Loc|Number=Sing|Person=3	2	obl:tmod	_	_
 2	inecek	in	ADJ	_	_	3	acl	_	_
 3	olan	ol	ADJ	_	_	7	acl	_	_
 4	Pittsburgh'tan	pittsburgh	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
@@ -3072,7 +3072,7 @@
 
 # sent_id = 0255.test
 # text = 10'dan önce Pittsburgh'a inecek olan Boston ve Pittsburgh arasındaki aktarmalı ve aktarmasız tüm uçuşları bana gösterin
-1	10'dan	10	NOUN	_	Case=Abl|Number=Sing|Person=3	4	obl	_	_
+1	10'dan	10	NOUN	_	Case=Abl|Number=Sing|Person=3	4	obl:tmod	_	_
 2	önce	önce	ADP	_	_	1	case	_	_
 3	Pittsburgh'a	pittsburgh	PROPN	_	Case=Dat|Number=Sing	4	obl	_	_
 4	inecek	in	ADJ	_	_	5	acl	_	_
@@ -3092,11 +3092,11 @@
 # sent_id = 0256.test
 # text = Çarşamba günü Miami'ye Cleveland'dan akşam 4'ten önce gelen
 1	Çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl:tmod	_	_
 3	Miami'ye	miami	PROPN	_	Case=Dat|Number=Sing	4	nmod	_	_
 4	Cleveland'dan	cleveland	PROPN	_	Case=Abl|Number=Sing	8	obl	_	_
 5	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	4'ten	4	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl	_	_
+6	4'ten	4	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl:tmod	_	_
 7	önce	önce	ADP	_	_	6	case	_	_
 8	gelen	gel	ADJ	_	_	0	root	_	_
 
@@ -3141,11 +3141,11 @@
 # sent_id = 0261.test
 # text = Hangi havayollarının Boston'dan Philadelphia'ya sabah 630'dan önce uçuşu var
 1	Hangi	hangi	ADJ	_	_	2	amod	_	_
-2	havayollarının	havayol	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
+2	havayollarının	havayol	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod:poss	_	_
 3	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Philadelphia'ya	philadelphia	PROPN	_	Case=Dat|Number=Sing	8	nmod	_	_
 5	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	630'dan	630	NOUN	_	Case=Abl|Number=Sing|Person=3	8	nmod	_	_
+6	630'dan	630	NOUN	_	Case=Abl|Number=Sing|Person=3	8	nmod:tmod	_	_
 7	önce	önce	ADP	_	_	6	case	_	_
 8	uçuşu	uç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	_
 9	var	var	ADJ	_	_	0	root	_	_
@@ -3196,15 +3196,15 @@
 # text = Herhangi bir havayolunun Boston'dan Pittsburgh'a öğleden sonra erken uçuşu var mı
 1	Herhangi	herhangi	ADJ	_	_	3	amod	_	_
 2	bir	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
-3	havayolunun	havayol	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
+3	havayolunun	havayol	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:poss	_	_
 4	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 5	Pittsburgh'a	pittsburgh	PROPN	_	Case=Dat|Number=Sing	9	nmod	_	_
-6	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	9	nmod	_	_
+6	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	9	nmod:tmod	_	_
 7	sonra	sonra	ADP	_	_	6	case	_	_
 8	erken	erken	ADV	_	_	9	amod	_	_
 9	uçuşu	uç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nsubj	_	_
 10	var	var	ADJ	_	_	0	root	_	_
-11	mı	mi	AUX	_	PronType=Int	10	aux	_	_
+11	mı	mi	AUX	_	PronType=Int	10	aux:q	_	_
 
 # sent_id = 0266.test
 # text = Bana Philadelphia'dan Dallas'a uçuşu olan havayollarını gösterin lütfen
@@ -3229,7 +3229,7 @@
 # sent_id = 0268.test
 # text = Hangi havayollarının Charlotte ile Newark arasında uçuşu var
 1	Hangi	hangi	ADJ	_	_	2	amod	_	_
-2	havayollarının	havayol	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+2	havayollarının	havayol	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:poss	_	_
 3	Charlotte	charlotte	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 4	ile	ile	CCONJ	_	_	5	cc	_	_
 5	Newark	newark	PROPN	_	Case=Nom|Number=Sing	3	conj	_	_
@@ -3304,7 +3304,7 @@
 
 # sent_id = 0275.test
 # text = America West'in Las Vegas'tan New York'a aktarmasız uçuşlarını listeleyin lütfen
-1	America	america	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
+1	America	america	PROPN	_	Case=Nom|Number=Sing	8	nmod:poss	_	_
 2	West'in	west	PROPN	_	Case=Gen|Number=Sing	1	flat	_	_
 3	Las	Las	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	Vegas'tan	vegas	PROPN	_	Case=Abl|Number=Sing	3	flat	_	_
@@ -3334,7 +3334,7 @@
 # text = Bana pazartesi günü San Francisco'dan Pittsburgh'a birinci sınıf uçuşlar hangileri gösterin
 1	Bana	ben	PRON	_	PronType=Prs	11	obl	_	_
 2	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
-3	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
+3	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:tmod	_	_
 4	San	san	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 5	Francisco'dan	francisco	PROPN	_	Case=Abl|Number=Sing	4	flat	_	_
 6	Pittsburgh'a	pittsburgh	PROPN	_	Case=Dat|Number=Sing	9	nmod	_	_
@@ -3347,7 +3347,7 @@
 # sent_id = 0278.test
 # text = Bana United'in birinci sınıf seçeneği olan Baltimore'den Denver'e uçuşlarını verin
 1	Bana	ben	PRON	_	PronType=Prs	10	obl	_	_
-2	United'in	united	PROPN	_	Case=Gen|Number=Sing	9	nmod	_	_
+2	United'in	united	PROPN	_	Case=Gen|Number=Sing	9	nmod:poss	_	_
 3	birinci	birinci	ADJ	_	_	5	nmod	_	_
 4	sınıf	sınıf	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound	_	_
 5	seçeneği	seçenek	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
@@ -3362,7 +3362,7 @@
 1	Pittsburgh'tan	pittsburgh	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Newark'a	newark	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 3	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
-4	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+4	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:tmod	_	_
 5	birinci	birinci	ADJ	_	_	7	amod	_	_
 6	sınıf	sınıf	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound	_	_
 7	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	0	root	_	_
@@ -3413,7 +3413,7 @@
 # sent_id = 0284.test
 # text = Çarşamba günü Dallas ile Philadelphia arasında birinci sınıf American uçuşu
 1	Çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod:tmod	_	_
 3	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 4	ile	ile	CCONJ	_	_	5	cc	_	_
 5	Philadelphia	philadelphia	PROPN	_	Case=Nom|Number=Sing	3	conj	_	_
@@ -3456,7 +3456,7 @@
 5	sınıf	sınıf	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound	_	_
 6	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 7	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
-8	10'dan	10	NOUN	_	Case=Abl|Number=Sing|Person=3	10	obl	_	_
+8	10'dan	10	NOUN	_	Case=Abl|Number=Sing|Person=3	10	obl:tmod	_	_
 9	önce	önce	ADP	_	_	8	case	_	_
 10	kalkan	kalk	ADJ	_	_	13	acl	_	_
 11	tek	tek	ADJ	_	_	13	amod	_	_
@@ -3469,12 +3469,12 @@
 1	hangi	hangi	ADJ	_	_	2	amod	_	_
 2	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	11	nsubj	_	_
 3	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
-4	gecesi	gece	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
+4	gecesi	gece	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl:tmod	_	_
 5	San	san	PROPN	_	Case=Nom|Number=Sing	7	obl	_	_
 6	Francisco'dan	francisco	PROPN	_	Case=Abl|Number=Sing	5	flat	_	_
 7	ayrılıp	ayrıl	ADV	_	_	11	advcl	_	_
 8	gece	gece	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
-9	saatlerinde	saat	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	11	obl	_	_
+9	saatlerinde	saat	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	11	obl:tmod	_	_
 10	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	11	obl	_	_
 11	varıyor	var	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -3487,7 +3487,7 @@
 5	Northwest	Northwest	PROPN	_	Case=Nom|Number=Sing	2	conj	_	_
 6	Havayolları	havayol	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	flat	_	_
 7	ile	ile	ADP	_	_	2	case	_	_
-8	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	13	nmod	_	_
+8	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	13	nmod:tmod	_	_
 9	önce	önce	ADP	_	_	8	case	_	_
 10	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	11	obl	_	_
 11	giden	git	ADJ	_	_	13	acl	_	_
@@ -3508,9 +3508,9 @@
 # sent_id = 0291.test
 # text = bir ekim salı günü Atlanta'dan Baltimore'ye uçuşlar nelerdir
 1	bir	bir	NUM	_	NumType=Card	2	nummod	_	_
-2	ekim	ekim	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
+2	ekim	ekim	PROPN	_	Case=Nom|Number=Sing	4	nmod:tmod	_	_
 3	salı	salı	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:tmod	_	_
 5	Atlanta'dan	atlanta	PROPN	_	Case=Abl|Number=Sing	6	nmod	_	_
 6	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 7	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
@@ -3521,7 +3521,7 @@
 1	LA'dan	la	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Charlotte'ye	charlotte	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
 3	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
-4	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
+4	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:tmod	_	_
 5	otobüs	otobüs	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	ücretleri	ücret	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
 7	nedir	ne	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3536,7 +3536,7 @@
 # sent_id = 0294.test
 # text = Denver'de kara ulaşımını göster
 1	Denver'de	denver	PROPN	_	Case=Loc|Number=Sing	3	nmod	_	_
-2	kara	kara	ADJ	_	_	3	nmod	_	_
+2	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	ulaşımını	ulaşım	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
 4	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -3552,7 +3552,7 @@
 # text = lütfen Denver'de kara ulaşımını göster
 1	lütfen	lütfen	ADV	_	_	5	discourse	_	_
 2	Denver'de	denver	PROPN	_	Case=Loc|Number=Sing	4	nmod	_	_
-3	kara	kara	ADJ	_	_	4	nmod	_	_
+3	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	ulaşımını	ulaşım	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
 5	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -3562,7 +3562,7 @@
 2	ne	ne	ADJ	_	_	6	amod	_	_
 3	tür	tür	NOUN	_	Case=Nom|Number=Sing|Person=3	2	compound	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
-5	kara	kara	ADJ	_	_	6	nmod	_	_
+5	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	ulaşımı	ulaşım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
 7	var	var	ADJ	_	_	0	root	_	_
 
@@ -3570,28 +3570,28 @@
 # text = Charlotte'de hangi kara ulaşımı mevcut
 1	Charlotte'de	charlotte	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
 2	hangi	hangi	ADJ	_	_	4	amod	_	_
-3	kara	kara	ADJ	_	_	4	nmod	_	_
+3	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	ulaşımı	ulaşım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
 5	mevcut	mevcut	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 
 # sent_id = 0299.test
 # text = Pittsburgh'ta kara ulaşımı nasıl
 1	Pittsburgh'ta	pittsburgh	PROPN	_	Case=Loc|Number=Sing	3	nmod	_	_
-2	kara	kara	ADJ	_	_	3	nmod	_	_
+2	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	ulaşımı	ulaşım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nsubj	_	_
 4	nasıl	nasıl	ADV	_	PronType=Int	0	root	_	_
 
 # sent_id = 0300.test
 # text = Baltimore'de kara ulaşımı
 1	Baltimore'de	baltimore	PROPN	_	Case=Loc|Number=Sing	3	nmod	_	_
-2	kara	kara	ADJ	_	_	3	nmod	_	_
+2	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	ulaşımı	ulaşım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 
 # sent_id = 0301.test
 # text = Dallas'ta hangi kara ulaşımı var
 1	Dallas'ta	dallas	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
 2	hangi	hangi	ADJ	_	_	4	amod	_	_
-3	kara	kara	ADJ	_	_	4	nmod	_	_
+3	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	ulaşımı	ulaşım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
 5	var	var	ADJ	_	_	0	root	_	_
 
@@ -3599,7 +3599,7 @@
 # text = Baltimore'de hangi kara ulaşımı mevcut
 1	Baltimore'de	baltimore	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
 2	hangi	hangi	ADJ	_	_	4	amod	_	_
-3	kara	kara	ADJ	_	_	4	nmod	_	_
+3	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	ulaşımı	ulaşım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
 5	mevcut	mevcut	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 
@@ -3613,7 +3613,7 @@
 # text = Dallas için kara ulaşımı hakkında bilgi göster
 1	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 2	için	için	ADP	_	_	1	case	_	_
-3	kara	kara	ADJ	_	_	4	nmod	_	_
+3	kara	kara	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	ulaşımı	ulaşım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
 5	hakkında	hakkında	ADV	_	_	6	advmod	_	_
 6	bilgi	bilgi	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obj	_	_
@@ -3642,7 +3642,7 @@
 5	San	san	PROPN	_	Case=Nom|Number=Sing	7	obl	_	_
 6	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	5	flat	_	_
 7	gidebilir	git	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	miyim	mi	AUX	_	PronType=Int	7	aux	_	_
+8	miyim	mi	AUX	_	PronType=Int	7	aux:q	_	_
 
 # sent_id = 0307.test
 # text = lütfen bana Philadelphia'da aktarma ile Boston'dan Denver'e uçuşları göster
@@ -3676,7 +3676,7 @@
 5	Pittsburgh'a	pittsburgh	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
 6	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 7	var	var	ADJ	_	_	0	root	_	_
-8	mı	mi	AUX	_	PronType=Int	7	aux	_	_
+8	mı	mi	AUX	_	PronType=Int	7	aux:q	_	_
 
 # sent_id = 0310.test
 # text = Hiç Denver'de duran Boston'dan San Francisco'ya uçuş var mı
@@ -3688,7 +3688,7 @@
 6	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	5	flat	_	_
 7	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 8	var	var	ADJ	_	_	0	root	_	_
-9	mı	mi	AUX	_	PronType=Int	8	aux	_	_
+9	mı	mi	AUX	_	PronType=Int	8	aux:q	_	_
 
 # sent_id = 0311.test
 # text = Washington'dan Boston'a Philadelphia'da duran bir uçuşun var mı
@@ -3699,7 +3699,7 @@
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
 6	uçuşun	uç	NOUN	_	Case=Gen|Number=Sing|Person=3	7	nsubj	_	_
 7	var	var	ADJ	_	_	0	root	_	_
-8	mı	mi	AUX	_	PronType=Int	7	aux	_	_
+8	mı	mi	AUX	_	PronType=Int	7	aux:q	_	_
 
 # sent_id = 0312.test
 # text = bana Houston üzerinden San Diego'dan Newark'a uçuşları göster
@@ -3758,7 +3758,7 @@
 5	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
 6	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 7	var	var	ADJ	_	_	0	root	_	_
-8	mı	mi	AUX	_	PronType=Int	7	aux	_	_
+8	mı	mi	AUX	_	PronType=Int	7	aux:q	_	_
 
 # sent_id = 0317.test
 # text = Baltimore'den Seattle'ye Minneapolis aktarmalı bir uçuşa ihtiyacım var
@@ -3774,7 +3774,7 @@
 # sent_id = 0318.test
 # text = cuma günü Philadelphia'dan Dallas'a kalkan ve Atlanta'da mola veren bir uçuş istiyorum
 1	cuma	cuma	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod:tmod	_	_
 3	Philadelphia'dan	philadelphia	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Dallas'a	dallas	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
 5	kalkan	kalk	ADJ	_	_	11	acl	_	_
@@ -3824,7 +3824,7 @@
 2	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	8	nmod	_	_
 3	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 4	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-5	3'ten	3	NOUN	_	Case=Abl|Number=Sing|Person=3	7	obl	_	_
+5	3'ten	3	NOUN	_	Case=Abl|Number=Sing|Person=3	7	obl:tmod	_	_
 6	sonra	sonra	ADP	_	_	5	case	_	_
 7	kalkan	kalk	ADJ	_	_	8	acl	_	_
 8	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
@@ -3836,13 +3836,13 @@
 2	St.	St.	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 3	Louis'e	louis	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	öğlen	öğlen	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-5	12'den	12	NOUN	_	Case=Abl|Number=Sing|Person=3	7	obl	_	_
+5	12'den	12	NOUN	_	Case=Abl|Number=Sing|Person=3	7	obl:tmod	_	_
 6	sonra	sonra	ADP	_	_	5	case	_	_
 7	kalkan	kalk	ADJ	_	_	9	acl	_	_
 8	tüm	tüm	DET	_	PronType=Art	9	det	_	_
 9	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
 10	listeleyebilir	listele	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	misiniz	mi	AUX	_	PronType=Int	10	aux	_	_
+11	misiniz	mi	AUX	_	PronType=Int	10	aux:q	_	_
 
 # sent_id = 0324.test
 # text = Philadelphia ile Denver arasında Philadelphia'dan öğleden sonra saat 2 civarında kalkan bir uçuş var mı
@@ -3851,16 +3851,16 @@
 3	Denver	denver	PROPN	_	Case=Nom|Number=Sing	1	conj	_	_
 4	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	obl	_	_
 5	Philadelphia'dan	philadelphia	PROPN	_	Case=Abl|Number=Sing	11	obl	_	_
-6	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	9	nmod	_	_
+6	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	9	nmod:tmod	_	_
 7	sonra	sonra	ADP	_	_	6	case	_	_
 8	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
-9	2	2	NUM	_	NumType=Card	10	nummod	_	_
-10	civarında	civar	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obl	_	_
+9	2	2	NUM	_	NumType=Card	11	obl:tmod	_	_
+10	civarında	civar	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	case	_	_
 11	kalkan	kalk	ADJ	_	_	13	acl	_	_
 12	bir	bir	DET	_	Definite=Ind|PronType=Art	13	det	_	_
 13	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nsubj	_	_
 14	var	var	ADJ	_	_	0	root	_	_
-15	mı	mi	AUX	_	PronType=Int	14	ccomp	_	_
+15	mı	mi	AUX	_	PronType=Int	14	aux:q	_	_
 
 # sent_id = 0325.test
 # text = Hangi uçuşlar Pittsburgh'tan kalkıp Denver'e varıyor ve akşam mesela 6'dan sonra kalkıyor
@@ -3872,14 +3872,14 @@
 6	varıyor	var	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	ve	ve	CCONJ	_	_	12	cc	_	_
 8	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
-9	mesela	mesela	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
-10	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	12	obl	_	_
+9	mesela	mesela	NOUN	_	Case=Nom|Number=Sing|Person=3	10	dislocated	_	_
+10	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	12	obl:tmod	_	_
 11	sonra	sonra	ADP	_	_	10	case	_	_
 12	kalkıyor	kalk	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	_
 
 # sent_id = 0326.test
 # text = 1201'den sonra Dallas'tan Houston'a
-1	1201'den	1201	NOUN	_	Case=Abl|Number=Sing|Person=3	4	nmod	_	_
+1	1201'den	1201	NOUN	_	Case=Abl|Number=Sing|Person=3	4	nmod:tmod	_	_
 2	sonra	sonra	ADP	_	_	1	case	_	_
 3	Dallas'tan	dallas	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Houston'a	houston	PROPN	_	Case=Dat|Number=Sing	0	root	_	_
@@ -3888,15 +3888,15 @@
 # text = Charlotte'den Minneapolis'e öğleden sonra saat 3 civarında bir uçuş var mı
 1	Charlotte'den	charlotte	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Minneapolis'e	minneapolis	PROPN	_	Case=Dat|Number=Sing	10	obl	_	_
-3	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	6	nmod	_	_
+3	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	6	nmod:tmod	_	_
 4	sonra	sonra	ADP	_	_	3	case	_	_
 5	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	3	3	NUM	_	NumType=Card	7	nummod	_	_
-7	civarında	civar	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
+6	3	3	NUM	_	NumType=Card	9	nmod:tmod	_	_
+7	civarında	civar	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	case	_	_
 8	bir	bir	DET	_	Definite=Ind|PronType=Art	9	det	_	_
 9	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 10	var	var	ADJ	_	_	0	root	_	_
-11	mı	mi	AUX	_	PronType=Int	10	aux	_	_
+11	mı	mi	AUX	_	PronType=Int	10	aux:q	_	_
 
 # sent_id = 0328.test
 # text = Pittsburgh'tan San Francisco'ya öğlen saat 12'den sonra Pittsburgh'tan kalkan uçuşların bilgilerini görmek istiyorum
@@ -3905,25 +3905,25 @@
 3	Francisco'ya	francisco	PROPN	_	Case=Dat|Number=Sing	2	flat	_	_
 4	öğlen	öğlen	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 5	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	12'den	12	NOUN	_	Case=Abl|Number=Sing|Person=3	10	nmod	_	_
+6	12'den	12	NOUN	_	Case=Abl|Number=Sing|Person=3	10	nmod:tmod	_	_
 7	sonra	sonra	ADP	_	_	6	case	_	_
 8	Pittsburgh'tan	pittsburgh	PROPN	_	Case=Abl|Number=Sing	9	obl	_	_
 9	kalkan	kalk	ADJ	_	_	10	acl	_	_
-10	uçuşların	uç	NOUN	_	Case=Gen|Number=Plur|Person=3	11	nmod	_	_
+10	uçuşların	uç	NOUN	_	Case=Gen|Number=Plur|Person=3	11	nmod:poss	_	_
 11	bilgilerini	bilgi	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3	12	obj	_	_
 12	görmek	gör	NOUN	_	Case=Nom|Number=Sing|Person=3	13	xcomp	_	_
 13	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0329.test
 # text = Perşembe sabah 10'dan önce Boston'dan Baltimore'ye tüm uçuşların listesi
-1	Perşembe	perşembe	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
+1	Perşembe	perşembe	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	10'dan	10	NOUN	_	Case=Abl|Number=Sing|Person=3	8	nmod	_	_
+3	10'dan	10	NOUN	_	Case=Abl|Number=Sing|Person=3	8	nmod:tmod	_	_
 4	önce	önce	ADP	_	_	3	case	_	_
 5	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	6	nmod	_	_
 6	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	8	nmod	_	_
 7	tüm	tüm	DET	_	PronType=Art	8	det	_	_
-8	uçuşların	uç	NOUN	_	Case=Gen|Number=Plur|Person=3	9	nmod	_	_
+8	uçuşların	uç	NOUN	_	Case=Gen|Number=Plur|Person=3	9	nmod:poss	_	_
 9	listesi	liste	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 
 # sent_id = 0330.test
@@ -3936,8 +3936,8 @@
 6	Toronto'ya	toronto	PROPN	_	Case=Dat|Number=Sing	13	nmod	_	_
 7	öğlen	öğlen	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 8	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
-9	1	1	NUM	_	NumType=Card	10	nummod	_	_
-10	civarında	civar	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	acl	_	_
+9	1	1	NUM	_	NumType=Card	11	obl:tmod	_	_
+10	civarında	civar	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	case	_	_
 11	kalkan	kalk	ADJ	_	_	13	acl	_	_
 12	bir	bir	DET	_	Definite=Ind|PronType=Art	13	det	_	_
 13	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	14	obj	_	_
@@ -3948,7 +3948,7 @@
 1	Atlanta'dan	atlanta	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Washington'a	washington	PROPN	_	Case=Dat|Number=Sing	8	nmod	_	_
 3	öğlen	öğlen	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	3'ten	3	NOUN	_	Case=Abl|Number=Sing|Person=3	6	obl	_	_
+4	3'ten	3	NOUN	_	Case=Abl|Number=Sing|Person=3	6	obl:tmod	_	_
 5	sonra	sonra	ADP	_	_	4	case	_	_
 6	kalkan	kalk	ADJ	_	_	8	acl	_	_
 7	bir	bir	DET	_	Definite=Ind|PronType=Art	8	det	_	_
@@ -3958,10 +3958,10 @@
 # sent_id = 0332.test
 # text = Çarşamba günü akşam saat 6'dan sonra Boston'dan Atlanta'ya giden tüm uçuşları listele
 1	Çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:tmod	_	_
 3	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 4	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-5	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	11	nmod	_	_
+5	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	11	nmod:tmod	_	_
 6	sonra	sonra	ADP	_	_	5	case	_	_
 7	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	8	nmod	_	_
 8	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	9	obl	_	_
@@ -3975,9 +3975,9 @@
 1	Cleveland'dan	cleveland	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Milwaukee'ye	milwaukee	PROPN	_	Case=Dat|Number=Sing	10	nmod	_	_
 3	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
-4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
+4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:tmod	_	_
 5	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl	_	_
+6	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl:tmod	_	_
 7	sonra	sonra	ADP	_	_	6	case	_	_
 8	kalkan	kalk	ADJ	_	_	10	acl	_	_
 9	bir	bir	DET	_	Definite=Ind|PronType=Art	10	det	_	_
@@ -3993,7 +3993,7 @@
 1	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 3	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	10'dan	10	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl	_	_
+4	10'dan	10	NOUN	_	Case=Abl|Number=Sing|Person=3	7	nmod:tmod	_	_
 5	önce	önce	ADP	_	_	4	case	_	_
 6	hangi	hangi	ADJ	_	_	7	amod	_	_
 7	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
@@ -4002,9 +4002,9 @@
 # sent_id = 0335.test
 # text = Çarşamba günü saat 6'dan sonra Boston'dan Atlanta'ya tüm uçuşları listele
 1	Çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:tmod	_	_
 3	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	9	nmod	_	_
+4	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	9	nmod:tmod	_	_
 5	sonra	sonra	ADP	_	_	4	case	_	_
 6	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	7	nmod	_	_
 7	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	9	nmod	_	_
@@ -4017,7 +4017,7 @@
 1	Pittsburgh'tan	pittsburgh	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Philadelphia'ya	philadelphia	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 3	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	9'dan	9	NOUN	_	Case=Abl|Number=Sing|Person=3	6	obl	_	_
+4	9'dan	9	NOUN	_	Case=Abl|Number=Sing|Person=3	6	obl:tmod	_	_
 5	önce	önce	ADP	_	_	4	case	_	_
 6	kalkan	kalk	ADJ	_	_	7	acl	_	_
 7	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
@@ -4026,9 +4026,9 @@
 # sent_id = 0337.test
 # text = Perşembe sabah saat 7'den önce Boston'dan Atlanta'ya giden tüm uçuşları listele
 1	Perşembe	perşembe	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod:tmod	_	_
 3	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	7'den	7	NOUN	_	Case=Abl|Number=Sing|Person=3	10	nmod	_	_
+4	7'den	7	NOUN	_	Case=Abl|Number=Sing|Person=3	10	nmod:tmod	_	_
 5	önce	önce	ADP	_	_	4	case	_	_
 6	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	7	nmod	_	_
 7	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	8	obl	_	_
@@ -4042,9 +4042,9 @@
 1	Cleveland'dan	cleveland	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Milwaukee'ye	milwaukee	PROPN	_	Case=Dat|Number=Sing	10	nmod	_	_
 3	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
-4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
+4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:tmod	_	_
 5	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	5'ten	5	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl	_	_
+6	5'ten	5	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl:tmod	_	_
 7	sonra	sonra	ADP	_	_	6	case	_	_
 8	kalkan	kalk	ADJ	_	_	10	acl	_	_
 9	bir	bir	DET	_	Definite=Ind|PronType=Art	10	det	_	_
@@ -4058,8 +4058,8 @@
 # sent_id = 0339.test
 # text = cumartesi akşam 6'dan önce bana Cincinnati'den New York'a başka bir uçak bulabilir misin
 1	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	11	nmod	_	_
+2	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod:tmod	_	_
+3	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	11	nmod:tmod	_	_
 4	önce	önce	ADP	_	_	3	case	_	_
 5	bana	ben	PRON	_	PronType=Prs	12	obl	_	_
 6	Cincinnati'den	cincinnati	PROPN	_	Case=Abl|Number=Sing	7	nmod	_	_
@@ -4069,14 +4069,14 @@
 10	bir	bir	DET	_	Definite=Ind|PronType=Art	11	det	_	_
 11	uçak	uçak	NOUN	_	Case=Nom|Number=Sing|Person=3	12	obj	_	_
 12	bulabilir	bul	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	misin	mi	AUX	_	PronType=Int	12	aux	_	_
+13	misin	mi	AUX	_	PronType=Int	12	aux:q	_	_
 
 # sent_id = 0340.test
 # text = Cuma sabahı saat 10'dan sonra San Francisco'dan Pittsburgh'a bir uçuş istiyorum
 1	Cuma	cuma	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
+2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:tmod	_	_
 3	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	10'dan	10	NOUN	_	Case=Abl|Number=Sing|Person=3	10	nmod	_	_
+4	10'dan	10	NOUN	_	Case=Abl|Number=Sing|Person=3	10	nmod:tmod	_	_
 5	sonra	sonra	ADP	_	_	4	case	_	_
 6	San	san	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
 7	Francisco'dan	francisco	PROPN	_	Case=Abl|Number=Sing	6	flat	_	_
@@ -4088,9 +4088,9 @@
 # sent_id = 0341.test
 # text = Perşembe sabah saat 5'ten önce Boston'dan Atlanta'ya giden tüm uçuşları listele
 1	Perşembe	perşembe	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod:tmod	_	_
 3	saat	saat	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	5'ten	5	NOUN	_	Case=Abl|Number=Sing|Person=3	10	nmod	_	_
+4	5'ten	5	NOUN	_	Case=Abl|Number=Sing|Person=3	10	nmod:tmod	_	_
 5	önce	önce	ADP	_	_	4	case	_	_
 6	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	7	nmod	_	_
 7	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	8	obl	_	_
@@ -4231,7 +4231,7 @@
 # sent_id = 0356.test
 # text = Cuma günü San Francisco'dan Washington'a giden son uçuş nedir
 1	Cuma	cuma	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod:tmod	_	_
 3	San	san	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	Francisco'dan	francisco	PROPN	_	Case=Abl|Number=Sing	3	flat	_	_
 5	Washington'a	washington	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
@@ -4388,7 +4388,7 @@
 # text = on beş Temmuz'da Denver'den Pittsburgh'a bir uçuş rezervasyonu yapmak istiyorum en ucuz uçuş olmasını istiyorum
 1	on	on	NUM	_	NumType=Card	3	nummod	_	_
 2	beş	beş	NUM	_	NumType=Card	1	compound	_	_
-3	Temmuz'da	temmuz	PROPN	_	Case=Loc|Number=Sing	8	nmod	_	_
+3	Temmuz'da	temmuz	PROPN	_	Case=Loc|Number=Sing	8	nmod:tmod	_	_
 4	Denver'den	denver	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 5	Pittsburgh'a	pittsburgh	PROPN	_	Case=Dat|Number=Sing	8	nmod	_	_
 6	bir	bir	DET	_	Definite=Ind|PronType=Art	8	det	_	_
@@ -4398,7 +4398,7 @@
 10	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	en	en	ADV	_	Degree=Sup	12	advmod	_	_
 12	ucuz	ucuz	ADJ	_	_	13	amod	_	_
-13	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	14	obj	_	_
+13	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	14	csubj	_	_
 14	olmasını	ol	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	ccomp	_	_
 15	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
 
@@ -4426,7 +4426,7 @@
 9	dönüş	dön	NOUN	_	Case=Nom|Number=Sing|Person=3	8	compound	_	_
 10	uçuşlarını	uç	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=2	11	obj	_	_
 11	gösterebilir	göster	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	misin	mi	AUX	_	PronType=Int	11	aux	_	_
+12	misin	mi	AUX	_	PronType=Int	11	aux:q	_	_
 
 # sent_id = 0372.test
 # text = Denver'den Atlanta'ya en düşük gidiş dönüş ücreti nedir
@@ -4546,7 +4546,7 @@
 6	Dallas'a	dallas	PROPN	_	Case=Dat|Number=Sing	7	obl	_	_
 7	gidiyor	git	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	ve	ve	CCONJ	_	_	11	cc	_	_
-9	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	11	obl	_	_
+9	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	11	obl:tmod	_	_
 10	önce	önce	ADP	_	_	9	case	_	_
 11	kalkıyor	kalk	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	conj	_	_
 
@@ -4557,22 +4557,22 @@
 3	uçağa	uçak	NOUN	_	Case=Dat|Number=Sing|Person=3	4	obl	_	_
 4	ihtiyacım	ihtiyaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	0	root	_	_
 5	var	var	ADJ	_	_	4	compound	_	_
-6	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl	_	_
+6	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl:tmod	_	_
 7	önce	önce	ADP	_	_	6	case	_	_
 8	ayrılacak	ayrıl	ADJ	_	_	12	acl	_	_
 9	çok	çok	ADV	_	_	10	advmod	_	_
 10	fazla	fazla	ADJ	_	_	11	amod	_	_
 11	bilgi	bilgi	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nsubj	_	_
 12	var	var	ADJ	_	_	14	ccomp	_	_
-13	mı	mi	AUX	_	PronType=Int	12	aux	_	_
+13	mı	mi	AUX	_	PronType=Int	12	aux:q	_	_
 14	bak	bak	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
 
 # sent_id = 0384.test
 # text = 2134'ten sonra pazar günü Denver'den Continental'la kalkan tüm uçuşları listeleyin
-1	2134'ten	2134	NOUN	_	Case=Abl|Number=Sing|Person=3	9	nmod	_	_
+1	2134'ten	2134	NOUN	_	Case=Abl|Number=Sing|Person=3	4	nmod:tmod	_	_
 2	sonra	sonra	ADP	_	_	1	case	_	_
 3	pazar	pazar	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
+4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:tmod	_	_
 5	Denver'den	denver	PROPN	_	Case=Abl|Number=Sing	9	nmod	_	_
 6	Continental'la	continental	PROPN	_	Case=Ins|Number=Sing	7	obl	_	_
 7	kalkan	kalk	ADJ	_	_	9	acl	_	_
@@ -4585,7 +4585,7 @@
 1	San	san	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	Francisco'dan	francisco	PROPN	_	Case=Abl|Number=Sing	1	flat	_	_
 3	Boston'a	boston	PROPN	_	Case=Dat|Number=Sing	8	nmod	_	_
-4	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	6	obl	_	_
+4	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	6	obl:tmod	_	_
 5	önce	önce	ADP	_	_	4	case	_	_
 6	kalkan	kalk	ADJ	_	_	8	acl	_	_
 7	tüm	tüm	DET	_	PronType=Art	8	det	_	_
@@ -4594,7 +4594,7 @@
 # sent_id = 0386.test
 # text = akşam 6'dan sonra Cincinnati'den San Jose'ye bir uçağa ihtiyacım var
 1	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	8	nmod	_	_
+2	6'dan	6	NOUN	_	Case=Abl|Number=Sing|Person=3	8	nmod:tmod	_	_
 3	sonra	sonra	ADP	_	_	2	case	_	_
 4	Cincinnati'den	cincinnati	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 5	San	san	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
@@ -4686,7 +4686,7 @@
 1	Baltimore'den	baltimore	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Boston'a	boston	PROPN	_	Case=Dat|Number=Sing	8	obl	_	_
 3	yedi	yedi	NUM	_	NumType=Card	4	nummod	_	_
-4	Kasım'da	kasım	PROPN	_	Case=Loc|Number=Sing	8	nmod	_	_
+4	Kasım'da	kasım	PROPN	_	Case=Loc|Number=Sing	8	nmod:tmod	_	_
 5	tek	tek	ADJ	_	_	7	advmod	_	_
 6	yön	yön	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound	_	_
 7	giden	git	ADJ	_	_	8	acl	_	_
@@ -4711,7 +4711,7 @@
 1	Baltimore'den	baltimore	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 3	yedi	yedi	NUM	_	NumType=Card	4	nummod	_	_
-4	Kasım'da	kasım	PROPN	_	Case=Loc|Number=Sing	7	nmod	_	_
+4	Kasım'da	kasım	PROPN	_	Case=Loc|Number=Sing	7	nmod:tmod	_	_
 5	tek	tek	ADJ	_	_	7	amod	_	_
 6	yön	yön	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound	_	_
 7	ücret	ücret	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
@@ -4736,12 +4736,12 @@
 4	819	819	NUM	_	NumType=Card	5	nummod	_	_
 5	uçuşunuz	uç	VERB	_	Mood=Gen|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Conv	6	nsubj	_	_
 6	var	var	ADJ	_	_	0	root	_	_
-7	mı	mi	AUX	_	PronType=Int	6	aux	_	_
+7	mı	mi	AUX	_	PronType=Int	6	aux:q	_	_
 
 # sent_id = 0399.test
 # text = Dört Haziran'da Chicago'dan Seattle'ye bir uçuş rezervasyonu yapmak istiyorum
 1	Dört	dört	NUM	_	NumType=Card	2	nummod	_	_
-2	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	7	nmod	_	_
+2	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	7	nmod:tmod	_	_
 3	Chicago'dan	chicago	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Seattle'ye	seattle	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	7	det	_	_
@@ -4756,21 +4756,21 @@
 2	Beach'tan	Beach'ten	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
 3	Columbus'a	columbus	PROPN	_	Case=Dat|Number=Sing	8	nmod	_	_
 4	altı	altı	NUM	_	NumType=Card	5	nummod	_	_
-5	Nisan	nisan	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
+5	Nisan	nisan	PROPN	_	Case=Nom|Number=Sing	7	nmod:tmod	_	_
 6	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
-7	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
+7	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod:tmod	_	_
 8	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
 9	var	var	ADJ	_	_	0	root	_	_
-10	mı	mi	AUX	_	PronType=Int	9	aux	_	_
+10	mı	mi	AUX	_	PronType=Int	9	aux:q	_	_
 
 # sent_id = 0401.test
 # text = Boston'dan Atlanta'ya öğleden sonra altı Ağustos'ta kalkan uçuşlar istiyorum
 1	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	8	nmod	_	_
-3	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	8	nmod	_	_
+3	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	8	nmod:tmod	_	_
 4	sonra	sonra	ADP	_	_	3	case	_	_
 5	altı	altı	NUM	_	NumType=Card	6	nummod	_	_
-6	Ağustos'ta	ağustos	PROPN	_	Case=Loc|Number=Sing	7	obl	_	_
+6	Ağustos'ta	ağustos	PROPN	_	Case=Loc|Number=Sing	7	obl:tmod	_	_
 7	kalkan	kalk	ADJ	_	_	8	acl	_	_
 8	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	9	obj	_	_
 9	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4779,9 +4779,9 @@
 # text = on bir Haziran cuma günü St. Petersburg'dan Milwaukee'ye ve ardından Milwaukee'den Tacoma'ya hangi uçuşların olduğunu öğrenmek istiyorum teşekkür ederim
 1	on	on	NUM	_	NumType=Card	3	nummod	_	_
 2	bir	bir	DET	_	Definite=Ind|PronType=Art	1	compound	_	_
-3	Haziran	haziran	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
+3	Haziran	haziran	PROPN	_	Case=Nom|Number=Sing	5	nmod:tmod	_	_
 4	cuma	cuma	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	nmod	_	_
+5	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	nmod:tmod	_	_
 6	St.	St.	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
 7	Petersburg'dan	petersburg	PROPN	_	Case=Abl|Number=Sing	6	flat	_	_
 8	Milwaukee'ye	milwaukee	PROPN	_	Case=Dat|Number=Sing	14	nmod	_	_
@@ -4800,7 +4800,7 @@
 # sent_id = 0403.test
 # text = beş Haziran'da Chicago'dan Dallas'a Continental'la bir uçuşa ihtiyacım var
 1	beş	beş	NUM	_	NumType=Card	2	nummod	_	_
-2	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	7	nmod	_	_
+2	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	7	nmod:tmod	_	_
 3	Chicago'dan	chicago	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Dallas'a	dallas	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 5	Continental'la	continental	PROPN	_	Case=Ins|Number=Sing	7	nmod	_	_
@@ -4812,11 +4812,11 @@
 # sent_id = 0404.test
 # text = dokuz Temmuz'da Orlando'dan Kansas şehrine öğleden sonra bir uçuş istiyorum
 1	dokuz	dokuz	NUM	_	NumType=Card	2	nummod	_	_
-2	Temmuz'da	temmuz	PROPN	_	Case=Loc|Number=Sing	9	nmod	_	_
+2	Temmuz'da	temmuz	PROPN	_	Case=Loc|Number=Sing	9	nmod:tmod	_	_
 3	Orlando'dan	orlando	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 4	Kansas	kansas	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 5	şehrine	şehir	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
-6	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	9	nmod	_	_
+6	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	9	nmod:tmod	_	_
 7	sonra	sonra	ADP	_	_	6	case	_	_
 8	bir	bir	DET	_	Definite=Ind|PronType=Art	9	det	_	_
 9	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	10	obj	_	_
@@ -4825,7 +4825,7 @@
 # sent_id = 0405.test
 # text = bir Ocak'ta Baltimore'ye bir gezi ayarlamak istiyorum
 1	bir	bir	NUM	_	NumType=Card	2	nummod	_	_
-2	Ocak'ta	ocak	PROPN	_	Case=Loc|Number=Sing	5	nmod	_	_
+2	Ocak'ta	ocak	PROPN	_	Case=Loc|Number=Sing	5	nmod:tmod	_	_
 3	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	5	nmod	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
 5	gezi	gezi	NOUN	_	Case=Nom|Number=Sing|Person=3	6	obj	_	_
@@ -4839,7 +4839,7 @@
 3	sonra	sonra	ADV	_	_	8	advmod	_	_
 4	Pittsburgh'tan	pittsburgh	PROPN	_	Case=Abl|Number=Sing	7	nmod	_	_
 5	dört	dört	NUM	_	NumType=Card	6	nummod	_	_
-6	Eylül'de	eylül	PROPN	_	Case=Loc|Number=Sing	8	obl	_	_
+6	Eylül'de	eylül	PROPN	_	Case=Loc|Number=Sing	8	obl:tmod	_	_
 7	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	8	obl	_	_
 8	gitmek	git	NOUN	_	Case=Nom|Number=Sing|Person=3	9	xcomp	_	_
 9	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4847,7 +4847,7 @@
 # sent_id = 0407.test
 # text = 7 Haziran'da Westchester ilçesinden Denver'e uçuşları listeleyin
 1	7	7	NUM	_	NumType=Card	2	nummod	_	_
-2	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	6	nmod	_	_
+2	Haziran'da	haziran	PROPN	_	Case=Loc|Number=Sing	6	nmod:tmod	_	_
 3	Westchester	Westchester	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	ilçesinden	ilçe	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
 5	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
@@ -4858,13 +4858,13 @@
 # text = Atlanta 2 Ağustos uçuşları
 1	Atlanta	atlanta	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
 2	2	2	NUM	_	NumType=Card	3	nummod	_	_
-3	Ağustos	ağustos	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+3	Ağustos	ağustos	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod:tmod	_	_
 4	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 
 # sent_id = 0409.test
 # text = on Ağustos'ta Pittsburgh ve Baltimore arasındaki uçuşlar nelerdir
 1	on	on	NUM	_	NumType=Card	2	nummod	_	_
-2	Ağustos'ta	ağustos	PROPN	_	Case=Loc|Number=Sing	7	nmod	_	_
+2	Ağustos'ta	ağustos	PROPN	_	Case=Loc|Number=Sing	7	nmod:tmod	_	_
 3	Pittsburgh	pittsburgh	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 4	ve	ve	CCONJ	_	_	5	cc	_	_
 5	Baltimore	baltimore	PROPN	_	Case=Nom|Number=Sing	3	conj	_	_
@@ -4875,7 +4875,7 @@
 # sent_id = 0410.test
 # text = 1 Nisan'da Phoenix'den San Diego'ya giden bir uçağa ihtiyacım var
 1	1	1	NUM	_	NumType=Card	2	nummod	_	_
-2	Nisan'da	nisan	PROPN	_	Case=Loc|Number=Sing	8	nmod	_	_
+2	Nisan'da	nisan	PROPN	_	Case=Loc|Number=Sing	8	nmod:tmod	_	_
 3	Phoenix'den	phoenix	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	San	san	PROPN	_	Case=Nom|Number=Sing	6	obl	_	_
 5	Diego'ya	diego	PROPN	_	Case=Dat|Number=Sing	4	flat	_	_
@@ -4889,20 +4889,20 @@
 # text = bana üç Ağustos için Denver'den Baltimore'ye United ile uçuşların listesini göster
 1	bana	ben	PRON	_	PronType=Prs	11	obl	_	_
 2	üç	üç	NUM	_	NumType=Card	3	nummod	_	_
-3	Ağustos	ağustos	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
+3	Ağustos	ağustos	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod:tmod	_	_
 4	için	için	ADP	_	_	3	case	_	_
 5	Denver'den	denver	PROPN	_	Case=Abl|Number=Sing	6	nmod	_	_
 6	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	9	nmod	_	_
 7	United	united	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 8	ile	ile	ADP	_	_	7	case	_	_
-9	uçuşların	uç	NOUN	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	_
+9	uçuşların	uç	NOUN	_	Case=Gen|Number=Plur|Person=3	10	nmod:poss	_	_
 10	listesini	liste	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obj	_	_
 11	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0412.test
 # text = ayın 20'sinde San Jose'den Nashville'ye uçuşlar nelerdir
-1	ayın	ay	NOUN	_	Case=Gen|Number=Sing|Person=3	2	nmod	_	_
-2	20'sinde	20	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
+1	ayın	ay	NOUN	_	Case=Gen|Number=Sing|Person=3	2	nmod:poss	_	_
+2	20'sinde	20	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:tmod	_	_
 3	San	san	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	Jose'den	jose	PROPN	_	Case=Abl|Number=Sing	3	flat	_	_
 5	Nashville'ye	nashville	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
@@ -4924,7 +4924,7 @@
 2	ile	ile	ADP	_	_	1	case	_	_
 3	Dallas'tan	dallas	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	5	nmod	_	_
-5	uçmanın	uç	NOUN	_	Case=Gen|Number=Sing|Person=3	6	nmod	_	_
+5	uçmanın	uç	NOUN	_	Case=Gen|Number=Sing|Person=3	6	nmod:poss	_	_
 6	maliyeti	maliyet	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
 7	nedir	ne	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -4932,8 +4932,8 @@
 # text = Charlotte Newark uçuşlarının salı ve çarşamba ücretleri nedir
 1	Charlotte	charlotte	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	Newark	newark	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
-3	uçuşlarının	uç	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
-4	salı	salı	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+3	uçuşlarının	uç	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:poss	_	_
+4	salı	salı	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod:tmod	_	_
 5	ve	ve	CCONJ	_	_	6	cc	_	_
 6	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	4	conj	_	_
 7	ücretleri	ücret	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
@@ -4967,7 +4967,7 @@
 3	ile	ile	ADP	_	_	1	flat	_	_
 4	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 5	Oakland'a	oakland	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
-6	uçmanın	uç	NOUN	_	Case=Gen|Number=Sing|Person=3	7	nmod	_	_
+6	uçmanın	uç	NOUN	_	Case=Gen|Number=Sing|Person=3	7	nmod:poss	_	_
 7	maliyeti	maliyet	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
 8	nedir	ne	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -4976,9 +4976,9 @@
 1	Washington'dan	washington	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Montreal'a	montreal	PROPN	_	Case=Dat|Number=Sing	5	nmod	_	_
 3	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
+4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:tmod	_	_
 5	fiyatı	fiyat	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
-6	al	al	ADJ	_	_	0	root	_	_
+6	al	al	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0420.test
 # text = Atlanta'dan Baltimore'ye olan ücreti ver
@@ -4991,7 +4991,7 @@
 # sent_id = 0421.test
 # text = cumartesi günü Chicago'dan Seattle'ye Continental havayolları
 1	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:tmod	_	_
 3	Chicago'dan	chicago	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Seattle'ye	seattle	PROPN	_	Case=Dat|Number=Sing	5	nmod	_	_
 5	Continental	continental	PROPN	_	Case=Nom|Number=Sing	0	root	_	_
@@ -5006,7 +5006,7 @@
 5	Washington	washington	PROPN	_	Case=Nom|Number=Sing	3	conj	_	_
 6	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
 7	uçuyor	uç	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	mu	mi	AUX	_	PronType=Int	7	aux	_	_
+8	mu	mi	AUX	_	PronType=Int	7	aux:q	_	_
 
 # sent_id = 0423.test
 # text = United havayolları ile Denver - San Francisco uçuşu hakkında bilgi almak istiyorum
@@ -5075,7 +5075,7 @@
 # sent_id = 0429.test
 # text = cumartesi sabahı ABD hava yoluyla New York'tan Los Angeles'e bir uçuş istiyorum
 1	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	_
+2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod:tmod	_	_
 3	ABD	abd	PROPN	_	Case=Nom|Number=Sing	11	nmod	_	_
 4	hava	hava	NOUN	_	Case=Nom|Number=Sing|Person=3	3	flat	_	_
 5	yoluyla	yoluyla	ADV	_	_	3	flat	_	_
@@ -5090,7 +5090,7 @@
 # sent_id = 0430.test
 # text = bana güneybatı havayollarının San Diego'dan San Francisco'ya uçuşlarını göster
 1	bana	ben	PRON	_	PronType=Prs	9	obl	_	_
-2	güneybatı	güneybatı	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
+2	güneybatı	güneybatı	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
 3	havayollarının	havayol	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	2	flat	_	_
 4	San	san	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 5	Diego'dan	diego	PROPN	_	Case=Abl|Number=Sing	4	flat	_	_
@@ -5101,7 +5101,7 @@
 
 # sent_id = 0431.test
 # text = Amerikan havayollarının Boston'dan Dallas'a hangi uçuşları var
-1	Amerikan	amerikan	ADJ	_	_	6	nmod	_	_
+1	Amerikan	amerikan	ADJ	_	_	6	nmod:poss	_	_
 2	havayollarının	havayol	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	1	flat	_	_
 3	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Dallas'a	dallas	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
@@ -5112,7 +5112,7 @@
 # sent_id = 0432.test
 # text = cumartesi günü Continental havayolları ile Chicago'dan Seattle'ye hangi uçuşlar gidiyor
 1	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:tmod	_	_
 3	Continental	continental	PROPN	_	Case=Nom|Number=Sing	10	obl	_	_
 4	havayolları	havayol	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	flat	_	_
 5	ile	ile	ADP	_	_	3	case	_	_
@@ -5138,7 +5138,7 @@
 1	Continental	continental	PROPN	_	Case=Nom|Number=Sing	9	obl	_	_
 2	havayollarıyla	havayol	NOUN	_	Case=Ins|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	1	flat	_	_
 3	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
+4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod:tmod	_	_
 5	Chicago'dan	chicago	PROPN	_	Case=Abl|Number=Sing	6	nmod	_	_
 6	Seattle'ye	seattle	PROPN	_	Case=Dat|Number=Sing	9	obl	_	_
 7	hangi	hangi	ADJ	_	_	8	amod	_	_
@@ -5190,7 +5190,7 @@
 # sent_id = 0439.test
 # text = çarşamba öğleden sonra Denver - San Francisco arasında hangi uçuşlar var
 1	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	10	nmod	_	_
+2	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	10	nmod:tmod	_	_
 3	sonra	sonra	ADP	_	_	2	case	_	_
 4	Denver	denver	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 5	-	-	PUNCT	_	_	4	punct	_	_
@@ -5212,7 +5212,7 @@
 # sent_id = 0441.test
 # text = cumartesi sabahı Chicago'dan Denver'e Continental üzerinden uçuşlar
 1	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:tmod	_	_
 3	Chicago'dan	chicago	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 5	Continental	continental	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
@@ -5222,7 +5222,7 @@
 # sent_id = 0442.test
 # text = Cuma öğleden sonra San Jose'den Dallas'a hangi uçuşlar var
 1	Cuma	cuma	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	8	nmod	_	_
+2	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	8	nmod:tmod	_	_
 3	sonra	sonra	ADP	_	_	2	case	_	_
 4	San	san	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 5	Jose'den	jose	PROPN	_	Case=Abl|Number=Sing	4	flat	_	_
@@ -5237,7 +5237,7 @@
 2	-	-	PUNCT	_	_	1	punct	_	_
 3	Charlotte	charlotte	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 4	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
-5	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
+5	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:tmod	_	_
 6	uçuş	uç	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
 7	ve	ve	CCONJ	_	_	8	cc	_	_
 8	fiyatları	fiyat	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	conj	_	_
@@ -5246,7 +5246,7 @@
 # sent_id = 0444.test
 # text = cuma akşamı Newark'tan Los Angeles'e bir uçuş istiyorum
 1	cuma	cuma	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	akşamı	akşam	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+2	akşamı	akşam	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:tmod	_	_
 3	Newark'tan	newark	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Los	los	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
 5	Angeles'e	angeles	PROPN	_	Case=Dat|Number=Sing	4	flat	_	_
@@ -5266,7 +5266,7 @@
 # sent_id = 0446.test
 # text = bana sabah Philadelphia'dan Baltimore'ye olan uçuşları göster
 1	bana	ben	PRON	_	PronType=Prs	7	obl	_	_
-2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod:tmod	_	_
 3	Philadelphia'dan	philadelphia	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Baltimore'ye	baltimore	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
 5	olan	ol	ADJ	_	_	6	acl	_	_
@@ -5275,7 +5275,7 @@
 
 # sent_id = 0447.test
 # text = sabah Chicago'dan Denver'e hangi uçuşlar var
-1	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+1	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod:tmod	_	_
 2	Chicago'dan	chicago	PROPN	_	Case=Abl|Number=Sing	3	nmod	_	_
 3	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	5	nmod	_	_
 4	hangi	hangi	ADJ	_	_	5	amod	_	_
@@ -5289,7 +5289,7 @@
 3	San	san	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
 4	Diego'ya	diego	PROPN	_	Case=Dat|Number=Sing	3	flat	_	_
 5	salı	salı	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	akşamı	akşam	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
+6	akşamı	akşam	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl:tmod	_	_
 7	ayrılan	ayır	ADJ	_	_	9	acl	_	_
 8	bir	bir	DET	_	Definite=Ind|PronType=Art	9	det	_	_
 9	uçağa	uçak	NOUN	_	Case=Dat|Number=Sing|Person=3	10	obl	_	_
@@ -5301,7 +5301,7 @@
 1	Dallas'tan	dallas	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	5	nmod	_	_
 3	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
-4	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
+4	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:tmod	_	_
 5	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
 6	nasıl	nasıl	ADV	_	PronType=Int	0	root	_	_
 
@@ -5316,7 +5316,7 @@
 
 # sent_id = 0451.test
 # text = akşam Pittsburgh'tan Atlanta'ya hangi uçuşlar kalkıyor
-1	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+1	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod:tmod	_	_
 2	Pittsburgh'tan	pittsburgh	PROPN	_	Case=Abl|Number=Sing	3	nmod	_	_
 3	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	5	nmod	_	_
 4	hangi	hangi	ADJ	_	_	5	amod	_	_
@@ -5325,7 +5325,7 @@
 
 # sent_id = 0452.test
 # text = öğleden sonra Toronto'dan Atlanta'ya
-1	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	4	nmod	_	_
+1	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	4	nmod:tmod	_	_
 2	sonra	sonra	ADP	_	_	1	case	_	_
 3	Toronto'dan	toronto	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	0	root	_	_
@@ -5336,14 +5336,14 @@
 2	Oakland'a	oakland	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	uçmalı	uç	VERB	_	Mood=Nec|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ve	ve	CCONJ	_	_	7	cc	_	_
-5	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	7	obl	_	_
+5	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	7	obl:tmod	_	_
 6	sonra	sonra	ADP	_	_	5	case	_	_
 7	ayrılmalıyım	ayrılma	VERB	_	Mood=Gen|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
 
 # sent_id = 0454.test
 # text = pazartesi öğleden sonra Los Angeles'ten Pittsburgh'a uçağa ihtiyacım var
 1	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	7	nmod	_	_
+2	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	7	nmod:tmod	_	_
 3	sonra	sonra	ADP	_	_	2	case	_	_
 4	Los	los	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 5	Angeles'ten	angeles	PROPN	_	Case=Abl|Number=Sing	4	flat	_	_
@@ -5364,7 +5364,7 @@
 # sent_id = 0456.test
 # text = Pazar akşamı Atlanta'dan kalkan ve Baltimore'ye varan uçuşları bilmem gerekiyor
 1	Pazar	pazar	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	akşamı	akşam	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
+2	akşamı	akşam	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod:tmod	_	_
 3	Atlanta'dan	atlanta	PROPN	_	Case=Abl|Number=Sing	4	obl	_	_
 4	kalkan	kalk	ADJ	_	_	8	acl	_	_
 5	ve	ve	CCONJ	_	_	7	cc	_	_
@@ -5377,7 +5377,7 @@
 # sent_id = 0457.test
 # text = pazartesi sabahı Boston'dan Denver'e hangi uçuşlar var
 1	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
+2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:tmod	_	_
 3	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
 5	hangi	hangi	ADJ	_	_	6	amod	_	_
@@ -5397,7 +5397,7 @@
 # text = Atlanta'dan Dallas'a öğleden sonra uçuşlar
 1	Atlanta'dan	atlanta	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Dallas'a	dallas	PROPN	_	Case=Dat|Number=Sing	5	nmod	_	_
-3	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	5	nmod	_	_
+3	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	5	nmod:tmod	_	_
 4	sonra	sonra	ADP	_	_	3	case	_	_
 5	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	0	root	_	_
 
@@ -5406,14 +5406,14 @@
 1	Pittsburgh'tan	pittsburgh	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
 3	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
-4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
+4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:tmod	_	_
 5	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 
 # sent_id = 0461.test
 # text = pazartesi sabahı Dallas'tan Boston'a uçuşlar nelerdir
 1	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
+2	sabahı	sabah	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:tmod	_	_
 3	Dallas'tan	dallas	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Boston'a	boston	PROPN	_	Case=Dat|Number=Sing	5	nmod	_	_
 5	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
@@ -5437,7 +5437,7 @@
 # sent_id = 0464.test
 # text = cumartesi akşamı St. Louis - Burbank uçuşlarını göster
 1	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	akşamı	akşam	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+2	akşamı	akşam	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:tmod	_	_
 3	St.	St.	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 4	Louis	louis	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
 5	-	-	PUNCT	_	_	3	punct	_	_
@@ -5449,7 +5449,7 @@
 # text = Philadelphia'dan Pittsburgh'a öğleden sonra hangi uçuşlar var
 1	Philadelphia'dan	philadelphia	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Pittsburgh'a	pittsburgh	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
-3	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	6	nmod	_	_
+3	öğleden	öğle	NOUN	_	Case=Abl|Number=Sing|Person=3	6	nmod:tmod	_	_
 4	sonra	sonra	ADP	_	_	3	case	_	_
 5	hangi	hangi	ADJ	_	_	6	ccomp	_	_
 6	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
@@ -5460,7 +5460,7 @@
 1	Milwaukee'den	milwaukee	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Orlando'ya	orlando	PROPN	_	Case=Dat|Number=Sing	5	nmod	_	_
 3	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
-4	gecesi	gece	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
+4	gecesi	gece	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:tmod	_	_
 5	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
 6	nelerdir	ne	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -5477,7 +5477,7 @@
 # sent_id = 0468.test
 # text = perşembe günü San Francisco - Denver uçuşlarını göster
 1	perşembe	perşembe	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:tmod	_	_
 3	San	san	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 4	Francisco	francisco	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
 5	-	-	PUNCT	_	_	3	punct	_	_
@@ -5585,7 +5585,7 @@
 4	Toronto'ya	toronto	PROPN	_	Case=Dat|Number=Sing	5	nmod	_	_
 5	uçuşunuz	uç	VERB	_	Mood=Gen|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Conv	6	nsubj	_	_
 6	var	var	ADJ	_	_	0	root	_	_
-7	mı	mi	AUX	_	PronType=Int	6	aux	_	_
+7	mı	mi	AUX	_	PronType=Int	6	aux:q	_	_
 
 # sent_id = 0480.test
 # text = Delta'yla Fort Worth'a giriş ve çıkış yapan tüm uçuşlar nelerdir
@@ -5612,7 +5612,7 @@
 # sent_id = 0482.test
 # text = salı günü Dallas Fort Worth'dan Boston'a uçuş bilgisi istiyorum
 1	salı	salı	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod:tmod	_	_
 3	Dallas	dallas	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 4	Fort	fort	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
 5	Worth'dan	Worth	PROPN	_	Case=Abl|Number=Sing	4	flat	_	_
@@ -5624,7 +5624,7 @@
 # sent_id = 0483.test
 # text = cuma günü San Francisco ile Pittsburgh arasındaki tüm uçuşları göster
 1	cuma	cuma	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:tmod	_	_
 3	San	san	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
 4	Francisco	francisco	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
 5	ile	ile	CCONJ	_	_	6	cc	_	_
@@ -5642,7 +5642,7 @@
 
 # sent_id = 0485.test
 # text = pazar New York City'den Las Vegas'a uçuşlar
-1	pazar	pazar	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+1	pazar	pazar	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod:tmod	_	_
 2	New	new	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 3	York	york	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
 4	City'den	city	PROPN	_	Case=Abl|Number=Sing	3	flat	_	_
@@ -5672,7 +5672,7 @@
 # sent_id = 0488.test
 # text = Pazartesi günü Continental'la Denver'den ayrılan tüm uçuşları listeleyin
 1	Pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:tmod	_	_
 3	Continental'la	continental	PROPN	_	Case=Ins|Number=Sing	7	nmod	_	_
 4	Denver'den	denver	PROPN	_	Case=Abl|Number=Sing	5	obl	_	_
 5	ayrılan	ayır	ADJ	_	_	7	acl	_	_
@@ -5761,7 +5761,7 @@
 # text = lütfen pazar günleri çalışan Boston ile Philadelphia arasındaki tüm uçuşları listeleyin
 1	lütfen	lütfen	ADV	_	_	11	discourse	_	_
 2	pazar	pazar	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	günleri	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
+3	günleri	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl:tmod	_	_
 4	çalışan	çalış	ADJ	_	_	10	acl	_	_
 5	Boston	boston	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
 6	ile	ile	CCONJ	_	_	7	cc	_	_
@@ -5774,7 +5774,7 @@
 # sent_id = 0498.test
 # text = cuma günü Baltimore - San Francisco arasındaki tüm uçuşları listele
 1	cuma	cuma	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:tmod	_	_
 3	Baltimore	baltimore	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	-	-	PUNCT	_	_	3	punct	_	_
 5	San	san	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
@@ -5795,7 +5795,7 @@
 # sent_id = 0500.test
 # text = cuma günü Denver'den Atlanta'ya uçuşları göster
 1	cuma	cuma	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:tmod	_	_
 3	Denver'den	denver	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	5	nmod	_	_
 5	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
@@ -5804,7 +5804,7 @@
 # sent_id = 0501.test
 # text = cuma günü Oakland'dan Philadelphia'ya giden uçuşlar
 1	cuma	cuma	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:tmod	_	_
 3	Oakland'dan	oakland	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Philadelphia'ya	philadelphia	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
 5	giden	git	ADJ	_	_	6	acl	_	_
@@ -5819,7 +5819,7 @@
 
 # sent_id = 0503.test
 # text = pazar için Montreal'dan San Diego'ya bir uçuş istiyorum
-1	pazar	pazar	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+1	pazar	pazar	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod:tmod	_	_
 2	için	için	ADP	_	_	1	case	_	_
 3	Montreal'dan	montreal	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	San	san	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
@@ -5831,7 +5831,7 @@
 # sent_id = 0504.test
 # text = cuma günü Philadelphia'dan Oakland'a hangi uçuşlar var
 1	cuma	cuma	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:tmod	_	_
 3	Philadelphia'dan	philadelphia	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Oakland'a	oakland	PROPN	_	Case=Dat|Number=Sing	7	obl	_	_
 5	hangi	hangi	ADJ	_	_	6	amod	_	_
@@ -5840,7 +5840,7 @@
 
 # sent_id = 0505.test
 # text = pazartesi için Pittsburgh'tan San Francisco'ya mevcut uçuşları görmek istiyorum
-1	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
+1	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	7	nmod:tmod	_	_
 2	için	için	ADP	_	_	1	case	_	_
 3	Pittsburgh'tan	pittsburgh	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	San	san	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
@@ -5854,7 +5854,7 @@
 # text = bana pazar günü Tampa'dan Charlotte'ye olan uçuşları göster
 1	bana	ben	PRON	_	PronType=Prs	8	obl	_	_
 2	pazar	pazar	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+3	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:tmod	_	_
 4	Tampa'dan	tampa	PROPN	_	Case=Abl|Number=Sing	5	nmod	_	_
 5	Charlotte'ye	charlotte	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
 6	olan	ol	ADJ	_	_	7	acl	_	_
@@ -5864,7 +5864,7 @@
 # sent_id = 0507.test
 # text = cumartesi günü Denver - Philadelphia uçuşları nelerdir
 1	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:tmod	_	_
 3	Denver	denver	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	-	-	PUNCT	_	_	3	punct	_	_
 5	Philadelphia	philadelphia	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
@@ -5876,7 +5876,7 @@
 1	Denver'den	denver	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Philadelphia'ya	philadelphia	PROPN	_	Case=Dat|Number=Sing	7	obl	_	_
 3	çarşamba	çarşamba	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
-4	günleri	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
+4	günleri	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:tmod	_	_
 5	hangi	hangi	ADJ	_	_	6	amod	_	_
 6	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
 7	var	var	ADJ	_	_	0	root	_	_
@@ -5884,7 +5884,7 @@
 # sent_id = 0509.test
 # text = Cumartesi günü Boston'dan Washington'a gitmek istiyorum
 1	Cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl:tmod	_	_
 3	Boston'dan	boston	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Washington'a	washington	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
 5	gitmek	git	NOUN	_	Case=Nom|Number=Sing|Person=3	6	xcomp	_	_
@@ -5893,7 +5893,7 @@
 # sent_id = 0510.test
 # text = Pazartesi günü Burbank - St. Louis uçuşlarını göster
 1	Pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:tmod	_	_
 3	Burbank	Burbank	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	-	-	PUNCT	_	_	3	punct	_	_
 5	St.	St.	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
@@ -5906,7 +5906,7 @@
 1	lütfen	lütfen	ADV	_	_	8	discourse	_	_
 2	bana	ben	PRON	_	PronType=Prs	8	obl	_	_
 3	pazartesi	pazartesi	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
-4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:tmod	_	_
 5	Dallas'tan	dallas	PROPN	_	Case=Abl|Number=Sing	6	nmod	_	_
 6	Atlanta'ya	atlanta	PROPN	_	Case=Dat|Number=Sing	7	nmod	_	_
 7	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
@@ -5929,7 +5929,7 @@
 3	Fort	fort	PROPN	_	Case=Nom|Number=Sing	2	flat	_	_
 4	Worth'a	worth	PROPN	_	Case=Dat|Number=Sing	3	flat	_	_
 5	pazar	pazar	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	günleri	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+6	günleri	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:tmod	_	_
 7	uçuşların	uç	NOUN	_	Case=Gen|Number=Plur|Person=3	9	nmod	_	_
 8	bir	bir	DET	_	Definite=Ind|PronType=Art	9	det	_	_
 9	listesini	liste	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
@@ -5949,7 +5949,7 @@
 # sent_id = 0515.test
 # text = Pazar günü Nashville - Cleveland arası tüm uçuşları listele
 1	Pazar	pazar	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod:tmod	_	_
 3	Nashville	nashville	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	-	-	PUNCT	_	_	3	punct	_	_
 5	Cleveland	cleveland	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
@@ -5961,7 +5961,7 @@
 # sent_id = 0516.test
 # text = Pazar günü Tampa'dan Charlotte'ye bir uçuş ver
 1	Pazar	pazar	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:tmod	_	_
 3	Tampa'dan	tampa	PROPN	_	Case=Abl|Number=Sing	4	nmod	_	_
 4	Charlotte'ye	charlotte	PROPN	_	Case=Dat|Number=Sing	6	nmod	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
@@ -6129,7 +6129,7 @@
 14	havayollarının	havayol	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	15	csubj	_	_
 15	bağlandığını	bağla	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	ccomp	_	_
 16	söyleyebilir	söyle	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
-17	misiniz	mi	AUX	_	PronType=Int	16	aux	_	_
+17	misiniz	mi	AUX	_	PronType=Int	16	aux:q	_	_
 
 # sent_id = 0533.test
 # text = Detroit'ten Las Vegas'a uçuşları göster
@@ -6222,11 +6222,13 @@
 3	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	0	root	_	_
 
 # sent_id = 0545.test
-# text = Boston-Washington hakkında bilgi istiyorum
-1	Boston-Washington	Boston-Washington	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	hakkında	hakkında	ADV	_	_	3	advmod	_	_
-3	bilgi	bilgi	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obj	_	_
-4	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+# text = Boston - Washington hakkında bilgi istiyorum
+1	Boston	boston	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
+2	-	-	PUNCT	_	_	1	punct	_	_
+3	Washington	washington	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
+4	hakkında	hakkında	ADV	_	_	5	nmod	_	_
+5	bilgi	bilgi	NOUN	_	Case=Nom|Number=Sing|Person=3	6	obj	_	_
+6	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0546.test
 # text = Houston'dan Phoenix'e uçuşları listele
@@ -6248,7 +6250,7 @@
 2	ve	ve	CCONJ	_	_	3	cc	_	_
 3	Denver'e	denver	PROPN	_	Case=Dat|Number=Sing	1	conj	_	_
 4	gitmem	git	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
-5	gerek	gerek	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
+5	gerek	gerek	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0549.test
 # text = Philadelphia'dan Atlanta'ya hangi uçuşlar var
@@ -6348,9 +6350,9 @@
 5	gösterin	göster	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0561.test
-# text = Chicago'dan İndianapolis'e olan uçuşlar nelerdir
+# text = Chicago'dan Indianapolis'e olan uçuşlar nelerdir
 1	Chicago'dan	chicago	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
-2	İndianapolis'e	indianapolis	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
+2	Indianapolis'e	ındianapolis	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	olan	ol	ADJ	_	_	4	acl	_	_
 4	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
 5	nelerdir	ne	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6417,8 +6419,8 @@
 7	lütfen	lütfen	ADV	_	_	6	discourse	_	_
 
 # sent_id = 0569.test
-# text = İndianapolis'ten Orlando'ya hangi uçuşlar var
-1	İndianapolis'ten	indianapolis	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
+# text = Indianapolis'ten Orlando'ya hangi uçuşlar var
+1	Indianapolis'ten	ındianapolis	PROPN	_	Case=Abl|Number=Sing	2	nmod	_	_
 2	Orlando'ya	orlando	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
 3	hangi	hangi	ADJ	_	_	4	amod	_	_
 4	uçuşlar	uç	NOUN	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
@@ -6471,9 +6473,9 @@
 5	göster	göster	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 0575.test
-# text = Bana İndianapolis'ten Houston'a olan uçuşları söyleyin
+# text = Bana Indianapolis'ten Houston'a olan uçuşları söyleyin
 1	Bana	ben	PRON	_	PronType=Prs	6	obl	_	_
-2	İndianapolis'ten	indianapolis	PROPN	_	Case=Abl|Number=Sing	3	nmod	_	_
+2	Indianapolis'ten	ındianapolis	PROPN	_	Case=Abl|Number=Sing	3	nmod	_	_
 3	Houston'a	houston	PROPN	_	Case=Dat|Number=Sing	4	obl	_	_
 4	olan	ol	ADJ	_	_	5	acl	_	_
 5	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_

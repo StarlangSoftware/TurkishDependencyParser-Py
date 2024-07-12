@@ -441,8 +441,8 @@
 
 # sent_id = 7731.train
 # text = El âlemin çocuklarının tek evladını paraladıklarını düşündükçe aklı başından gidiyordu .
-1	El	el	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-2	âlemin	âlem	NOUN	_	Case=Gen|Number=Sing|Person=3	1	goeswith	_	_
+1	El	el	NOUN	_	Case=Nom|Number=Sing|Person=3	2	compound	_	_
+2	âlemin	âlem	NOUN	_	Case=Gen|Number=Sing|Person=3	3	nmod	_	_
 3	çocuklarının	çocuk	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
 4	tek	tek	ADJ	_	_	5	amod	_	_
 5	evladını	evlat	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
@@ -10532,10 +10532,10 @@
 3	değil	değil	AUX	_	_	2	aux	_	_
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	şöyle	şöyle	ADV	_	_	6	advmod	_	_
-6	kırkını	kırk	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nummod	_	_
-7	,	,	PUNCT	_	_	8	punct	_	_
-8	kırk	kırk	NUM	_	NumType=Card	6	conj	_	_
-9	beşini	beş	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	8	goeswith	_	_
+6	kırkını	kırk	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	kırk	kırk	NUM	_	NumType=Card	9	compound	_	_
+9	beşini	beş	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	6	conj	_	_
 10	aşmış	aş	ADJ	_	_	16	acl	_	_
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	efendiden	efendi	NOUN	_	Case=Abl|Number=Sing|Person=3	16	amod	_	_

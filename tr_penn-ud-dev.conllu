@@ -2117,8 +2117,8 @@
 1	Yurt	yurt	NOUN	_	Case=Nom|Number=Sing|Person=3	2	compound	_	_
 2	içi	iç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
 3	veya	veya	CCONJ	_	_	4	cc	_	_
-4	uluslar	ulus	NOUN	_	Case=Nom|Number=Plur|Person=3	2	conj	_	_
-5	arası	ara	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	goeswith	_	_
+4	uluslar	ulus	NOUN	_	Case=Nom|Number=Plur|Person=3|Typo=Yes	2	conj	_	_
+5	arası	_	X	_	_	4	goeswith	_	_
 6	olmak	ol	NOUN	_	Case=Nom|Number=Sing|Person=3	13	advcl	_	_
 7	üzere	üzere	ADP	_	_	6	case	_	_
 8	,	,	PUNCT	_	_	13	punct	_	_
@@ -3319,8 +3319,8 @@
 3	karı	kar	NOUN	_	Case=Acc|Number=Sing|Person=3	8	nsubj	_	_
 4	üçüncü	üçüncü	NUM	_	NumType=Ord	5	nummod	_	_
 5	çeyrekte	çeyrek	NOUN	_	Case=Loc|Number=Sing|Person=3	8	nmod	_	_
-6	%	%	NUM	_	NumType=Ord	8	obl	_	_
-7	37	37	NUM	_	NumType=Card	6	goeswith	_	_
+6	%	%	NUM	_	NumType=Ord	7	nmod	_	_
+7	37	37	NUM	_	NumType=Card	8	nummod	_	_
 8	azaldı	azal	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -3403,9 +3403,9 @@
 2	FAİZ	faiz	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	ORANI	oran	NOUN	_	Case=Acc|Number=Sing|Person=3	0	root	_	_
 4	:	:	PUNCT	_	_	3	punct	_	_
-5	%	%	NUM	_	NumType=Ord	7	nummod	_	_
-6	10	10	NUM	_	NumType=Card	5	goeswith	_	_
-7	1\/2	1\/2	NUM	_	NumType=Card	3	appos	_	_
+5	%	%	NUM	_	NumType=Ord	6	nmod	_	_
+6	10	10	NUM	_	NumType=Card	7	compound	_	_
+7	1\/2	1\/2	NUM	_	NumType=Card	3	list	_	_
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 15-0286.dev
@@ -3441,8 +3441,8 @@
 1	İSKONTO	iskonto	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	ORANI	oran	NOUN	_	Case=Acc|Number=Sing|Person=3	0	root	_	_
 3	:	:	PUNCT	_	_	2	punct	_	_
-4	%	%	NUM	_	NumType=Ord	2	appos	_	_
-5	7	7	NUM	_	NumType=Card	4	goeswith	_	_
+4	%	%	NUM	_	NumType=Ord	5	nmod	_	_
+5	7	7	NUM	_	NumType=Card	2	list	_	_
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 15-0289.dev
@@ -3552,8 +3552,8 @@
 4	ASSETS	ASSETS	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
 5	TRUST	TRUST	PROPN	_	Case=Nom|Number=Sing	4	flat	_	_
 6	:	:	PUNCT	_	_	5	punct	_	_
-7	%	%	NUM	_	NumType=Ord	5	appos	_	_
-8	8.49	8.49	NUM	_	NumType=Card	7	goeswith	_	_
+7	%	%	NUM	_	NumType=Ord	8	nmod	_	_
+8	8.49	8.49	NUM	_	NumType=Card	5	list	_	_
 9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 15-0298.dev
@@ -5028,8 +5028,8 @@
 9	3.50	3.5	NUM	_	NumType=Card	11	nmod	_	_
 10	$	$	PUNCT	_	_	9	punct	_	_
 11	artarak	art	ADV	_	_	14	advmod	_	_
-12	51	51	NUM	_	NumType=Card	14	obl	_	_
-13	$'a	$'	NOUN	_	Case=Nom|Number=Sing|Person=3	12	goeswith	_	_
+12	51	51	NUM	_	NumType=Card	13	nummod	_	_
+13	$'a	$'	NOUN	_	Case=Nom|Number=Sing|Person=3	14	obl	_	_
 14	yükseldi	yüksel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 15	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -5199,8 +5199,8 @@
 2	gelir	gelir	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nsubj	_	_
 3	2.57	2.57	NUM	_	NumType=Card	4	compound	_	_
 4	milyardan	milyar	NOUN	_	Case=Abl|Number=Sing|Person=3	7	obl	_	_
-5	%	%	NUM	_	NumType=Ord	7	nmod	_	_
-6	10	10	NUM	_	NumType=Card	5	goeswith	_	_
+5	%	%	NUM	_	NumType=Ord	6	nmod	_	_
+6	10	10	NUM	_	NumType=Card	7	nummod	_	_
 7	yükselerek	yüksel	ADV	_	_	12	advmod	_	_
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	2.83	2.83	NUM	_	NumType=Card	10	compound	_	_
@@ -5253,8 +5253,8 @@
 3	478.9	478.9	NUM	_	NumType=Card	4	compound	_	_
 4	milyon	milyon	NUM	_	NumType=Card	5	nummod	_	_
 5	$'dan	$'dan	NOUN	_	Case=Nom|Number=Sing|Person=3	12	obl	_	_
-6	%	%	NUM	_	NumType=Ord	8	nmod	_	_
-7	21	21	NUM	_	NumType=Card	6	goeswith	_	_
+6	%	%	NUM	_	NumType=Ord	7	nmod	_	_
+7	21	21	NUM	_	NumType=Card	8	nummod	_	_
 8	artışla	artış	NOUN	_	Case=Ins|Number=Sing|Person=3	12	nmod	_	_
 9	580.4	580.4	NUM	_	NumType=Card	10	compound	_	_
 10	milyon	milyon	NUM	_	NumType=Card	11	nummod	_	_
@@ -5893,9 +5893,9 @@
 6	Fiyatları	fiyat	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
 7	Endeksi	endeks	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	nsubj	_	_
 8	45.66	45.66	NUM	_	NumType=Card	12	nummod	_	_
-9	veya	veya	CCONJ	_	_	10	cc	_	_
-10	%	%	NUM	_	NumType=Ord	8	conj	_	_
-11	1.7	1.7	NUM	_	NumType=Card	10	goeswith	_	_
+9	veya	veya	CCONJ	_	_	11	cc	_	_
+10	%	%	NUM	_	NumType=Ord	11	nmod	_	_
+11	1.7	1.7	NUM	_	NumType=Card	8	conj	_	_
 12	değer	değer	NOUN	_	Case=Nom|Number=Sing|Person=3	13	compound	_	_
 13	kaybederek	kaybet	ADV	_	_	16	advcl	_	_
 14	2600.88	2600.88	NUM	_	NumType=Card	15	nummod	_	_
@@ -5949,10 +5949,10 @@
 6	Kıymetler	kıymet	PROPN	_	Case=Nom|Number=Plur	7	nmod	_	_
 7	Borsası	borsa	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
 8	endeksi	endeks	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	nsubj	_	_
-9	100.96	100.96	NUM	_	NumType=Card	13	nmod	_	_
-10	veya	veya	CCONJ	_	_	11	cc	_	_
-11	%	%	NUM	_	NumType=Ord	9	conj	_	_
-12	2.7	2.7	NUM	_	NumType=Card	11	goeswith	_	_
+9	100.96	100.96	NUM	_	NumType=Card	13	nummod	_	_
+10	veya	veya	CCONJ	_	_	12	cc	_	_
+11	%	%	NUM	_	NumType=Ord	12	nmod	_	_
+12	2.7	2.7	NUM	_	NumType=Card	9	conj	_	_
 13	düşerek	düş	ADV	_	_	15	advcl	_	_
 14	3655.40'a	3655.40	NOUN	_	Case=Dat|Number=Sing|Person=3	15	obl	_	_
 15	indi	in	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -6007,8 +6007,8 @@
 8	dün	dün	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nmod	_	_
 9	1988	1988	NUM	_	NumType=Card	10	nmod	_	_
 10	kapanışının	kapan	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nmod	_	_
-11	%	%	NUM	_	NumType=Ord	13	obl	_	_
-12	27.5	27.5	NUM	_	NumType=Card	11	goeswith	_	_
+11	%	%	NUM	_	NumType=Ord	12	nmod	_	_
+12	27.5	27.5	NUM	_	NumType=Card	13	nummod	_	_
 13	üzerinde	üzerinde	ADV	_	_	14	advmod	_	_
 14	gerçekleşti	gerçekleş	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 15	.	.	PUNCT	_	_	14	punct	_	_
@@ -6174,7 +6174,7 @@
 3	iş	iş	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	başında	baş	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
 5	görünürken	görün	ADV	_	_	8	advcl	_	_
-6	alıcılar	alıcı	VERB	_	Number=Sing|Person=3|Tense=Pres	8	nsubj	_	_
+6	alıcılar	alıcı	NOUN	_	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
 7	piyasadan	piyasa	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl	_	_
 8	uzaklaştı	uzaklaş	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 9	ve	ve	CCONJ	_	_	13	cc	_	_
@@ -7054,8 +7054,8 @@
 2	88.3	88.3	NUM	_	NumType=Card	3	compound	_	_
 3	milyon	milyon	NUM	_	NumType=Card	4	nummod	_	_
 4	$'dan	$'dan	NOUN	_	Case=Nom|Number=Sing|Person=3	11	obl	_	_
-5	%	%	NUM	_	NumType=Ord	7	nmod	_	_
-6	7'den	7	NOUN	_	Case=Abl|Number=Sing|Person=3	5	goeswith	_	_
+5	%	%	NUM	_	NumType=Ord	6	nmod	_	_
+6	7'den	7	NOUN	_	Case=Abl|Number=Sing|Person=3	7	nmod	_	_
 7	fazla	fazla	ADV	_	_	11	advmod	_	_
 8	94.9	94.9	NUM	_	NumType=Card	9	compound	_	_
 9	milyon	milyon	NUM	_	NumType=Card	10	nummod	_	_
@@ -7428,12 +7428,12 @@
 5	oranlı	oran	ADJ	_	_	6	amod	_	_
 6	ipotek	ipotek	NOUN	_	Case=Nom|Number=Sing|Person=3	21	nsubj	_	_
 7	;	;	PUNCT	_	_	6	punct	_	_
-8	%	%	NUM	_	NumType=Ord	21	nummod	_	_
-9	7.875	7.875	NUM	_	NumType=Card	8	goeswith	_	_
-10	,	,	PUNCT	_	_	14	punct	_	_
-11	%	%	NUM	_	NumType=Ord	14	nummod	_	_
-12	2	2	NUM	_	NumType=Card	11	goeswith	_	_
-13	faiz	faiz	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nummod	_	_
+8	%	%	NUM	_	NumType=Ord	9	nmod	_	_
+9	7.875	7.875	NUM	_	NumType=Card	14	nummod	_	_
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	%	%	NUM	_	NumType=Ord	12	nmod	_	_
+12	2	2	NUM	_	NumType=Card	9	conj	_	_
+13	faiz	faiz	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nmod	_	_
 14	oranı	oran	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	conj	_	_
 15	bir	bir	NUM	_	NumType=Card	16	nummod	_	_
 16	yıllık	yıl	ADJ	_	_	20	amod	_	_
@@ -7496,8 +7496,8 @@
 7	19.7	19.7	NUM	_	NumType=Card	8	compound	_	_
 8	milyon	milyon	NUM	_	NumType=Card	9	nummod	_	_
 9	$'dan	$'dan	NOUN	_	Case=Nom|Number=Sing|Person=3	16	obl	_	_
-10	%	%	NUM	_	NumType=Ord	12	nummod	_	_
-11	13	13	NUM	_	NumType=Card	10	goeswith	_	_
+10	%	%	NUM	_	NumType=Ord	11	nmod	_	_
+11	13	13	NUM	_	NumType=Card	12	nummod	_	_
 12	artışla	artış	NOUN	_	Case=Ins|Number=Sing|Person=3	16	nmod	_	_
 13	22.2	22.2	NUM	_	NumType=Card	14	compound	_	_
 14	milyon	milyon	NUM	_	NumType=Card	15	nummod	_	_
@@ -8076,10 +8076,10 @@
 6	dakikasında	dakika	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	obl	_	_
 7	yaklaşık	yaklaşık	ADJ	_	_	8	advmod	_	_
 8	600	600	NUM	_	NumType=Card	9	nummod	_	_
-9	puan	puan	NOUN	_	Case=Nom|Number=Sing|Person=3	13	nmod	_	_
-10	veya	veya	CCONJ	_	_	11	cc	_	_
-11	%	%	NUM	_	NumType=Ord	9	conj	_	_
-12	1.7	1.7	NUM	_	NumType=Card	11	goeswith	_	_
+9	puan	puan	NOUN	_	Case=Nom|Number=Sing|Person=3	13	obl	_	_
+10	veya	veya	CCONJ	_	_	12	cc	_	_
+11	%	%	NUM	_	NumType=Ord	12	nmod	_	_
+12	1.7	1.7	NUM	_	NumType=Card	9	conj	_	_
 13	düştü	düş	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 14	.	.	PUNCT	_	_	13	punct	_	_
 

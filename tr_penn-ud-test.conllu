@@ -1574,8 +1574,8 @@
 # sent_id = 15-0131.test
 # text = Gelirler % 5.3 artışla 383.8 milyondan 404.1 milyon Dolar'a çıktı .
 1	Gelirler	gelir	NOUN	_	Case=Nom|Number=Plur|Person=3	10	nsubj	_	_
-2	%	%	NUM	_	NumType=Ord	4	nummod	_	_
-3	5.3	5.3	NUM	_	NumType=Card	2	goeswith	_	_
+2	%	%	NUM	_	NumType=Ord	3	nmod	_	_
+3	5.3	5.3	NUM	_	NumType=Card	4	nummod	_	_
 4	artışla	art	NOUN	_	Case=Ins|Number=Sing|Person=3	10	nmod	_	_
 5	383.8	383.8	NUM	_	NumType=Card	6	nummod	_	_
 6	milyondan	milyon	NOUN	_	Case=Abl|Number=Sing|Person=3	10	obl	_	_
@@ -3773,7 +3773,7 @@
 2	nevi	nevi	NOUN	_	Case=Nom|Number=Sing|Person=3	6	amod	_	_
 3	iki	iki	NUM	_	NumType=Card	4	nummod	_	_
 4	kademeli	kademe	ADJ	_	_	6	amod	_	_
-5	ayı	ay	NOUN	_	Case=Acc|Number=Sing|Person=3	6	nmod	_	_
+5	ayı	ayı	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	piyasası	piyasa	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -4594,24 +4594,24 @@
 
 # sent_id = 15-0392.test
 # text = % 8.65 , 30 gün ; % 8.55 , 60 gün ; % 8.55 , 90 gün .
-1	%	%	NUM	_	NumType=Ord	7	parataxis	_	_
-2	8.65	8.65	NUM	_	NumType=Card	1	goeswith	_	_
+1	%	%	NUM	_	NumType=Ord	2	nmod	_	_
+2	8.65	8.65	NUM	_	NumType=Card	5	list	_	_
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	30	30	NUM	_	NumType=Card	5	nummod	_	_
-5	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	1	list	_	_
+5	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	11	parataxis	_	_
 6	;	;	PUNCT	_	_	5	punct	_	_
-7	%	%	NUM	_	NumType=Ord	13	parataxis	_	_
-8	8.55	8.55	NUM	_	NumType=Card	7	goeswith	_	_
+7	%	%	NUM	_	NumType=Ord	8	nmod	_	_
+8	8.55	8.55	NUM	_	NumType=Card	11	list	_	_
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	60	60	NUM	_	NumType=Card	11	nummod	_	_
-11	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	7	list	_	_
+11	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	17	parataxis	_	_
 12	;	;	PUNCT	_	_	11	punct	_	_
-13	%	%	NUM	_	NumType=Ord	0	root	_	_
-14	8.55	8.55	NUM	_	NumType=Card	13	goeswith	_	_
+13	%	%	NUM	_	NumType=Ord	14	nmod	_	_
+14	8.55	8.55	NUM	_	NumType=Card	17	list	_	_
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	90	90	NUM	_	NumType=Card	17	nummod	_	_
-17	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	13	list	_	_
-18	.	.	PUNCT	_	_	13	punct	_	_
+17	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
+18	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = 15-0393.test
 # text = Mevduat BONOLARI :
@@ -4637,23 +4637,23 @@
 
 # sent_id = 15-0396.test
 # text = % 8.65 , 1 ay ; % 8.65 , 3 ay ; % 8.55 , 6 ay
-1	%	%	NUM	_	NumType=Ord	7	parataxis	_	_
-2	8.65	8.65	NUM	_	NumType=Card	1	goeswith	_	_
+1	%	%	NUM	_	NumType=Ord	2	nmod	_	_
+2	8.65	8.65	NUM	_	NumType=Card	5	list	_	_
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	1	1	NUM	_	NumType=Card	5	nummod	_	_
-5	ay	ay	NOUN	_	Case=Nom|Number=Sing|Person=3	1	list	_	_
+5	ay	ay	NOUN	_	Case=Nom|Number=Sing|Person=3	11	parataxis	_	_
 6	;	;	PUNCT	_	_	5	punct	_	_
-7	%	%	NUM	_	NumType=Ord	13	parataxis	_	_
-8	8.65	8.65	NUM	_	NumType=Card	7	goeswith	_	_
+7	%	%	NUM	_	NumType=Ord	8	nmod	_	_
+8	8.65	8.65	NUM	_	NumType=Card	11	list	_	_
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	3	3	NUM	_	NumType=Card	11	nummod	_	_
-11	ay	ay	NOUN	_	Case=Nom|Number=Sing|Person=3	7	list	_	_
+11	ay	ay	NOUN	_	Case=Nom|Number=Sing|Person=3	17	parataxis	_	_
 12	;	;	PUNCT	_	_	13	punct	_	_
-13	%	%	NUM	_	NumType=Ord	0	root	_	_
-14	8.55	8.55	NUM	_	NumType=Card	13	goeswith	_	_
-15	,	,	PUNCT	_	_	13	punct	_	_
+13	%	%	NUM	_	NumType=Ord	14	nmod	_	_
+14	8.55	8.55	NUM	_	NumType=Card	17	list	_	_
+15	,	,	PUNCT	_	_	14	punct	_	_
 16	6	6	NUM	_	NumType=Card	17	nummod	_	_
-17	ay	ay	NOUN	_	Case=Nom|Number=Sing|Person=3	13	list	_	_
+17	ay	ay	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 
 # sent_id = 15-0397.test
 # text = BANKA KABUL KREDİLERİ :
@@ -4733,17 +4733,17 @@
 
 # sent_id = 15-0404.test
 # text = % 7.63 - 13 hafta ; % 7.60 - 26 hafta .
-1	%	%	NUM	_	NumType=Ord	7	parataxis	_	_
-2	7.63	7.63	NUM	_	NumType=Card	1	goeswith	_	_
+1	%	%	NUM	_	NumType=Ord	2	nmod	_	_
+2	7.63	7.63	NUM	_	NumType=Card	5	list	_	_
 3	-	-	PUNCT	_	_	5	punct	_	_
 4	13	13	NUM	_	NumType=Card	5	nummod	_	_
-5	hafta	hafta	NOUN	_	Case=Nom|Number=Sing|Person=3	1	list	_	_
+5	hafta	hafta	NOUN	_	Case=Nom|Number=Sing|Person=3	11	parataxis	_	_
 6	;	;	PUNCT	_	_	7	punct	_	_
-7	%	%	NUM	_	NumType=Ord	0	root	_	_
-8	7.60	7.6	NUM	_	NumType=Card	7	goeswith	_	_
+7	%	%	NUM	_	NumType=Ord	8	nmod	_	_
+8	7.60	7.6	NUM	_	NumType=Card	11	list	_	_
 9	-	-	PUNCT	_	_	11	punct	_	_
 10	26	26	NUM	_	NumType=Card	11	nummod	_	_
-11	hafta	hafta	NOUN	_	Case=Nom|Number=Sing|Person=3	7	list	_	_
+11	hafta	hafta	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 15-0405.test
@@ -6353,7 +6353,7 @@
 18	ilgili	ilgi	ADJ	_	_	20	amod	_	_
 19	de	de	CCONJ	_	_	18	conj	_	_
 20	endişeleri	endişe	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	21	nsubj	_	_
-21	vardı	var	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
+21	vardı	var	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 22	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = 20-0008.test
@@ -6677,7 +6677,7 @@
 16	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = 20-0026.test
-# text = Alışılmadık bir hareketle , bazı fonlar yatırımcıların sakin kalması için onların ücretsiz telefon hatları uzerindeki kayıtlar ile taşındı .
+# text = Alışılmadık bir hareketle , bazı fonlar yatırımcıların sakin kalması için onların ücretsiz telefon hatları üzerindeki kayıtlar ile taşındı .
 1	Alışılmadık	alışılmadık	ADJ	_	_	3	amod	_	_
 2	bir	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	hareketle	hareket	NOUN	_	Case=Ins|Number=Sing|Person=3	18	nmod	_	_
@@ -6692,7 +6692,7 @@
 12	ücretsiz	ücret	ADJ	_	_	13	amod	_	_
 13	telefon	telefon	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nmod	_	_
 14	hatları	hat	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	15	nmod	_	_
-15	uzerindeki	uzerindeki	NOUN	_	Case=Nom|Number=Sing|Person=3	16	amod	_	_
+15	üzerindeki	uzerindeki	NOUN	_	Case=Nom|Number=Sing|Person=3	16	amod	_	_
 16	kayıtlar	kayıt	NOUN	_	Case=Nom|Number=Plur|Person=3	18	nmod	_	_
 17	ile	ile	ADP	_	_	16	case	_	_
 18	taşındı	taşı	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -6841,7 +6841,7 @@
 7	,	,	PUNCT	_	_	13	punct	_	_
 8	enerji	enerji	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 9	santrallerini	santral	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod	_	_
-10	çalıştırma	çalıştır	NOUN	_	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
+10	çalıştırma	çalış	NOUN	_	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
 11	konusundaki	konu	ADJ	_	_	12	advmod	_	_
 12	kanıtlanmış	kanıtla	ADJ	_	_	13	amod	_	_
 13	yeteneğimizdir	yetenek	VERB	_	Mood=Gen|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
@@ -6851,9 +6851,9 @@
 17	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = 20-0036.test
-# text = CONCORDE trans-Atlantik uçuşları Paris'e 2400 , Londra'ya 3200 dolardır .
+# text = CONCORDE Transatlantik uçuşları Paris'e 2400 , Londra'ya 3200 dolardır .
 1	CONCORDE	CONCORDE	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	trans-Atlantik	trans-Atlantik	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+2	Transatlantik	transatlantik	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	uçuşları	uç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	_
 4	Paris'e	paris	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
 5	2400	2400	NUM	_	NumType=Card	9	nummod	_	_
@@ -6880,8 +6880,8 @@
 
 # sent_id = 20-0038.test
 # text = 1987 de plastik fiyatları fırladığında Quantum Chemical Corp. duruma uyum sağladı .
-1	1987	1987	NUM	_	NumType=Card	5	obl	_	_
-2	de	de	CCONJ	_	_	1	goeswith	_	_
+1	1987	1987	NUM	_	NumType=Card|Typo=Yes	5	obl	_	_
+2	de	_	X	_	_	1	goeswith	_	_
 3	plastik	plastik	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	fiyatları	fiyat	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
 5	fırladığında	fırla	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	_
@@ -6913,9 +6913,9 @@
 16	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = 20-0040.test
-# text = ABD polieten piyasasında Quantum yaklaşık % 20 ile en büyük payı üstlendi .
+# text = ABD polietilen piyasasında Quantum yaklaşık % 20 ile en büyük payı üstlendi .
 1	ABD	abd	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	polieten	polieten	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+2	polietilen	polietilen	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	piyasasında	piyasa	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obl	_	_
 4	Quantum	quantum	PROPN	_	Case=Nom|Number=Sing	12	nsubj	_	_
 5	yaklaşık	yaklaşık	ADJ	_	_	6	amod	_	_
@@ -6947,10 +6947,10 @@
 15	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 20-0042.test
-# text = Büyük polietilen sipraişleri veren Çin aniden siparişleri durdurdu .
+# text = Büyük polietilen siparişleri veren Çin aniden siparişleri durdurdu .
 1	Büyük	büyük	ADJ	_	_	2	amod	_	_
 2	polietilen	polietilen	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	sipraişleri	sipraişleri	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
+3	siparişleri	sipariş	NOUN	_	Case=Acc|Number=Plur|Person=3	4	nsubj	_	_
 4	veren	ver	ADJ	_	_	5	acl	_	_
 5	Çin	çin	PROPN	_	Case=Nom|Number=Sing	8	csubj	_	_
 6	aniden	aniden	ADV	_	_	8	advmod	_	_
@@ -7151,7 +7151,7 @@
 8	ihracatçılara	ihracatçı	NOUN	_	Case=Dat|Number=Plur|Person=3	9	obl	_	_
 9	sahip	sahip	NOUN	_	Case=Nom|Number=Sing|Person=3	10	acl	_	_
 10	ülkeler	ülke	NOUN	_	Case=Nom|Number=Plur|Person=3	12	obl	_	_
-11	tarafından	taraf	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	case	_	_
+11	tarafından	tarafından	ADV	_	_	10	case	_	_
 12	sağlanıyor	sağla	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 13	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -7171,7 +7171,7 @@
 12	bir	bir	DET	_	Definite=Ind|PronType=Art	13	det	_	_
 13	kredi	kredi	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nmod	_	_
 14	kartı	kart	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	nmod	_	_
-15	okuyucu	okuyucu	NOUN	_	Case=Nom|Number=Sing|Person=3	16	obj	_	_
+15	okuyucu	oku	NOUN	_	Case=Nom|Number=Sing|Person=3	16	obj	_	_
 16	sağlayacaktır	sağla	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	_
 17	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -7247,7 +7247,7 @@
 9	artık	artık	ADV	_	_	12	advmod	_	_
 10	durum	durum	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nsubj	_	_
 11	böyle	böyle	ADV	_	_	12	advmod	_	_
-12	değil	değ	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+12	değil	değil	AUX	_	_	0	root	_	_
 13	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 20-0060.test
@@ -7577,7 +7577,7 @@
 # text = Üçüncü çeyrekte ortalamaları 1988'dekinden yaklaşık %5 daha azdı .
 1	Üçüncü	üçüncü	NUM	_	NumType=Ord	2	amod	_	_
 2	çeyrekte	çeyrek	NOUN	_	Case=Loc|Number=Sing|Person=3	8	obl	_	_
-3	ortalamaları	ortala	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
+3	ortalamaları	ortalama	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	8	nsubj	_	_
 4	1988'dekinden	1988	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	8	obl	_	_
 5	yaklaşık	yaklaşık	ADJ	_	_	6	amod	_	_
 6	%5	%5	X	_	_	7	nmod	_	_
@@ -7816,7 +7816,7 @@
 8	çok	çok	ADV	_	_	9	amod	_	_
 9	az	az	ADV	_	_	10	amod	_	_
 10	haber	haber	NOUN	_	Case=Nom|Number=Sing|Person=3	11	obj	_	_
-11	var	var	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	var	var	ADJ	_	_	0	root	_	_
 12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 20-0092.test
@@ -8013,7 +8013,7 @@
 13	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 20-0103.test
-# text = Patent , göz cerrahisinde kullanılan bir horoz ibiği özütü olan hyaluronik asit ile ilgilidir .
+# text = Patent , göz cerrahisinde kullanılan bir horoz ibiği özütü olan hyalüronik asit ile ilgilidir .
 1	Patent	patent	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nsubj	_	_
 2	,	,	PUNCT	_	_	14	punct	_	_
 3	göz	göz	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
@@ -8024,7 +8024,7 @@
 8	ibiği	ibik	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
 9	özütü	özüt	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod	_	_
 10	olan	ol	ADJ	_	_	12	acl	_	_
-11	hyaluronik	hyaluronik	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
+11	hyalüronik	hyalüronik	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
 12	asit	asit	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nmod	_	_
 13	ile	ile	ADP	_	_	12	case	_	_
 14	ilgilidir	ilgi	VERB	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8088,7 +8088,7 @@
 19	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = 20-0107.test
-# text = Analistlere göre , Newsweek'teki başarılı maliyet düşürme önlemleri de kâra katkıda bulundu .
+# text = Analistlere göre , Newsweek'teki başarılı maliyet düşürme önlemleri de kara katkıda bulundu .
 1	Analistlere	analist	NOUN	_	Case=Dat|Number=Plur|Person=3	12	obl	_	_
 2	göre	göre	ADP	_	_	1	case	_	_
 3	,	,	PUNCT	_	_	12	punct	_	_
@@ -8098,7 +8098,7 @@
 7	düşürme	düşür	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 8	önlemleri	önlem	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	12	nsubj	_	_
 9	de	de	CCONJ	_	_	8	mark	_	_
-10	kâra	kâra	NOUN	_	Case=Nom|Number=Sing|Person=3	12	obl	_	_
+10	kara	kar	NOUN	_	Case=Dat|Number=Sing|Person=3	12	obl	_	_
 11	katkıda	katkı	NOUN	_	Case=Loc|Number=Sing|Person=3	12	compound	_	_
 12	bulundu	bulun	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 13	.	.	PUNCT	_	_	12	punct	_	_
@@ -8427,8 +8427,8 @@
 12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 20-0126.test
-# text = Temmettüler verildikten sonra şirketin net değeri 185 milyon doların altına düşemez .
-1	Temmettüler	Temmettüler	PROPN	_	Case=Nom|Number=Sing	3	obj	_	_
+# text = Temettüler verildikten sonra şirketin net değeri 185 milyon doların altına düşemez .
+1	Temettüler	temettü	NOUN	_	Case=Nom|Number=Plur|Person=3	3	obj	_	_
 2	verildikten	ver	NOUN	_	Case=Abl|Number=Sing|Person=3	3	nmod	_	_
 3	sonra	sonra	ADP	_	_	11	advcl	_	_
 4	şirketin	şirket	NOUN	_	Case=Gen|Number=Sing|Person=3	6	nmod	_	_

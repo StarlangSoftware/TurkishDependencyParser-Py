@@ -186,8 +186,8 @@
 # sent_id = 7775.test
 # text = PARK HOTELDE Kİ AYRICALIĞI YAŞAMANIZI İSTİYORUM .
 1	PARK	park	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	HOTELDE	hotel	NOUN	_	Case=Loc|Number=Sing|Person=3	4	amod	_	_
-3	Kİ	ki	SCONJ	_	_	2	goeswith	_	_
+2	HOTELDE	hotel	NOUN	_	Case=Loc|Number=Sing|Person=3|Typo=Yes	4	amod	_	_
+3	Kİ	_	X	_	_	2	goeswith	_	_
 4	AYRICALIĞI	ayrıcalık	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
 5	YAŞAMANIZI	yaşa	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	6	ccomp	_	_
 6	İSTİYORUM	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -231,16 +231,15 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 7779.test
-# text = YEMEKLER ABARTISIZ MUHTEŞEM , YİYECEK KALİTESİ ÇOK İYİ .
+# text = YEMEKLER ABARTISIZ MUHTEŞEM YİYECEK KALİTESİ ÇOK İYİ .
 1	YEMEKLER	yemek	NOUN	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
 2	ABARTISIZ	abartısız	ADJ	_	_	3	advmod	_	_
-3	MUHTEŞEM	muhteşem	ADJ	_	_	8	parataxis	_	_
-4	,	,	PUNCT	_	_	8	punct	_	_
-5	YİYECEK	yiyecek	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	KALİTESİ	kalite	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
-7	ÇOK	çok	ADV	_	_	8	advmod	_	_
-8	İYİ	iyi	ADJ	_	_	0	root	_	_
-9	.	.	PUNCT	_	_	8	punct	_	_
+3	MUHTEŞEM	muhteşem	ADJ	_	_	7	parataxis	_	_
+4	YİYECEK	yiyecek	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+5	KALİTESİ	kalite	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
+6	ÇOK	çok	ADV	_	_	7	advmod	_	_
+7	İYİ	iyi	ADJ	_	_	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 7780.test
 # text = MÜDÜRLERİYLE PERSONELLERİYLE HARİKA BİR HİZMET VERİYORLAR .
@@ -254,8 +253,8 @@
 
 # sent_id = 7781.test
 # text = HER HANGİ BİR ŞEY TALEP ETTİĞİMDE ASLA GÖZ ARDI EDİLMİYOR HEMEN YERİNE GETİRİLİYOR BU DA HOŞUMA GİDİYOR .
-1	HER	her	DET	_	Definite=Def|PronType=Art	3	det	_	_
-2	HANGİ	hangi	PRON	_	PronType=Int	1	goeswith	_	_
+1	HER	her	DET	_	Definite=Def|PronType=Art|Typo=Yes	3	det	_	_
+2	HANGİ	_	X	_	_	1	goeswith	_	_
 3	BİR	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 4	ŞEY	şey	NOUN	_	Case=Nom|Number=Sing|Person=3	6	obj	_	_
 5	TALEP	talep	NOUN	_	Case=Nom|Number=Sing|Person=3	6	compound	_	_
@@ -319,8 +318,8 @@
 # sent_id = 7785.test
 # text = PARK HOTELDE Kİ AYRICALIĞI YAŞAMANIZI İSTİYORUM .
 1	PARK	park	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	HOTELDE	hotel	NOUN	_	Case=Loc|Number=Sing|Person=3	4	amod	_	_
-3	Kİ	ki	SCONJ	_	_	2	goeswith	_	_
+2	HOTELDE	hotel	NOUN	_	Case=Loc|Number=Sing|Person=3|Typo=Yes	4	amod	_	_
+3	Kİ	_	X	_	_	2	goeswith	_	_
 4	AYRICALIĞI	ayrıcalık	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
 5	YAŞAMANIZI	yaşa	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	6	ccomp	_	_
 6	İSTİYORUM	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -329,8 +328,8 @@
 # sent_id = 7786.test
 # text = PARK HOTELDE Kİ AYRICALIĞI YAŞAMANIZI İSTİYORUM .
 1	PARK	park	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	HOTELDE	hotel	NOUN	_	Case=Loc|Number=Sing|Person=3	4	amod	_	_
-3	Kİ	ki	SCONJ	_	_	2	goeswith	_	_
+2	HOTELDE	hotel	NOUN	_	Case=Loc|Number=Sing|Person=3|Typo=Yes	4	amod	_	_
+3	Kİ	_	X	_	_	2	goeswith	_	_
 4	AYRICALIĞI	ayrıcalık	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
 5	YAŞAMANIZI	yaşa	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	6	ccomp	_	_
 6	İSTİYORUM	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -479,23 +478,20 @@
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 7805.test
-# text = YAKINLIK , HİZMET , ÖZVERİ , PROBLEMLERİN ANINDA ÇÖZÜLMESİ PARK OTELİ TERCİH ETME SEBEPLERİMİN ARASINDA .
-1	YAKINLIK	yakınlık	NOUN	_	Case=Nom|Number=Sing|Person=3	15	nsubj	_	_
-2	,	,	PUNCT	_	_	3	punct	_	_
-3	HİZMET	hizmet	NOUN	_	Case=Nom|Number=Sing|Person=3	1	conj	_	_
-4	,	,	PUNCT	_	_	5	punct	_	_
-5	ÖZVERİ	özveri	NOUN	_	Case=Nom|Number=Sing|Person=3	3	conj	_	_
-6	,	,	PUNCT	_	_	7	punct	_	_
-7	PROBLEMLERİN	problem	NOUN	_	Case=Gen|Number=Plur|Person=3	9	nsubj	_	_
-8	ANINDA	an	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
-9	ÇÖZÜLMESİ	çöz	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	conj	_	_
-10	PARK	park	NOUN	_	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
-11	OTELİ	otel	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nsubj	_	_
-12	TERCİH	tercih	NOUN	_	Case=Nom|Number=Sing|Person=3	13	compound	_	_
-13	ETME	et	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nmod	_	_
-14	SEBEPLERİMİN	sebep	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1	15	nmod	_	_
-15	ARASINDA	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
-16	.	.	PUNCT	_	_	15	punct	_	_
+# text = YAKINLIK HİZMET ÖZVERİ PROBLEMLERİN ANINDA ÇÖZÜLMESİ PARK OTELİ TERCİH ETME SEBEPLERİMİN ARASINDA .
+1	YAKINLIK	yakınlık	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nsubj	_	_
+2	HİZMET	hizmet	NOUN	_	Case=Nom|Number=Sing|Person=3	1	conj	_	_
+3	ÖZVERİ	özveri	NOUN	_	Case=Nom|Number=Sing|Person=3	2	conj	_	_
+4	PROBLEMLERİN	problem	NOUN	_	Case=Gen|Number=Plur|Person=3	6	nsubj	_	_
+5	ANINDA	an	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
+6	ÇÖZÜLMESİ	çöz	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	conj	_	_
+7	PARK	park	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
+8	OTELİ	otel	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nsubj	_	_
+9	TERCİH	tercih	NOUN	_	Case=Nom|Number=Sing|Person=3	10	compound	_	_
+10	ETME	et	NOUN	_	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
+11	SEBEPLERİMİN	sebep	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1	12	nmod	_	_
+12	ARASINDA	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
+13	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 7806.test
 # text = ODADAN ÇIKMAYIP SADECE ODADA KALACAKSINIZ GAYET İDEAL BİR OTEL .
@@ -511,19 +507,17 @@
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 7807.test
-# text = HİJYEN GÜZEL , ODALAR , GENEL MEKANLAR VE HAVUZLAR GAYET TEMİZ .
+# text = HİJYEN GÜZEL ODALAR GENEL MEKANLAR VE HAVUZLAR GAYET TEMİZ .
 1	HİJYEN	hijyen	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nsubj	_	_
-2	GÜZEL	güzel	ADJ	_	_	11	parataxis	_	_
-3	,	,	PUNCT	_	_	4	punct	_	_
-4	ODALAR	oda	NOUN	_	Case=Nom|Number=Plur|Person=3	11	nsubj	_	_
-5	,	,	PUNCT	_	_	7	punct	_	_
-6	GENEL	genel	ADJ	_	_	7	nmod	_	_
-7	MEKANLAR	mekan	NOUN	_	Case=Nom|Number=Plur|Person=3	4	conj	_	_
-8	VE	ve	CCONJ	_	_	9	cc	_	_
-9	HAVUZLAR	havuz	NOUN	_	Case=Nom|Number=Plur|Person=3	7	conj	_	_
-10	GAYET	gayet	ADV	_	_	11	advmod	_	_
-11	TEMİZ	temiz	ADJ	_	_	0	root	_	_
-12	.	.	PUNCT	_	_	11	punct	_	_
+2	GÜZEL	güzel	ADJ	_	_	9	parataxis	_	_
+3	ODALAR	oda	NOUN	_	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
+4	GENEL	genel	ADJ	_	_	5	nmod	_	_
+5	MEKANLAR	mekan	NOUN	_	Case=Nom|Number=Plur|Person=3	3	conj	_	_
+6	VE	ve	CCONJ	_	_	7	cc	_	_
+7	HAVUZLAR	havuz	NOUN	_	Case=Nom|Number=Plur|Person=3	5	conj	_	_
+8	GAYET	gayet	ADV	_	_	9	advmod	_	_
+9	TEMİZ	temiz	ADJ	_	_	0	root	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 7808.test
 # text = OTELDE HERKESİN DAMAK TADINA UYABİLECEK LEZZETTE YEMEKLER SUNULUYOR HEPSİNİN İTİNAYLA HAZIRLANDIĞINA YÜZDE YÜZ EMİNİM .
@@ -544,20 +538,19 @@
 15	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = 7809.test
-# text = YEMEKLERDE SAĞLIK KONUSUNA DA DİKKAT EDİLMİŞ , BÜFEDE DİYET MENÜLERİ DE SUNULUYOR .
+# text = YEMEKLERDE SAĞLIK KONUSUNA DA DİKKAT EDİLMİŞ BÜFEDE DİYET MENÜLERİ DE SUNULUYOR .
 1	YEMEKLERDE	yemek	NOUN	_	Case=Loc|Number=Plur|Person=3	3	obj	_	_
 2	SAĞLIK	sağlık	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	KONUSUNA	kon	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
 4	DA	da	CCONJ	_	_	3	case	_	_
 5	DİKKAT	dikkat	NOUN	_	Case=Nom|Number=Sing|Person=3	6	compound	_	_
-6	EDİLMİŞ	et	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	12	parataxis	_	_
-7	,	,	PUNCT	_	_	12	punct	_	_
-8	BÜFEDE	büfe	NOUN	_	Case=Loc|Number=Sing|Person=3	12	obl	_	_
-9	DİYET	diyet	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
-10	MENÜLERİ	menü	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	12	nsubj	_	_
-11	DE	de	CCONJ	_	_	10	case	_	_
-12	SUNULUYOR	sun	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-13	.	.	PUNCT	_	_	12	punct	_	_
+6	EDİLMİŞ	et	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	11	parataxis	_	_
+7	BÜFEDE	büfe	NOUN	_	Case=Loc|Number=Sing|Person=3	11	obl	_	_
+8	DİYET	diyet	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
+9	MENÜLERİ	menü	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
+10	DE	de	CCONJ	_	_	9	case	_	_
+11	SUNULUYOR	sun	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 7810.test
 # text = İLGİLENDİLER AMA SORUN HER ZAMAN KADIKÖYDEKİ YERİNE GİDİYORDUM .
@@ -581,8 +574,8 @@
 6	ÖNCEDEN	önceden	ADV	_	_	12	obl	_	_
 7	VE	ve	CCONJ	_	_	9	cc	_	_
 8	ŞU	şu	DET	_	Definite=Def|PronType=Art	9	dep	_	_
-9	AN	an	NOUN	_	Case=Nom|Number=Sing|Person=3	6	conj	_	_
-10	Kİ	ki	SCONJ	_	_	9	goeswith	_	_
+9	AN	an	NOUN	_	Case=Nom|Number=Sing|Person=3|Typo=Yes	6	conj	_	_
+10	Kİ	_	X	_	_	9	goeswith	_	_
 11	BERABERİMDE	beraber	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	12	obl	_	_
 12	GETİRDİĞİM	getir	ADJ	_	_	13	acl	_	_
 13	MİSAFİRLERİMDEN	misafir	NOUN	_	Case=Abl|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=1	14	obj	_	_
@@ -648,13 +641,12 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 7818.test
-# text = YEMEKLER , TEMİZLİK GAYET GÜZEL .
-1	YEMEKLER	yemek	NOUN	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
-2	,	,	PUNCT	_	_	3	punct	_	_
-3	TEMİZLİK	temizlik	NOUN	_	Case=Nom|Number=Sing|Person=3	1	conj	_	_
-4	GAYET	gayet	ADV	_	_	5	advmod	_	_
-5	GÜZEL	güzel	ADJ	_	_	0	root	_	_
-6	.	.	PUNCT	_	_	5	punct	_	_
+# text = YEMEKLER TEMİZLİK GAYET GÜZEL .
+1	YEMEKLER	yemek	NOUN	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+2	TEMİZLİK	temizlik	NOUN	_	Case=Nom|Number=Sing|Person=3	1	conj	_	_
+3	GAYET	gayet	ADV	_	_	4	advmod	_	_
+4	GÜZEL	güzel	ADJ	_	_	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 7819.test
 # text = BİZ OTELİ GENEL ANLAMDA ÇOK BEĞENDİK .
@@ -1506,12 +1498,11 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 7942.test
-# text = HİZMET KALİTESİ İYİYDİ , .
+# text = HİZMET KALİTESİ İYİYDİ .
 1	HİZMET	hizmet	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	KALİTESİ	kalite	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nsubj	_	_
 3	İYİYDİ	iyi	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	.	.	PUNCT	_	_	3	punct	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 7943.test
 # text = ODALARI GÜZELDİ TEMİZDİ .
@@ -1851,12 +1842,11 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 7990.test
-# text = TESİSİN DENİZİ GÜZELDİ , .
+# text = TESİSİN DENİZİ GÜZELDİ .
 1	TESİSİN	tesis	NOUN	_	Case=Gen|Number=Sing|Person=3	2	nmod	_	_
 2	DENİZİ	deniz	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nsubj	_	_
 3	GÜZELDİ	güzel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	.	.	PUNCT	_	_	3	punct	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 7991.test
 # text = ÇEVRE .
@@ -2359,8 +2349,8 @@
 3	CAHİL	cahil	ADJ	_	_	0	root	_	_
 4	VE	ve	CCONJ	_	_	8	cc	_	_
 5	AŞIRI	aşırı	ADJ	_	_	6	advmod	_	_
-6	DERECE	derece	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
-7	DE	de	CCONJ	_	_	6	goeswith	_	_
+6	DERECE	derece	NOUN	_	Case=Nom|Number=Sing|Person=3|Typo=Yes	8	nmod	_	_
+7	DE	_	X	_	_	6	goeswith	_	_
 8	PİSLER	pis	VERB	_	Number=Plur|Person=3|Tense=Pres	3	conj	_	_
 9	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -2600,12 +2590,11 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 8099.test
-# text = ÇOK MEMNUNUM , GÜZELDİ .
+# text = ÇOK MEMNUNUM GÜZELDİ .
 1	ÇOK	çok	ADV	_	_	2	advmod	_	_
-2	MEMNUNUM	memnun	VERB	_	Mood=Gen|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
-3	,	,	PUNCT	_	_	4	punct	_	_
-4	GÜZELDİ	güzel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-5	.	.	PUNCT	_	_	4	punct	_	_
+2	MEMNUNUM	memnun	VERB	_	Mood=Gen|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+3	GÜZELDİ	güzel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 8100.test
 # text = ÇOK GÜRÜLTÜLÜ .
@@ -3127,13 +3116,12 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 8174.test
-# text = TEMİZ BİR TESİS , ODALARI .
+# text = TEMİZ BİR TESİS ODALARI .
 1	TEMİZ	temiz	ADJ	_	_	3	amod	_	_
 2	BİR	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	TESİS	tesis	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	ODALARI	oda	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	nsubj	_	_
-6	.	.	PUNCT	_	_	3	punct	_	_
+4	ODALARI	oda	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	nsubj	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 8175.test
 # text = ÇOCUKLARA YÖNELİK GÜZEL .
@@ -3418,13 +3406,12 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 8213.test
-# text = TEMİZ BİR TESİS , KONUMU .
+# text = TEMİZ BİR TESİS KONUMU .
 1	TEMİZ	temiz	ADJ	_	_	3	amod	_	_
 2	BİR	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	TESİS	tesis	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	KONUMU	konum	NOUN	_	Case=Acc|Number=Sing|Person=3	3	nsubj	_	_
-6	.	.	PUNCT	_	_	3	punct	_	_
+4	KONUMU	konum	NOUN	_	Case=Acc|Number=Sing|Person=3	3	nsubj	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 8214.test
 # text = ÇOCUKLU AİLEYE TAVSİYE .
@@ -5402,10 +5389,10 @@
 
 # sent_id = 8485.test
 # text = PERSONEL GÜLER YÜZLÜ .
-1	PERSONEL	personel	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nsubj	_	_
-2	GÜLER	güler	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-3	YÜZLÜ	yüz	ADJ	_	_	2	goeswith	_	_
-4	.	.	PUNCT	_	_	2	punct	_	_
+1	PERSONEL	personel	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
+2	GÜLER	güler	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound	_	_
+3	YÜZLÜ	yüz	ADJ	_	_	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 8486.test
 # text = PERSONEL İLGİLİYDİ .
@@ -5646,13 +5633,12 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 8517.test
-# text = TEMİZ BİR TESİSTİ , PERSONELLERİ .
+# text = TEMİZ BİR TESİSTİ PERSONELLERİ .
 1	TEMİZ	temiz	ADJ	_	_	3	amod	_	_
 2	BİR	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	TESİSTİ	tesis	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	PERSONELLERİ	personel	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	nsubj	_	_
-6	.	.	PUNCT	_	_	3	punct	_	_
+4	PERSONELLERİ	personel	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	nsubj	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 8518.test
 # text = YEMEK KALİTESİNDEN .
@@ -7527,20 +7513,17 @@
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 8770.test
-# text = TEMİZ BİR TESİSTİ , YEMEKLERİ GÜZELDİ , PERSONELLER İLGİLİYDİ , KONUMU GÜZELDİ .
+# text = TEMİZ BİR TESİSTİ YEMEKLERİ GÜZELDİ PERSONELLER İLGİLİYDİ KONUMU GÜZELDİ .
 1	TEMİZ	temiz	ADJ	_	_	3	amod	_	_
 2	BİR	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
-3	TESİSTİ	tesis	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	parataxis	_	_
-4	,	,	PUNCT	_	_	12	punct	_	_
-5	YEMEKLERİ	yemek	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	nsubj	_	_
-6	GÜZELDİ	güzel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	parataxis	_	_
-7	,	,	PUNCT	_	_	12	punct	_	_
-8	PERSONELLER	personel	NOUN	_	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
-9	İLGİLİYDİ	ilgili	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	parataxis	_	_
-10	,	,	PUNCT	_	_	12	punct	_	_
-11	KONUMU	konum	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	nsubj	_	_
-12	GÜZELDİ	güzel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-13	.	.	PUNCT	_	_	12	punct	_	_
+3	TESİSTİ	tesis	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	parataxis	_	_
+4	YEMEKLERİ	yemek	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
+5	GÜZELDİ	güzel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	parataxis	_	_
+6	PERSONELLER	personel	NOUN	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+7	İLGİLİYDİ	ilgili	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	parataxis	_	_
+8	KONUMU	konum	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	_
+9	GÜZELDİ	güzel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 8771.test
 # text = ORTAMI .
@@ -8045,19 +8028,19 @@
 
 # sent_id = 8840.test
 # text = PERSONELLER ÇOK SICAK KANLI .
-1	PERSONELLER	personel	NOUN	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
-2	ÇOK	çok	ADV	_	_	3	advmod	_	_
-3	SICAK	sıcak	ADJ	_	_	0	root	_	_
-4	KANLI	kan	ADJ	_	_	3	goeswith	_	_
-5	.	.	PUNCT	_	_	3	punct	_	_
+1	PERSONELLER	personel	NOUN	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+2	ÇOK	çok	ADV	_	_	4	advmod	_	_
+3	SICAK	sıcak	ADJ	_	_	4	compound	_	_
+4	KANLI	kan	ADJ	_	_	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 8841.test
 # text = PERSONELLER ÇOK SICAK KANLI .
-1	PERSONELLER	personel	NOUN	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
-2	ÇOK	çok	ADV	_	_	3	advmod	_	_
-3	SICAK	sıcak	ADJ	_	_	0	root	_	_
-4	KANLI	kan	ADJ	_	_	3	goeswith	_	_
-5	.	.	PUNCT	_	_	3	punct	_	_
+1	PERSONELLER	personel	NOUN	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+2	ÇOK	çok	ADV	_	_	4	advmod	_	_
+3	SICAK	sıcak	ADJ	_	_	4	compound	_	_
+4	KANLI	kan	ADJ	_	_	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 8842.test
 # text = TESİSİN OLANAKLARI .
@@ -8118,18 +8101,17 @@
 
 # sent_id = 8852.test
 # text = PERSONELLERİ SICAK KANLIYDI .
-1	PERSONELLERİ	personel	NOUN	_	Case=Acc|Number=Plur|Person=3	2	nsubj	_	_
-2	SICAK	sıcak	ADJ	_	_	0	root	_	_
-3	KANLIYDI	kan	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	goeswith	_	_
-4	.	.	PUNCT	_	_	2	punct	_	_
+1	PERSONELLERİ	personel	NOUN	_	Case=Acc|Number=Plur|Person=3	3	obj	_	_
+2	SICAK	sıcak	ADJ	_	_	3	compound	_	_
+3	KANLIYDI	kan	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 8853.test
-# text = KONUMU GÜZEL , TEMİZ .
+# text = KONUMU GÜZEL TEMİZ .
 1	KONUMU	konum	NOUN	_	Case=Acc|Number=Sing|Person=3	2	nsubj	_	_
-2	GÜZEL	güzel	ADJ	_	_	4	parataxis	_	_
-3	,	,	PUNCT	_	_	4	punct	_	_
-4	TEMİZ	temiz	ADJ	_	_	0	root	_	_
-5	.	.	PUNCT	_	_	4	punct	_	_
+2	GÜZEL	güzel	ADJ	_	_	3	parataxis	_	_
+3	TEMİZ	temiz	ADJ	_	_	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 8855.test
 # text = ODAMDAN MEMNUN KALMADIM .
@@ -8627,7 +8609,7 @@
 # sent_id = 8924.test
 # text = YEMEK HARİCİNDE HER ŞEY İYİYDİ .
 1	YEMEK	yemek	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	HARİCİNDE	haricinde	ADV	_	_	4	nmod	_	_
+2	HARİCİNDE	haricinde	ADV	_	_	5	nmod	_	_
 3	HER	her	DET	_	Definite=Def|PronType=Art	4	det	_	_
 4	ŞEY	şey	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
 5	İYİYDİ	iyi	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -8967,8 +8949,8 @@
 
 # sent_id = 8969.test
 # text = YEMEKLER DE LEZZET KÖTÜYDÜ .
-1	YEMEKLER	yemek	NOUN	_	Case=Nom|Number=Plur|Person=3	4	obl	_	_
-2	DE	de	CCONJ	_	_	1	goeswith	_	_
+1	YEMEKLER	yemek	NOUN	_	Case=Nom|Number=Plur|Person=3|Typo=Yes	4	obl	_	_
+2	DE	_	X	_	_	1	goeswith	_	_
 3	LEZZET	lezzet	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 4	KÖTÜYDÜ	kötü	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -9307,12 +9289,12 @@
 # sent_id = 9014.test
 # text = TÜM PERSONEL GÜLER YÜZLÜ VE İLGİLİ .
 1	TÜM	tüm	DET	_	PronType=Art	2	det	_	_
-2	PERSONEL	personel	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
-3	GÜLER	güler	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-4	YÜZLÜ	yüz	ADJ	_	_	3	goeswith	_	_
+2	PERSONEL	personel	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
+3	GÜLER	güler	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound	_	_
+4	YÜZLÜ	yüz	ADJ	_	_	0	root	_	_
 5	VE	ve	CCONJ	_	_	6	cc	_	_
-6	İLGİLİ	ilgili	ADJ	_	_	3	conj	_	_
-7	.	.	PUNCT	_	_	3	punct	_	_
+6	İLGİLİ	ilgili	ADJ	_	_	4	conj	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 9015.test
 # text = TÜM PERSONEL GÜLER .
@@ -9324,10 +9306,10 @@
 # sent_id = 9016.test
 # text = TÜM PERSONEL GÜLER YÜZLÜ .
 1	TÜM	tüm	DET	_	PronType=Art	2	det	_	_
-2	PERSONEL	personel	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
-3	GÜLER	güler	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-4	YÜZLÜ	yüz	ADJ	_	_	3	goeswith	_	_
-5	.	.	PUNCT	_	_	3	punct	_	_
+2	PERSONEL	personel	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
+3	GÜLER	güler	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound	_	_
+4	YÜZLÜ	yüz	ADJ	_	_	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 9017.test
 # text = BULUNDUĞU KONUM GÜZELDİ .
@@ -10103,8 +10085,8 @@
 
 # sent_id = 9123.test
 # text = GÜLER YÜZLÜ HİZMET VARDI .
-1	GÜLER	güler	NOUN	_	Case=Nom|Number=Sing|Person=3	3	amod	_	_
-2	YÜZLÜ	yüz	ADJ	_	_	1	goeswith	_	_
+1	GÜLER	güler	NOUN	_	Case=Nom|Number=Sing|Person=3	2	compound	_	_
+2	YÜZLÜ	yüz	ADJ	_	_	3	amod	_	_
 3	HİZMET	hizmet	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 4	VARDI	var	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -11460,8 +11442,8 @@
 
 # sent_id = 9300.test
 # text = VOUCHER DA ÜCRETLİ YAZAN KASA HAMAM SAUNA DA OTELE GİTTİĞİMİZ DE ÜCRETSİZ VERİLDİ .
-1	VOUCHER	voucher	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obl	_	_
-2	DA	da	CCONJ	_	_	1	goeswith	_	_
+1	VOUCHER	voucher	NOUN	_	Case=Nom|Number=Sing|Person=3|Typo=Yes	4	obl	_	_
+2	DA	_	X	_	_	1	goeswith	_	_
 3	ÜCRETLİ	ücretli	ADJ	_	_	4	nsubj	_	_
 4	YAZAN	yaz	ADJ	_	_	5	acl	_	_
 5	KASA	kas	NOUN	_	Case=Dat|Number=Sing|Person=3	13	nsubj	_	_
@@ -11469,8 +11451,8 @@
 7	SAUNA	sauna	NOUN	_	Case=Nom|Number=Sing|Person=3	13	obj	_	_
 8	DA	da	CCONJ	_	_	7	advmod	_	_
 9	OTELE	otel	NOUN	_	Case=Dat|Number=Sing|Person=3	10	obl	_	_
-10	GİTTİĞİMİZ	git	ADJ	_	_	13	advcl	_	_
-11	DE	de	CCONJ	_	_	10	goeswith	_	_
+10	GİTTİĞİMİZ	git	ADJ	_	Typo=Yes	13	advcl	_	_
+11	DE	_	X	_	_	10	goeswith	_	_
 12	ÜCRETSİZ	ücretsiz	ADJ	_	_	13	advmod	_	_
 13	VERİLDİ	ver	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 14	.	.	PUNCT	_	_	13	punct	_	_
@@ -11538,8 +11520,8 @@
 # text = BİZ KENDİMİZ 50 YE GİTTİK .
 1	BİZ	biz	PRON	_	PronType=Prs	5	nsubj	_	_
 2	KENDİMİZ	kendi	PRON	_	PronType=Prs|Reflex=Yes	5	nmod	_	_
-3	50	50	NUM	_	NumType=Card	5	nummod	_	_
-4	YE	ye	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	goeswith	_	_
+3	50	50	NUM	_	NumType=Card|Typo=Yes	5	nummod	_	_
+4	YE	_	X	_	_	3	goeswith	_	_
 5	GİTTİK	git	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -12257,7 +12239,7 @@
 # sent_id = 9404.test
 # text = HEMEN HEMEN AYNI YEMEKLER VARDI .
 1	HEMEN	hemen	ADV	_	_	2	compound	_	_
-2	HEMEN	hemen	ADV	_	_	3	advmod	_	_
+2	HEMEN	hemen	ADV	_	_	5	advmod	_	_
 3	AYNI	aynı	ADJ	_	_	4	amod	_	_
 4	YEMEKLER	yemek	NOUN	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
 5	VARDI	var	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -12810,8 +12792,8 @@
 # sent_id = 9480.test
 # text = HEP ETS Yİ TERCİH EDİYORUM .
 1	HEP	hep	ADV	_	PronType=Ind	5	advmod	_	_
-2	ETS	ets	PROPN	_	Case=Nom|Number=Sing	5	obj	_	_
-3	Yİ	iyi	ADJ	_	_	2	goeswith	_	_
+2	ETS	ets	PROPN	_	Case=Nom|Number=Sing|Typo=Yes	5	obj	_	_
+3	Yİ	_	X	_	_	2	goeswith	_	_
 4	TERCİH	tercih	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound	_	_
 5	EDİYORUM	et	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -13121,8 +13103,8 @@
 
 # sent_id = 9524.test
 # text = GÜLER YÜZLÜ İNSANLARDI .
-1	GÜLER	güler	NOUN	_	Case=Nom|Number=Sing|Person=3	3	amod	_	_
-2	YÜZLÜ	yüz	ADJ	_	_	1	goeswith	_	_
+1	GÜLER	güler	NOUN	_	Case=Nom|Number=Sing|Person=3	2	compound	_	_
+2	YÜZLÜ	yüz	ADJ	_	_	3	amod	_	_
 3	İNSANLARDI	insan	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -13617,11 +13599,12 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 9592.test
-# text = GİDİŞ 4 DÖNÜŞ 5.
+# text = GİDİŞ 4 DÖNÜŞ 5. .
 1	GİDİŞ	git	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nsubj	_	_
 2	4	4	NUM	_	NumType=Card	4	parataxis	_	_
 3	DÖNÜŞ	dönüş	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 4	5.	5	NUM	_	NumType=Ord	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 9593.test
 # text = EBRU HANIM ÇOK İLGİLİYDİ .
@@ -15904,21 +15887,19 @@
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 9899.test
-# text = DİNLENMEK İSTİYORSANIZ DİLENEBİLİYORSUNUZ , EĞLENMEK İSTERSENİZ EĞLENEBİLİYORSUNUZ , YEMEK YEMEK İSTİYORSANIZ YEMEK YİYEBİLİYORSUNUZ .
+# text = DİNLENMEK İSTİYORSANIZ DİLENEBİLİYORSUNUZ EĞLENMEK İSTERSENİZ EĞLENEBİLİYORSUNUZ YEMEK YEMEK İSTİYORSANIZ YEMEK YİYEBİLİYORSUNUZ .
 1	DİNLENMEK	dinlen	NOUN	_	Case=Nom|Number=Sing|Person=3	2	xcomp	_	_
 2	İSTİYORSANIZ	iste	VERB	_	Aspect=Prog|Mood=Cnd|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	advcl	_	_
-3	DİLENEBİLİYORSUNUZ	dile	VERB	_	Aspect=Prog|Mood=Pot|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	13	parataxis	_	_
-4	,	,	PUNCT	_	_	13	punct	_	_
-5	EĞLENMEK	eğlen	NOUN	_	Case=Nom|Number=Sing|Person=3	6	xcomp	_	_
-6	İSTERSENİZ	iste	VERB	_	Aspect=Hab|Mood=CndGen|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	advcl	_	_
-7	EĞLENEBİLİYORSUNUZ	eğlen	VERB	_	Aspect=Prog|Mood=Pot|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
-8	,	,	PUNCT	_	_	13	punct	_	_
-9	YEMEK	yemek	NOUN	_	Case=Nom|Number=Sing|Person=3	10	compound	_	_
-10	YEMEK	yemek	NOUN	_	Case=Nom|Number=Sing|Person=3	11	xcomp	_	_
-11	İSTİYORSANIZ	iste	VERB	_	Aspect=Prog|Mood=Cnd|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	advcl	_	_
-12	YEMEK	yemek	NOUN	_	Case=Nom|Number=Sing|Person=3	13	compound	_	_
-13	YİYEBİLİYORSUNUZ	ye	VERB	_	Aspect=Prog|Mood=Pot|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	.	.	PUNCT	_	_	13	punct	_	_
+3	DİLENEBİLİYORSUNUZ	dile	VERB	_	Aspect=Prog|Mood=Pot|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	11	parataxis	_	_
+4	EĞLENMEK	eğlen	NOUN	_	Case=Nom|Number=Sing|Person=3	5	xcomp	_	_
+5	İSTERSENİZ	iste	VERB	_	Aspect=Hab|Mood=CndGen|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+6	EĞLENEBİLİYORSUNUZ	eğlen	VERB	_	Aspect=Prog|Mood=Pot|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+7	YEMEK	yemek	NOUN	_	Case=Nom|Number=Sing|Person=3	8	compound	_	_
+8	YEMEK	yemek	NOUN	_	Case=Nom|Number=Sing|Person=3	9	xcomp	_	_
+9	İSTİYORSANIZ	iste	VERB	_	Aspect=Prog|Mood=Cnd|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+10	YEMEK	yemek	NOUN	_	Case=Nom|Number=Sing|Person=3	11	compound	_	_
+11	YİYEBİLİYORSUNUZ	ye	VERB	_	Aspect=Prog|Mood=Pot|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 9900.test
 # text = HER ŞEY ÇOK İYİYDİ .
