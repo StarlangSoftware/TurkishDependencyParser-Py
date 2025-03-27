@@ -18,7 +18,7 @@ class UniversalDependencyTreeBankCorpus(Corpus):
         """
         self.sentences = []
         self.paragraphs = []
-        self.wordList = CounterHashMap()
+        self.word_list = CounterHashMap()
         if '/' in fileName:
             self.language = fileName[fileName.index('/') + 1:fileName.index('_')]
         else:
