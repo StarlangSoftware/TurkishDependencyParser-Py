@@ -9,7 +9,8 @@ import re
 
 class UniversalDependencyTreeBankSentence(Sentence):
 
-    comments: list
+    comments: list[str]
+    splits: list[str]
 
     def __init__(self, language: str, sentence: str = None):
         """
@@ -21,6 +22,7 @@ class UniversalDependencyTreeBankSentence(Sentence):
         """
         super().__init__()
         self.comments = []
+        self.splits = []
         if sentence is not None:
             lines = sentence.split("\n")
             for line in lines:
@@ -53,6 +55,8 @@ class UniversalDependencyTreeBankSentence(Sentence):
                             word = UniversalDependencyTreeBankWord(int(id), surface_form, lemma, u_pos, x_pos, features,
                                                                relation, deps, misc)
                             self.addWord(word)
+                        elif re.fullmatch("\\d+-\\d+", id):
+                            self.splits.append(id)
 
     def addComment(self, comment: str):
         """
@@ -72,6 +76,21 @@ class UniversalDependencyTreeBankSentence(Sentence):
         for word in self.words:
             result += word.__str__() + "\n"
         return result
+
+    def splitSize(self) -> int:
+        """
+        Returns number of splits in the sentence
+        :return: Number of splits in the sentence
+        """
+        return len(self.splits)
+
+    def getSplit(self, index: int) -> str:
+        """
+        Returns the split at position index
+        :param index: Position
+        :return: Split at position index
+        """
+        return self.splits[index]
 
     def compareParses(self, sentence: UniversalDependencyTreeBankSentence) -> ParserEvaluationScore:
         """
