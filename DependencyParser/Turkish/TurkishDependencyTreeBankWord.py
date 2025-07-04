@@ -10,7 +10,7 @@ from DependencyParser.Turkish.TurkishDependencyRelation import TurkishDependency
 class TurkishDependencyTreeBankWord(Word):
 
     __parse: MorphologicalParse
-    __original_parses: list
+    __original_parses: list[MorphologicalParse]
     __relation: TurkishDependencyRelation
 
     def __init__(self, wordNode: Element):

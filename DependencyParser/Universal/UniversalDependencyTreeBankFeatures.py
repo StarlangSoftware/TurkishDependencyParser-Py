@@ -4,7 +4,7 @@ from DependencyParser.Universal.UniversalDependencyRelation import UniversalDepe
 
 class UniversalDependencyTreeBankFeatures:
 
-    feature_list: dict
+    feature_list: dict[str, str]
 
     universal_feature_types = ["PronType", "NumType", "Poss", "Reflex", "Foreign",
             "Abbr", "Typo", "Gender", "Animacy", "NounClass",
