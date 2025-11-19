@@ -67,3 +67,4 @@ class UniversalDependencyType(Enum):
     NSUBJ_OUTER = auto()
     CSUBJ_OUTER = auto()
     ADVCL_RELCL = auto()
+    OBL_UNMARKED = auto()
