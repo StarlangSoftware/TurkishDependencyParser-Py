@@ -9,6 +9,26 @@ In 2005, The Stanford Dependencies developed for the parsing of the English lang
 
 The developments in the dependency treebanking made it clear that Turkish language needed a Treebank of its own. The first Turkish language dependency treebank is METU-Sabanci Turkish Treebank. This treebank used a corpus that consisted of 7,262 sentences and included morphological and syntactic annotations. In 2016, this tree-bank was revisited under the name of ITU-METU-Sabancı Treebank (IMST) to reduce the inconsistencies of its earlier version. They succeeded to reduce inconsistencies by applying a new annotation scheme. As a last step, The Bogazici-ITU-METU-Sabancı Treebank (BIMST) is updated as the same corpus. Having a linguistic team of three people, they created a new annotation scheme for IMST and manually re-annotated the data of 5.635 sentences while introducing new dependency relations that were not present in IMST.
 
+Annotated UD (Universal Dependencies) Datasets
+============
+[Atis (Turkish)](http://104.247.163.162/nlptoolkit/turkish-ud1.html)
+
+[Atis (English)](http://104.247.163.162/nlptoolkit/english-ud1.html)
+
+[Tourism](http://104.247.163.162/nlptoolkit/turkish-ud5.html)
+
+[Framenet](http://104.247.163.162/nlptoolkit/turkish-ud6.html)
+
+[Kenet](http://104.247.163.162/nlptoolkit/turkish-ud7.html)
+
+[Penn-Treebank](http://104.247.163.162/nlptoolkit/turkish-ud8.html)
+
+[Gb](http://104.247.163.162/nlptoolkit/turkish-ud2.html)
+
+[Pud](http://104.247.163.162/nlptoolkit/turkish-ud3.html)
+
+[Imst](http://104.247.163.162/nlptoolkit/turkish-ud4.html)
+
 Video Lectures
 ============
 
